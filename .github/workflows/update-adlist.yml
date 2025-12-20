@@ -33,19 +33,21 @@ jobs:
 
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
-          
+
           REMOTE_WHITELISTS = [
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/dns.txt",
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
-          
+
+          HAGEZI_LIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
+
           LOCAL_WHITELIST_FILE = "whitelist.txt"
           OUTPUT_FILE = "clean-list.txt"
           # ===========================================
 
           def download_text(url):
               try:
-                  print(f"Downloading: {url}...")
+                  print(f"Downloading: {url}")
                   resp = requests.get(url, timeout=30)
                   resp.raise_for_status()
                   return resp.text
@@ -63,74 +65,68 @@ jobs:
               return lines
 
           def main():
-              # --- 1. 获取原始列表 ---
+              # --- 1. anti-AD 主列表 ---
               ad_text = download_text(AD_LIST_URL)
               ad_domains = parse_lines(ad_text)
               original_count = len(ad_domains)
               print(f"原始广告域名数量: {original_count}")
 
-              # --- 2. 远程白名单处理 (全量/精确匹配) ---
+              # --- 2. 远程白名单（精确匹配） ---
               remote_wl_domains = set()
               for url in REMOTE_WHITELISTS:
-                  content = download_text(url)
-                  remote_wl_domains.update(parse_lines(content))
-              
-              # 计算之前的数量
-              count_before_remote = len(ad_domains)
-              # 执行差集运算
-              ad_domains = ad_domains - remote_wl_domains
-              # 计算移除的数量
-              removed_by_remote = count_before_remote - len(ad_domains)
+                  remote_wl_domains.update(parse_lines(download_text(url)))
+
+              before_remote = len(ad_domains)
+              ad_domains -= remote_wl_domains
+              removed_by_remote = before_remote - len(ad_domains)
               print(f"远程白名单移除数量: {removed_by_remote}")
 
-              # --- 3. 本地白名单处理 (泛域名/子域名匹配) ---
+              # --- 3. 本地白名单（子域名匹配） ---
               user_rules = set()
               if os.path.exists(LOCAL_WHITELIST_FILE):
-                  with open(LOCAL_WHITELIST_FILE, 'r', encoding='utf-8') as f:
+                  with open(LOCAL_WHITELIST_FILE, "r", encoding="utf-8") as f:
                       user_rules = parse_lines(f.read())
-              
+
               removed_by_user = 0
               if user_rules:
-                  final_domains = []
+                  filtered = []
                   for domain in ad_domains:
-                      should_remove = False
-                      for rule in user_rules:
-                          # 只要是 rule 本身，或者是 rule 的子域名，都去除
-                          if domain == rule or domain.endswith("." + rule):
-                              should_remove = True
-                              break
-                      
-                      if should_remove:
+                      if any(domain == r or domain.endswith("." + r) for r in user_rules):
                           removed_by_user += 1
                       else:
-                          final_domains.append(domain)
-                  
-                  # 更新 ad_domains 为过滤后的列表
-                  ad_domains = set(final_domains)
-              
+                          filtered.append(domain)
+                  ad_domains = set(filtered)
+
               print(f"用户白名单移除数量: {removed_by_user}")
 
-              # --- 4. 生成统计报告到 GitHub Summary ---
-              # 这会让统计信息直接显示在 Action 的摘要页面，非常直观
-              final_count = len(ad_domains)
-              summary_file = os.environ.get('GITHUB_STEP_SUMMARY')
-              if summary_file:
-                  with open(summary_file, 'a', encoding='utf-8') as f:
-                      f.write("### 🛡️ 广告过滤统计报告\n")
-                      f.write("| 统计项 | 数量 |\n")
-                      f.write("| :--- | :--- |\n")
-                      f.write(f"| 📥 原始列表总数 | **{original_count}** |\n")
-                      f.write(f"| 🌍 远程白名单移除 (精确匹配) | -{removed_by_remote} |\n")
-                      f.write(f"| 👤 用户白名单移除 (包含子域名) | -{removed_by_user} |\n")
-                      f.write(f"| ✅ **最终剩余数量** | **{final_count}** |\n")
+              # --- 4. 与 hagezi light 取交集 ---
+              hagezi_domains = parse_lines(download_text(HAGEZI_LIST_URL))
+              before_intersect = len(ad_domains)
+              ad_domains &= hagezi_domains
+              removed_by_intersect = before_intersect - len(ad_domains)
 
-              # --- 5. 写入文件 (纯净版，无头部信息) ---
-              with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                  # 直接排序写入，不写任何 Header
-                  for domain in sorted(list(ad_domains)):
+              print(f"与 hagezi light 取交集移除数量: {removed_by_intersect}")
+
+              # --- 5. GitHub Summary ---
+              final_count = len(ad_domains)
+              summary = os.environ.get("GITHUB_STEP_SUMMARY")
+              if summary:
+                  with open(summary, "a", encoding="utf-8") as f:
+                      f.write("### 🛡️ 广告过滤统计报告\n")
+                      f.write("| 项目 | 数量 |\n")
+                      f.write("| :--- | :--- |\n")
+                      f.write(f"| 📥 anti-AD 原始 | **{original_count}** |\n")
+                      f.write(f"| 🌍 远程白名单 | -{removed_by_remote} |\n")
+                      f.write(f"| 👤 本地白名单 | -{removed_by_user} |\n")
+                      f.write(f"| 🔗 hagezi 交集 | -{removed_by_intersect} |\n")
+                      f.write(f"| ✅ **最终数量** | **{final_count}** |\n")
+
+              # --- 6. 写入最终文件 ---
+              with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                  for domain in sorted(ad_domains):
                       f.write(domain + "\n")
-              
-              print(f"Done. Saved to {OUTPUT_FILE}")
+
+              print(f"完成，输出至 {OUTPUT_FILE}")
 
           if __name__ == "__main__":
               main()
@@ -141,4 +137,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add clean-list.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update list: -${{ env.REMOVED_COUNT }} domains" && git push)
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "Update clean adblock list" &&
+            git push
+          )
