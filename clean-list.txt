@@ -146,6 +146,7 @@
 3b9d481d08.com
 3bc2a6115d.com
 3edc.cn
+3gimg.qq.com
 3gl.net
 3gmimo.com
 3in6ko.com
@@ -279,6 +280,7 @@ a.centrum.cz
 a.electerious.com
 a.emea01.idio.episerver.net
 a.exoclick.com
+a.gdt.qq.com
 a.getflowbox.com
 a.hellowork.com
 a.lifehacker.ru
@@ -332,6 +334,7 @@ aax-us-east.amazon-adsystem.com
 aax.amazon-adsystem.com
 aaxads.com
 ab.dns-finder.com
+ab.qq.com
 abackdamstubborn.com
 abadit5rckd.com
 abb030d6a7.com
@@ -378,10 +381,12 @@ ac359edaf2.com
 ac674aa453.com
 acacdn.com
 acam-2.com
+acc.qq.com
 accaii.com
 acceptablefoot.com
 acceptableredheadcaviar.com
 acceptguide.com
+access.toggle.qq.com
 accessintel.com
 accidentallyrussian.com
 accmgr.com
@@ -423,6 +428,7 @@ acs4baichuan.m.taobao.com
 acsbapp.com
 acscdn.com
 acstat.com
+act.qq.com
 actiondesk.com
 activatormanorplausible.com
 active-bat.com
@@ -497,6 +503,7 @@ ad.tpmn.co.kr
 ad.turn.com
 ad.us.sinaimg.cn
 ad.video-mech.ru
+ad.weixin.qq.com
 ad.winrar.com.cn
 ad.wsod.com
 ad.xiaomi.com
@@ -616,6 +623,7 @@ adexp.chinaliftoff.io
 adexp.liftoff.io
 adextrem.com
 adfenix.com
+adfilter.imtt.qq.com
 adfinity.pro
 adfinix.com
 adflyer.media
@@ -805,6 +813,7 @@ adrsbl.io
 adrta.com
 adrtx.net
 adrunnr.com
+ads-acc.qqbrowser.qq.com
 ads-adv.top
 ads-api-o.api.leiniao.com
 ads-api.stuff.co.nz
@@ -842,6 +851,7 @@ ads.msn.com
 ads.nexage.com
 ads.oppomobile.com
 ads.pinterest.com
+ads.privacy.qq.com
 ads.pubmatic.com
 ads.raidrive.com
 ads.rubiconproject.com
@@ -901,6 +911,7 @@ adsdk.vivo.com.cn
 adsdk.yandex.ru
 adse.wsa.ximalaya.com
 adse.ximalaya.com
+adsense.html5.qq.com
 adsensecustomsearchads.com
 adserver.adtechus.com
 adserver.juicyads.com
@@ -915,6 +926,7 @@ adservrs.com
 adsethimdown.org
 adsfac.eu
 adsfac.net
+adsfile.qq.com
 adsfilebssdlbig.ali.kugou.com
 adsfs-sdkconfig.heytapimage.com
 adsfs.oppomobile.com
@@ -925,10 +937,13 @@ adsinteractive.com
 adskeeper.co.uk
 adskeeper.com
 adslot.com
+adslvfile.qq.com
 adsmediabox.com
 adsmediator.com
 adsmind.gdtimg.com
+adsmind.gdtimg.com.tcdn.qq.com
 adsmind.ugdtimg.com
+adsmind.ugdtimg.com.tcdn.qq.com
 adsmis.duxiaoman.com
 adsmogo.com
 adsmogo.mobi
@@ -954,6 +969,7 @@ adsquash.info
 adsquasher.com
 adsquasher.pro
 adsquirrel.ai
+adsrich.qq.com
 adsrv.net
 adsrvmedia.com
 adsrvr.org
@@ -1028,6 +1044,7 @@ adups.cn
 adutp.com
 adv-analytics-collector.videograph.ai
 adv-sv-show.focus.cn
+adv.app.qq.com
 adv.drtuber.com
 adv.sec.intl.miui.com
 adv.sec.miui.com
@@ -1040,9 +1057,11 @@ advast.sibnet.ru
 adventori.com
 adventurefeeds.com
 adventurousamount.com
+adver.qq.com
 adverge.ai
 adversal.com
 adverserve.net
+advert-prod.hyrz.qq.com
 advertica-cdn.com
 advertica.com
 advertise.com
@@ -1110,6 +1129,7 @@ adziff.com
 adzilla1.name
 adzmedia.com
 adzs.nl
+aedns.weixin.qq.com
 aegis.qq.com
 aegis.trovo.live
 aeinkailrupe.com
@@ -1120,6 +1140,7 @@ aepxlg.adobe.com
 aerialapps.com
 aeventlog.beacon.qq.com
 aevlosxonjvrmir.com
+aexception.bugly.qq.com
 af-z.jp
 afd.baidu.com
 aff-handler.com
@@ -1410,6 +1431,7 @@ analights.com
 analitik.bik.gov.tr
 analitits.com
 analitycs.net
+analy.qq.com
 analysis.chatglm.cn
 analysis.fi
 analysis.sooplive.co.kr
@@ -1496,6 +1518,7 @@ analytics.laregione.ch
 analytics.loadweb.com
 analytics.m7g.twitch.tv
 analytics.mailmunch.co
+analytics.map.qq.com
 analytics.maxroll.gg
 analytics.mercadolibre.com
 analytics.midwesternmac.com
@@ -1582,6 +1605,8 @@ ancznewozw.com
 andbeyond.media
 andersenit.dk
 andomedia.com
+android.bugly.qq.com
+android.crashsight.qq.com
 android.rqd.qq.com
 androidduvetscribble.com
 andrqd.play.aiseet.atianqi.com
@@ -1711,6 +1736,7 @@ api7.tuisong.baidu.com
 api8.tuisong.baidu.com
 api9.tuisong.baidu.com
 apicit.net
+apikey.map.qq.com
 apiv4.anythinktech.com
 apiwmda.58.com.cn
 aplniq.com
@@ -1755,9 +1781,11 @@ appnext.com
 appocalypsis.com
 appointeeivyspongy.com
 appollo-plus.com
+apponline.research.qq.com
 apprefaculty.pro
 apps-pbd.ctraffic.io
 appslime.com
+appsupport.qq.com
 apptap.com
 apptjmp.com
 apptornado.com
@@ -1879,6 +1907,7 @@ assured-tool.com
 assyctifor.com
 astaifuwoocair.net
 astarsbuilding.com
+astat.bugly.qq.com
 astat.nikkei.com
 astelicbanes.com
 asthmanotchcave.com
@@ -1933,6 +1962,7 @@ atwola.com
 atwrimdatb.com
 aty.sohu.com
 au.adhacker.online
+au.qq.com
 auction-load.unityads.unity3d.com
 auction.unityads.unity3d.com
 auctionnudge.com
@@ -2163,6 +2193,7 @@ bbrdbr.com
 bbtvpnqyvdzmq.website
 bbtweswymiciw.site
 bc.marfeelcache.com
+bc.weixin.qq.com
 bc48fa9adc.com
 bc6kfa.com
 bcaeurope.eu
@@ -2396,6 +2427,7 @@ bjcathay.com
 bjmantis.net
 bjrxyphhipizn.website
 bjuser.jpush.cn
+bk.ps2.gamedl.qq.com
 bkboeceimtmkj.space
 bkjhqkohal.com
 bkqodnnsomnon.website
@@ -2434,6 +2466,7 @@ blondassignappear.com
 blondspeaker.com
 blotecardthumb.com
 blowingwind.xyz
+bls.mdt.qq.com
 blue.nbc4i.com
 bluecava.com
 blueconic.net
@@ -2648,6 +2681,7 @@ bs.yandex.ru
 bservr.com
 bshare.cn
 bshrdr.com
+bsrv.qq.com
 bssaly.com
 bt-fr-cl.com
 bt2pt.com
@@ -2670,6 +2704,8 @@ buffet.identityservices.io
 buffooncountabletreble.com
 bugaruche.com
 bugleczmoidgxo.com
+bugly.qq.com
+bugreportv2.qq.com
 buiimifrliflc.website
 buikolered.com
 buildingknife.com
@@ -2682,6 +2718,7 @@ bulbbait.com
 bulletadopt.com
 bullionglidingscuttle.com
 bulochka.xyz
+buluo.qq.com
 bumlam.com
 bundle.9gtb.com
 bundle.dyn-rev.app
@@ -2751,6 +2788,8 @@ c.corriere.it
 c.data.mob.com
 c.duomai.com
 c.etoolads.cn
+c.gdt.qq.com
+c.gj.qq.com
 c.hit.ua
 c.holmesmind.com
 c.imedia.cz
@@ -2759,6 +2798,7 @@ c.mgid.com
 c.sayhi.360.cn
 c.sibnet.ru
 c.sm.cn
+c.ssp.qq.com
 c.statcounter.com
 c.thredup.com
 c.vrt.be
@@ -2772,6 +2812,7 @@ c2.l.qq.com
 c212.net
 c285e18a9b.com
 c2shb.pubgw.yahoo.com
+c3.gdt.qq.com
 c3metrics.com
 c3tag.com
 c5acd666f8.com
@@ -2873,6 +2914,7 @@ cartx.cloud
 carvecakes.com
 cas.criteo.com
 casalemedia.com
+casestudy.html5.qq.com
 cash-ads.com
 cashcinemaunbiased.com
 cashmachines.biz
@@ -2906,6 +2948,7 @@ cbrijvkodqjdrjp.com
 cbro.win
 cbtrk.net
 cc.m.jd.com
+cc.map.qq.com
 cc.swiftype.com
 cc33b86bbf.com
 ccb836bd09.com
@@ -3034,6 +3077,7 @@ cfgr1.com
 cfgrcr1.com
 cftnylrubxqi.com
 cfusionsys.com
+cgi.connect.qq.com
 cgqkhc.trendyol.com
 chaerel.com
 chairmansmile.com
@@ -3254,6 +3298,7 @@ closedferallag.com
 closestbounceintentionally.com
 clothesgrimily.com
 cloud-suites.xyz
+cloud.tgpa.qq.com
 cloud.xdrig.com
 cloudchickens.com
 cloudflareinsights.com
@@ -3393,6 +3438,7 @@ comicad.net
 comihon.com
 comilar-efferiff.icu
 comitiumanalytics.com
+commdata.v.qq.com
 commerce.bing.com
 commercial-analytics-collector.news.co.uk
 commercialvalue.org
@@ -3433,6 +3479,7 @@ confesschairs.com
 confiant-integrations.global.ssl.fastly.net
 confiant-integrations.net
 confiant.msn.com
+config.ab.qq.com
 config.inmobi.com
 config.jpush.cn
 config.unityads.unity3d.com
@@ -3441,6 +3488,7 @@ confusingepisodevest.com
 congerstunish.com
 conjunctionblackmailspill.com
 conjuremachinery.com
+connect6.play.ott.video.qq.com
 connectad.io
 connectionhearddock.com
 connexity.net
@@ -3597,6 +3645,7 @@ cr.adsappier.com
 crab.baidu.com
 craftilypendantwhinny.com
 crasheye.cn
+crashsight.qq.com
 cratecamera.com
 craurxxwkhbup.space
 crawlsingeshell.com
@@ -3641,6 +3690,7 @@ crockerydestructivespoken.com
 crocodail-dandy.com
 croea.com
 croomaingly.com
+cross.report.tgp.qq.com
 crossees.com
 crossengage.io
 crosspromo.voodoo.io
@@ -3830,6 +3880,7 @@ d3cl0ipbob7kki.cloudfront.net
 d3cod80thn7qnd.cloudfront.net
 d3ea0dyj1ehgcr.cloudfront.net
 d3eub2e21dc6h0.cloudfront.net
+d3g.qq.com
 d3g5ovfngjw9bw.cloudfront.net
 d3j1weegxvu8ns.cloudfront.net
 d3jzhqnvnvdy34.cloudfront.net
@@ -3906,6 +3957,7 @@ data-id.ads.oppomobile.com
 data-optout-service.uca.cloud.unity3d.com
 data-px.services
 data-sdk-uuid-log.d.meituan.net
+data.ab.qq.com
 data.abc.es
 data.ads.oppomobile.com
 data.allgaeuer-zeitung.de
@@ -4050,6 +4102,7 @@ deepintent.com
 deeplyangrily.com
 deepnewsjuly.com
 deepsathegoh.com
+defaultts.tc.qq.com
 defeatedbadge.com
 defectiveaskewsite.com
 defensivearmpit.com
@@ -4188,6 +4241,7 @@ diningsovereign.com
 dinosaurprinciples.com
 dipan.com
 dippergeologyprescribe.com
+dir.minigame.qq.com
 dircont3.com
 direcompulsion.com
 direct-collect.dy-api.com
@@ -4196,6 +4250,7 @@ direct-events-collector.spot.im
 direct-specific.com
 directadvert.ru
 directavenue.tech
+directconfig.ab.qq.com
 directcrm.ru
 directdexchange.com
 direction-x.com
@@ -4227,6 +4282,7 @@ disloyalmoviesfavor.com
 dismantlepenantiterrorist.com
 dismisscomplicatedfoolproof.com
 disneyadvertising.com
+dispatcher.3g.qq.com
 dispatchgoldcarefully.com
 display.ad.daum.net
 displayfly.com
@@ -4257,8 +4313,11 @@ dkweuy.com
 dl.episerver.net
 dl4d3y1ajyv3q.cloudfront.net
 dl8.me
+dldir2.qq.com
+dldir3.qq.com
 dletviqckubbb.space
 dlfeamtnrugwk.com
+dlied6.qq.com
 dls-account.di.atlas.samsung.com
 dlsite123.online
 dlswbr.baidu.com
@@ -4292,10 +4351,13 @@ dmzjmp.com
 dn6rwwtxa647p.cloudfront.net
 dna.uol.com.br
 dnbuqgtdeduip.site
+dnet.mb.qq.com
 dnhfi5nn2dt67.cloudfront.net
 dnhjvfwwf.com
 dnn506yrbagrg.cloudfront.net
 dnpgwweaiepdu.top
+dns.qq.com
+dns.weixin.qq.com
 dnsdelegation.io
 dnt-userreport.com
 dnus40re.xyz
@@ -4564,6 +4626,7 @@ ednplus.com
 edonwiqgwlvmc.online
 edovjokbyaooq.com
 edttwm.com
+edu.ssp.qq.com
 edvfwlacluo.com
 edwmpt.com
 eec.crunchyroll.com
@@ -4819,6 +4882,7 @@ event.api.drift.com
 event.api.instant.one
 event.collector.scopely.io
 event.evtm.53.com
+event.gdt.qq.com
 event.hackle.io
 event.instiengage.com
 event.mackeeper.com
@@ -4896,6 +4960,7 @@ ewhareey.com
 ewhewfncwelac.com
 ewltkoajehyzr.click
 ewruuqe5p8ca.com
+ex.qq.com
 exacdn.com
 exaltedsleep.com
 exampleshake.com
@@ -5112,6 +5177,7 @@ finanvideos.com
 find-ip-address.org
 finddatinglocally.com
 finder2024.com
+finderhy.video.qq.com
 finisheddaysflamboyant.com
 finreporter.net
 fireworkadservices1.com
@@ -5414,6 +5480,9 @@ galaxypush.com
 galileotelemetry.tencent.com
 gambar123.com
 gambling-affiliation.com
+game.eve.mdt.qq.com
+game.kde.qq.com
+game.str.mdt.qq.com
 gameads.io
 gameanalytics.com
 gamersterritory.com
@@ -5455,12 +5524,14 @@ gcifacowdpa.com
 gcprivacy.com
 gct.americanexpress.com
 gd-stats.jpush.cn
+gdc.kg.qq.com
 gdeslon.ru
 gdfp.gifshow.com
 gdg4yih5.xyz
 gdmgsecure.com
 gdodqayx.com
 gdpr-api.sharethis.com
+gdt.qq.com
 gdtimg.com
 gearbubbles.com
 gearmanswings.com
@@ -5839,6 +5910,7 @@ gwfwsvygbrw.com
 gwmtracking.com
 gwrsyyrghwnuo.space
 gxfftsdvmekwu.site
+gxh.material.qq.com
 gxhqspkdoasg.com
 gybmppuezjtqe.space
 gyjerttqiqokh.online
@@ -5858,6 +5930,8 @@ h.trace.qq.com
 h12-media.com
 h2tcbox.baidu.com
 h5.analytics.126.net
+h5.gdt.qq.com
+h5.ssp.qq.com
 habituncropt.com
 hacx60.com
 hadkxdmsove.com
@@ -5906,6 +5980,7 @@ havenclick.com
 hayweb.net
 hazmatworkshop.com
 hb.collectiveaudience.co
+hb.kg.qq.com
 hbiq.net
 hbloveinfo.com
 hbwrapper.com
@@ -6033,7 +6108,9 @@ hittail.com
 hitwebcounter.com
 hivoppztet.com
 hkjfukkhwfepo.club
+hklong.weixin.qq.com
 hkrpg-log-upload.mihoyo.com
+hkshort.weixin.qq.com
 hkyhmacamg.com
 hlhokcrfxolaa.online
 hlinit.com
@@ -6113,6 +6190,7 @@ hpd.baidu.com
 hpfmxeuubzdcb.online
 hprofits.com
 hpyjmp.com
+hq-tracking.qq.com
 hqscene.com
 hqurnvlwjlqgk.space
 hrbpark.bid
@@ -6135,8 +6213,10 @@ htm1.ch
 html.atm.youku.com
 htplayground.com
 htrace.wetvinfo.com
+httpdns.kg.qq.com
 httpkafka.unityads.unity3d.com
 httpool.com
+httpring.qq.com
 htufkxrviozxm.space
 huatuo.qq.com
 huaxiang.eastmoney.com
@@ -6197,6 +6277,7 @@ hzbxm.com
 hzr0dm28m17c.com
 hzstats.com
 i-mobile.co.jp
+i.gdt.qq.com
 i.go.sohu.com
 i.l-new.inmobicdn.net
 i.l.inmobicdn.net
@@ -6210,6 +6291,7 @@ i2ad.jp
 i2ye9dnle.com
 ia-dmp.com
 ia.51.la
+iacc.qq.com
 iad.apple.com
 iadctest.qwapi.com
 iadmat.nosdn.127.net
@@ -6305,6 +6387,7 @@ imdns.hpplay.cn
 img-x.jd.com
 img.applovin.com
 img.scupio.com
+img.ssl.msdk.qq.com
 img2.360buyimg.com
 img2021.navyfederal.org
 imgfeedbuzz.com
@@ -6403,8 +6486,11 @@ infinityid.condenastdigital.com
 infirmaryabundance.com
 infisecure.com
 inflectionoverdorenovate.com
+info.3g.qq.com
 info.autozonepro.com
 info.halo.com
+info4.video.qq.com
+info6.video.qq.com
 infolinks.com
 informalbook.com
 informalsection.com
@@ -6524,6 +6610,9 @@ ioam.de
 iocnt.net
 iogjhbnoypg.com
 iogous.com
+ios.bugly.qq.com
+ios.crashsight.qq.com
+ios.rqd.qq.com
 iot-eu-logser.realme.com
 iot-logser.realme.com
 ip-check-perf.radar.cloudflare.com
@@ -6543,6 +6632,8 @@ ipredictive.com
 ipro.com
 iprom.net
 ipromcloud.com
+ipv4.gdt.qq.com
+ipv6.kg.qq.com
 iqm.com
 iqmetrics.btc-echo.de
 iqmetrics.faz.net
@@ -6573,13 +6664,17 @@ isboost.co.jp
 iscrv.com
 isdspeed.qq.com
 iseawave.com
+isee.weishi.qq.com
 iskenneth.com
 iskyworker.com
 isoamidtrusion.com
 isolatedovercomepasted.com
+isrpt-in.gdt.qq.com
+isrpt-vn.gdt.qq.com
 ist-track.com
 istats.nl
 istipaumophy.com
+isure.stream.qqmusic.qq.com
 isypmogfhabmp.space
 it3c4jmx.xyz
 itadapi.ithome.com.tw
@@ -6604,6 +6699,7 @@ ivcbrasil.org.br
 ivcsmrt.com
 ivwbox.de
 iwa.iplsc.com
+iwan-s.video.qq.com
 iwqjwbnqd.com
 iwudaolmmaejh.online
 ixav-cse.avlyun.com
@@ -6745,6 +6841,7 @@ js.users.51.la
 js.verisoul.ai
 js2json.com
 js7k.com
+jsapi.qq.com
 jsc.adskeeper.co.uk
 jsc.marketgid.com
 jsc.mgid.com
@@ -6816,6 +6913,7 @@ jzuabmdorcxzb.space
 jzymidanl.com
 k-analytix.com
 k.qwant.com
+k.ssp.qq.com
 k.streamrail.com
 k8mb640mta.com
 kabayasnozzles.shop
@@ -6955,6 +7053,7 @@ ktracker.kumparan.com
 ku2d3a7pa8mdi.com
 ku34bh9la09.com
 ku42hjr2e.com
+kuaibao.qq.com
 kuaikan.netmon.360safe.com
 kuaishang.cn
 kuaishou.httpdns.pro
@@ -7199,6 +7298,7 @@ livelylaugh.com
 livep.l.aiseet.atianqi.com
 livep.l.qq.com
 lives.l.aiseet.atianqi.com
+lives.l.ott.video.qq.com
 lives.l.qq.com
 livetrafficfeed.com
 livewebbs2pcdn.msstatic.com
@@ -7290,6 +7390,8 @@ log.kuwo.cn
 log.m.sm.cn
 log.medietall.no
 log.mgtv.com
+log.minigame.qq.com
+log.node.minigame.qq.com
 log.nordot.jp
 log.olark.com
 log.outbrain.com
@@ -7309,8 +7411,11 @@ log.tpns.tencent.com
 log.umsns.com
 log.web.kugou.com
 log.webnovel.com
+log.weixin.qq.com
+log.wtlogin.qq.com
 log.ycapp.yiche.com
 log.zijieapi.com
+log1.wtlogin.qq.com
 log2.musical.ly
 log3-normal-hl.toutiaoapi.com
 logapi.alza.cz
@@ -7337,6 +7442,7 @@ logs.adplay.ru
 logs.amap.com
 logs.betterstack.com
 logs.dynamicauth.com
+logs.game.qq.com
 logs.mezmo.com
 logs.naukri.com
 logs.netflix.com
@@ -7461,6 +7567,7 @@ m0rsq075u.com
 m2.ai
 m2track.co
 m32.media
+m4.publicimg.browser.qq.com
 m6r.eu
 ma-adx.ctrip.com
 ma-tag.com
@@ -7533,6 +7640,7 @@ marchshotgun.com
 marebeenewly.com
 maredpt.com
 marinechurch.com
+mark.l.qq.com
 markadver.com
 markedoneofth.com
 marketgid.com
@@ -7558,6 +7666,10 @@ masdk.3g.qq.com
 masdkv6.3g.qq.com
 masqueradethousand.com
 master.cifraclub.com.br
+master.etl.desktop.qq.com
+masterconn.qq.com
+masterconn11.qq.com
+masterconn2.qq.com
 mastertv.mx
 masterwanker.com
 mastinstungmoreal.com
@@ -7590,6 +7702,9 @@ maxymiser.com
 maxymiser.net
 maydukeaverah.click
 mayportfolioshrine.com
+mayybstatnew.3g.qq.com
+mazu-hk.3g.qq.com
+mazu.3g.qq.com
 mazu.m.qq.com
 mazzardhaida.shop
 mb-srv.com
@@ -7624,6 +7739,7 @@ mc.yandex.ru
 mc.yango.com
 mc7clurd09pla4nrtat7ion.com
 mcangelus.com
+mcdn.kandian.qq.com
 mcgi.v.qq.com
 mcgo2.com
 mcizas.com
@@ -7657,6 +7773,10 @@ meager-conclusion.com
 meaninglesstoil.com
 meantimenourishclothes.com
 measuremap.com
+measurement.cq.prod.smoba.qq.com
+measurement.gz.prod.smoba.qq.com
+measurement.sh.prod.smoba.qq.com
+measurement.tj.prod.smoba.qq.com
 measurementapi.com
 meatabdicatedelicatessen.com
 meaulcockups.com
@@ -7861,6 +7981,7 @@ midlk.online
 midroudrur.com
 mierslkkekrml.website
 mifwfuppuvh.com
+mig.str.mdt.qq.com
 migrationoctavian.com
 mikka.app
 milestonebreathdilate.com
@@ -7873,6 +7994,7 @@ mimilcnf.pro
 mindmeters.biz
 mindtake.com
 minero.cc
+mini2015.qq.com
 miniapp.bilibili.com
 miniature-depression.com
 miniature-injury.pro
@@ -7988,6 +8110,7 @@ monitor-frontend-collector.a.bybit-aws.com
 monitor-stsdk.vivo.com.cn
 monitor.agenedia.com
 monitor.channel4.com
+monitor.l.qq.com
 monitor.music.qq.com
 monitor.uu.qq.com
 monitoringservice.co
@@ -8052,8 +8175,11 @@ mpnrs.com
 mpnvbwjjb.com
 mpp.vindicosuite.com
 mpsuadv.ru
+mpush.qq.com
 mqdownload.com
 mqmjeeowmcfbk.website
+mqqad.html5.qq.com
+mqqeve.beacon.qq.com
 mqytqmqrqfuay.website
 mr.homedepot.ca
 mr3o.online
@@ -8097,6 +8223,7 @@ mstat.mos.ru
 mstm.motorsport.com
 mstmsbz.com
 mt48.net
+mta.qq.com
 mtburn.com
 mtdmvmzxctwtk.site
 mtm.bondagevalley.cc
@@ -8106,6 +8233,8 @@ mtrace.ysp.cctv.cn
 mtree.com
 mtt.eve.mdt.qq.com
 mtt.str.mdt.qq.com
+mtteve.beacon.qq.com
+mttstr.beacon.qq.com
 muddyhonorarymy.com
 mudwmhaesljqz.site
 muermoabject.shop
@@ -8118,6 +8247,9 @@ munchkin.marketo.net
 mundanenail.com
 murathernias.com
 musclesaskewfeeding.com
+musicps.p2p.qq.com
+musicpunch.p2p.qq.com
+musicstun.p2p.qq.com
 mustinghoarder.com
 mustymix.com
 mutcheng.net
@@ -8175,6 +8307,7 @@ myvmpjsrxt.com
 mywondertrip.com
 mzoryqtsbvfgu.online
 n-analytics.io
+n.ssp.qq.com
 n2.clips4sale.com
 n2ivsbik2.com
 n2major.com
@@ -8312,7 +8445,10 @@ news-xvuwabi.live
 news-xzomigu.cc
 news.jennydanny.com
 news.l.qq.com
+news.mpush.qq.com
+news.ssp.qq.com
 newsaboutsugar.com
+newsad.ssp.qq.com
 newscadence.com
 newsforyourmood.com
 newsfrompluto.com
@@ -8839,7 +8975,9 @@ otaserve.net
 otclick-adv.ru
 otdjuxtqubvkf.website
 otel-mobile.doordash.com
+oth.bls.mdt.qq.com
 oth.eve.mdt.qq.com
+oth.str.beacon.qq.com
 oth.str.mdt.qq.com
 oth.update.mdt.qq.com
 otheve.beacon.qq.com
@@ -8854,6 +8992,7 @@ otoadom.com
 otoyueuprumok.icu
 otphgpujdjxws.space
 ott.v1.data.mgtv.com
+ott.video.qq.com
 ottadvisors.com
 otvpugjf.com
 oucouksirt.com
@@ -8929,6 +9068,7 @@ p.rfihub.com
 p.s.360.cn
 p.skimresources.com
 p.spotidownloader.com
+p.ssp.qq.com
 p.tanx.com
 p.tryretool.com
 p1-ad.adukwai.com
@@ -8940,6 +9080,8 @@ p2-lm.adukwai.com
 p2.l.qq.com
 p24.hu
 p2ed.site
+p2p.qq.com
+p2ptun.qq.com
 p2pupdate.gamedl.qq.com
 p2pupgrade.gamedl.qq.com
 p2yn.com
@@ -9065,9 +9207,11 @@ pbswmhosa.com
 pbterra.com
 pbxai.com
 pbysxyvtrfut.com
+pc.crashsight.qq.com
 pc2121.com
 pcapp-data-collect.youku.com
 pcatyuinwgh.com
+pcbrowser.dd.qq.com
 pcdn.xmcdn.com
 pcdwm.com
 pcfg.wps.cn
@@ -9186,6 +9330,7 @@ ping.anizm.net
 ping.chartbeat.net
 ping.fastsimon.com
 ping.hashnode.com
+ping.huatuo.qq.com
 pingback.issuu.com
 pingjs.qq.com
 pingma.qq.com
@@ -9292,6 +9437,7 @@ plausible.safing.io
 plavxml.com
 play-lg.com
 play.adtonos.com
+play.ott.video.qq.com
 playamopartners.com
 player-metrics.instaread.co
 player-telemetry.vimeo.com
@@ -9331,8 +9477,10 @@ pm.geniusmonkey.com
 pmi.flowplayer.com
 pmiaajtemvdfx.com
 pmir.3g.qq.com
+pms.mb.qq.com
 pmweb.com.br
 pncloudfl.com
+pnewsapp.tc.qq.com
 pnperf.com
 pnrt-stsdk.vivo.com.cn
 pnrt.stsdk.vivo.com.cn
@@ -9493,6 +9641,7 @@ privymktg.com
 prizingupfurl.com
 prnx.net
 pro-market.net
+pro.bugly.qq.com
 proadscdn.com
 probableregret.com
 probationsheer.com
@@ -9582,6 +9731,7 @@ prt.stsdk.vivo.com.cn
 prtrackings.com
 prudsys-rde.de
 prwave.info
+ps2.gamedl.qq.com
 psaithagomtasu.net
 psaltauw.net
 psaudous.com
@@ -9676,6 +9826,7 @@ pulseadnetwork.com
 puma-api.iqiyi.com
 pumaqmqix.com
 pumeloricing.com
+punch.p2p.qq.com
 punishgreater.com
 punishmentsupport.com
 punkinpatwari.com
@@ -9743,6 +9894,7 @@ pvclouds.com
 pvcnhlmuvgrcc.space
 pvdbkr.com
 pvmax.net
+pvstat.html5.qq.com
 pwexfkcpehaac.online
 pwrgrowthapi.com
 px-intl.ucweb.com
@@ -9794,6 +9946,7 @@ qbwebebwkbjlr.top
 qcbtygylmnfez.fun
 qchannel03.cn
 qchannel04.cn
+qd-update.qq.com
 qdasflqe.top
 qdp.qidian.com
 qepene.lol
@@ -9892,6 +10045,7 @@ qymdagqeorsol.space
 qyromjlyvzlov.top
 qywjvlazeemkw.top
 qzs.gdtimg.com
+qzs.qq.com
 qzzzzzzzzzqq.com
 r-ad.ne.jp
 r-log.dable.io
@@ -9901,6 +10055,7 @@ r.apkpure.net
 r.bbci.co.uk
 r.browser.miui.com
 r.dmp.sina.cn
+r.inews.qq.com
 r.mail.163.com
 r.msn.com
 r.skimresources.com
@@ -9985,11 +10140,13 @@ rbtget.com
 rbthre.work
 rbtwo.bid
 rcdn-web.com
+rcgi.video.qq.com
 rcp.c.appier.net
 rcvlink.com
 rcvlinks.com
 rdblieez7.com
 rddywd.com
+rdelivery.qq.com
 rdlfogaxmf.com
 rdrctgoweb.com
 rdstat.tanx.com
@@ -10130,9 +10287,15 @@ repantalsedighters.com
 replaybird.com
 reporo.net
 report.23video.com
+report.gamecenter.qq.com
+report.imtt.qq.com
+report.kg.qq.com
 report.meituan.com
 report.nfa.qq.com
 report.qqweb.qq.com
+report.syzs.qq.com
+report.tgp.qq.com
+report.trade.weixin.qq.com
 report.tv.kohesport.qq.com
 report1.biz
 reporting-api.gannettinnovation.com
@@ -10148,6 +10311,7 @@ req.startappservice.com
 rereddit.com
 rerisepaleae.com
 res.femina.fr
+res.imtt.qq.com
 res.marianne.net
 res.mmstat.com
 res.qhupdate.com
@@ -10156,6 +10320,7 @@ res1.hubcloud.com.cn
 rescuerhino.com
 research-artisan.com
 research-int.se
+research.qq.com
 resentreaccotia.com
 resignationsilk.com
 resolve.umeng.com
@@ -10172,6 +10337,7 @@ responservbzh.icu
 responsetap.com
 respotranche.com
 ressources.usine-digitale.com
+restlbs.map.qq.com
 restorepushed.com
 restrainstorm.com
 retagro.com
@@ -10274,10 +10440,12 @@ rlcdn.com
 rldpantile.com
 rlets.com
 rlog.popin.cc
+rlog.video.qq.com
 rlogs.youdao.com
 rmb-trf.net
 rmhfrtnd.com
 rmishe.com
+rmonitor.qq.com
 rms-drcn.platform.dbankcloud.cn
 rmshqa.com
 rmtag.com
@@ -10342,6 +10510,7 @@ rpt.kidsfootlocker.com
 rpxthifhxwznd.space
 rqbdyk.evo.com
 rqd.qq.com
+rqd.uu.qq.com
 rqerokcafoadv.space
 rqorbeuydniiqh.com
 rqtrk.eu
@@ -10351,6 +10520,8 @@ rrxjmloqctbgn.com
 rs-stripe.com
 rs.mail.ru
 rs.sinajs.cn
+rs1.qq.com
+rs2.qq.com
 rsbnhruphyuxn.site
 rscyoaposqeay.space
 rsra-ph.cdn-fileserver.com
@@ -10455,6 +10626,7 @@ s.jpush.cn
 s.lenovo.com
 s.qhupdate.com
 s.srvsynd.com
+s.syzs.qq.com
 s.union.360.cn
 s.usenix.org
 s.uuidksinc.net
@@ -10525,6 +10697,7 @@ sadobemetrics.la-z-boy.com
 saec-metrics.telenet.be
 safebk.shop
 safebrowsdv.com
+safebrowsing.urlsec.qq.com
 safestcontentgate.com
 safestgatetocontent.com
 sagcoreedge.com
@@ -10694,6 +10867,7 @@ sdkconfig.video.qq.com
 sdkl.info
 sdkm.w.inmobi.com
 sdkoptedge.chinanetcenter.com
+sdkquic.e.qq.com
 sdkreport.e.qq.com
 sdksaxnhxdzos.site
 sdktmp.hubcloud.com.cn
@@ -10792,6 +10966,7 @@ sentimentalrailing.com
 sentimentssmuggleask.com
 sentinelbi.com
 sentinelpro.com
+sentry.qt.qq.com
 sentrymagic.com
 seo-overview.com
 seoab.io
@@ -10855,6 +11030,7 @@ sfjwwywgeyoak.website
 sftrack.searchforce.net
 sfupiqqwhxoxl.website
 sfwupoxzuurva.space
+sg.bls.mdt.qq.com
 sgali-mcs.byteoversea.com
 sgben.com
 sgfsdvc.com
@@ -11470,7 +11646,9 @@ sniperlog.ru
 snipersex.com
 snoobi.com
 snoopyworking.pro
+snowflake.qq.com
 snowmentor.com
+sns.qzone.qq.com
 snsv.ru
 snuff-brownsprintcountry.com
 snugwednesday.com
@@ -11559,6 +11737,7 @@ sortext.com
 sotchoum.com
 soulsdeliriousnoise.com
 soundstocking.com
+soup.v.qq.com
 sourcedolls.shop
 sourelevationregion.com
 sourshaped.com
@@ -11659,6 +11838,7 @@ spylees.com
 spylog.com
 spylog.ru
 spynutvurwa.com
+sq.bls.mdt.qq.com
 sqanziqmyedau.online
 sqbcgfrjznaao.space
 sqiorli2w.com
@@ -11701,6 +11881,7 @@ sskzlabs.com
 ssl-metrics.tim.it
 ssl.aafp.org
 ssl.google-analytics.com
+ssl.log.wtlogin.qq.com
 ssl.o.medicinenet.com
 ssl.o.medscape.com
 ssl.o.univadis.fr
@@ -11781,6 +11962,7 @@ stat-ssl.tabelog.com
 stat-track.com
 stat.24liveplus.com
 stat.360safe.com
+stat.3g.music.qq.com
 stat.4u.pl
 stat.api.2gis.ru
 stat.cncenter.cz
@@ -11788,12 +11970,14 @@ stat.dongqiudi.com
 stat.download.xunlei.com
 stat.funshion.net
 stat.game.yy.com
+stat.gamedl.qq.com
 stat.khanate.pro
 stat.kununu.cz
 stat.lianmeng.360.cn
 stat.matichon.co.th
 stat.media
 stat.moji.com
+stat.music.qq.com
 stat.mydaddy.cc
 stat.ovh
 stat.pandora.xiaomi.com
@@ -11810,6 +11994,7 @@ statcounterfree.com
 statdynamic.com
 statespiecehooter.com
 stathome.org
+static-res.qq.com
 static-s.iqiyi.com
 static-sb.com
 static-srv.com
@@ -11833,6 +12018,7 @@ staticfile.net
 staticfile.org
 staticgalaksion.com
 statics.woozooo.com
+statistic.qzone.qq.com
 statisticresearch.com
 statistics.daktilo.com
 statistics.fppressa.ru
@@ -11906,6 +12092,7 @@ statsjs.klevu.com
 statwup.huya.com
 staunchtownsegg.com
 staupsoaksy.net
+stdl.qq.com
 steadfastseat.com
 steadfastsystem.com
 steamabundanceslope.com
@@ -12001,6 +12188,7 @@ studiousenragereclaim.com
 stulsopapar.com
 stummelbeelbow.com
 stun.hitv.com
+stun.qqlive.qq.com
 stupendoussnow.com
 stupidscene.com
 sturdyarrival.com
@@ -12128,6 +12316,7 @@ sxjfhh.usatoday.com
 sxmikprbybfyg.com
 sxp.allianz.de
 sy.ameblo.jp
+sy.guanjia.qq.com
 sy57d8wi.com
 syeniteexodoi.com
 syh.zybang.com
@@ -12159,6 +12348,7 @@ sysoutvariola.com
 system-notify.app
 systemssummit.com
 szbdyd.com
+szlong.weixin.qq.com
 szqxvo.com
 szwrfefyffnaf.space
 t-dsp.pinduoduo.com
@@ -12189,6 +12379,7 @@ t.fastcmp.com
 t.fightingillini.com
 t.freelancer.com
 t.fullres.net
+t.gdt.qq.com
 t.ghostboard.io
 t.gohuskies.com
 t.greenbids.ai
@@ -12237,6 +12428,7 @@ t7z.cupid.iqiyi.com
 t7z.cupid.ptqy.gitv.tv
 t810.ctpost.com
 t84c3srgclc9.com
+ta.qq.com
 ta.trs.cn
 taboola.com
 taboolasyndication.com
@@ -12299,6 +12491,7 @@ talldoubted.com
 tamedia.com.tw
 tamgrt.com
 tanaunsaish.net
+tangram-config.gdt.qq.com
 tangram.e.qq.com
 tangyamount.com
 tanjibclatter.com
@@ -12375,6 +12568,7 @@ tcppu.com
 tctm.co
 td.airdroid.com
 td.doubleclick.net
+tdc.qq.com
 tddmp.com
 tdhyldohkirx.com
 tdid.m.qq.com
@@ -12533,6 +12727,7 @@ thuwhehyli.com
 ti.tradetracker.net
 tiandi.com
 tianshu.gtimg.cn
+tianshu.qq.com
 tibacta.com
 ticielongsuched.com
 ticketssponge.com
@@ -12566,6 +12761,7 @@ titmiceshikra.click
 titteryfilched.click
 tiwogtowdj.com
 tiypa.com
+tj.b.qq.com
 tj.ijinshan.com
 tj.video.qq.com
 tj.youzanyun.com
@@ -12592,10 +12788,13 @@ tmb5trk.com
 tmbhsooxjskfc.site
 tmead.y.qq.com
 tmeadcomm.y.qq.com
+tmeadkg.y.qq.com
 tmetrics.hdfcbank.com
 tmfmazu-wangka.m.qq.com
 tmfmazu.m.qq.com
+tmfmazuhttp-wangka.m.qq.com
 tmfsdk.m.qq.com
+tmfsdktcp.m.qq.com
 tmfsdktcpv4.m.qq.com
 tmmp.io
 tmrjmp.com
@@ -12631,6 +12830,7 @@ toboads.com
 tocksandfly.top
 todayswigcontagious.com
 togetherefwuko.org
+toggle.qq.com
 toglooman.com
 toiletpaper.life
 token.rubiconproject.com
@@ -12692,12 +12892,14 @@ toxtren.com
 tp.baur.de
 tp.limango.de
 tp.otto.de
+tp2p.kg.qq.com
 tpc.googlesyndication-cn.com
 tpc.googlesyndication.com
 tpcserve.com
 tphnsoragelbe.online
 tphurqalq.com
 tpmedia-reactads.com
+tpns.qq.com
 tpogasdkok.com
 tps.trovaprezzi.it
 tpstelemetry.tencent.com
@@ -13035,6 +13237,7 @@ tspops.com
 tstwomzhxzkhf.site
 tsyndicate.com
 tt.ubs.com
+ttc.gdt.qq.com
 ttedwm.com
 ttmetrics.faz.net
 ttmetrics.jcpenney.com
@@ -13064,6 +13267,8 @@ turbulentobject.com
 turn.com
 turncdn.com
 turnhub.net
+tv.ott.video.qq.com
+tv6.ott.video.qq.com
 tvapp.hpplay.cn
 tvcnmti.top
 tvexnrsvytbeq.space
@@ -13088,6 +13293,7 @@ twistconcept.com
 twitveil.com
 twkvqaufojm.com
 twlcyc.cn
+twns.p2ptun.qq.com
 twpasol.com
 twrank.com
 twrmnd.com
@@ -13108,6 +13314,7 @@ tz.sec.xiaomi.com
 tzegilo.com
 tzsxqxxjvzfeq.one
 u-on.eu
+u.l.qq.com
 u.uc123.com
 u.ucfly.com
 u1.img.mobile.sina.cn
@@ -13156,7 +13363,9 @@ uffntgsdxwyog.online
 ufouxbwn.com
 ufpcdn.com
 ufuaaejrupvow.space
+ug.qbimg.qq.com
 ug.snssdk.com
+ugcup.music.qq.com
 ugdcxl.timeout.com
 ugdtimg.com
 ugdturner.com
@@ -13297,16 +13506,20 @@ uohsqzovikvyr.online
 uohygjhhmwcco.site
 uopehulpomctj.com
 uopvpepvmrepe.website
+up-hl.3g.qq.com
 up4.ucweb.com
 upapi.net
 upbindsswythe.com
+update.browser.qq.com
 update0.aiclk.com
+updatecenter.qq.com
 updservice.site
 upflowsshiitic.click
 upgrade.xl9.xunlei.com
 upgradeyoga.com
 upkoffingr.com
 uplift-platform.com
+uplog.inews.qq.com
 upodaitie.net
 upravel.com
 uprimp.com
@@ -13450,6 +13663,7 @@ uzjgpjxsoslxs.site
 uzrating.com
 v.adintl.cn
 v.adx.hubcloud.com.cn
+v.gdt.qq.com
 v.miguvideo.com
 v1.cnzz.com
 v1.log.moji.com
@@ -13457,9 +13671,11 @@ v1.play.log.hunantv.com
 v2.da.mgtv.com
 v2.gdt.qq.com
 v2.reachmax.cn
+v2ii.gdt.qq.com
 v2mi.gdt.qq.com
 v3.gdt.qq.com
 v4-lm.adukwai.com
+v6-accvideo.wns.qq.com
 vabtbjzuwbzki.online
 vagrejaba.com
 vahpkfgdlobhd.com
@@ -13548,6 +13764,8 @@ vglkx9lick.com
 vhugacurdtnhz.website
 vhxzfz.icu
 vi-serve.com
+vi.bls.mdt.qq.com
+vi.l.qq.com
 viads.com
 viads.net
 vianboaegiaed.website
@@ -13561,6 +13779,7 @@ victoriousrequest.com
 vid.me
 video-analytics-api.cloudinary.com
 video-dsp.pddpic.com
+video.dispatch.tc.qq.com
 video.market.xiaomi.com
 videoadstech.org
 videoamp.com
@@ -13650,6 +13869,7 @@ vkjhdorbxcabh.site
 vkumeiuxils.com
 vlion.cn
 vlitag.com
+vlive.qqvideo.tc.qq.com
 vloahkelmykyd.top
 vlogerads.com
 vlsofuzczfmqz.website
@@ -13700,6 +13920,7 @@ vpljxmwvkf.com
 vpon.com
 vprtrfc.com
 vq4b0q.fun
+vr.gdt.qq.com
 vrcvbtdmxhcgb.site
 vrizead.com
 vs.biz.weibo.com
@@ -13721,6 +13942,9 @@ vungle.com
 vupulse.com
 vustaq.com
 vutohsdhe.com
+vv.video.qq.com
+vv6.play.ott.video.qq.com
+vv6.video.qq.com
 vvundtltrjars.site
 vwiyieagwgebdoj.com
 vwonwkaqvq-a.global.ssl.fastly.net
@@ -13734,6 +13958,7 @@ w-profiling.simplii.com
 w.cnzz.com
 w.ilfattoquotidiano.it
 w.inews.qq.com
+w.l.qq.com
 w.sharethis.com
 w.uptolike.com
 w0we.com
@@ -13988,6 +14213,7 @@ wishinghonourederratic.com
 wishjus.com
 wisteinsight.com
 wistfulwaste.com
+wit.qq.com
 withcabin.com
 wixlabs-adsense-v3.uc.r.appspot.com
 wizaly.com
@@ -14024,6 +14250,8 @@ wmtten.com
 wmvtibcjosa.com
 wn.pos.baidu.com
 wnkiamnb.com
+wns.qq.com
+wnsmusic.qq.com
 wnt-some-push.net
 wnvxsbctvedod.online
 wnzlvbrgskcfj.space
@@ -14068,6 +14296,7 @@ wowanalytics.co.uk
 wowfunnow.com
 woxelyhf.com
 wp3qhtu5.pro
+wpa.qq.com
 wpadmngr.com
 wpb.wgplayer.com
 wpfc.ml
@@ -14094,6 +14323,7 @@ wrpdcbns.com
 wrufer.com
 ws.audioeye.com
 ws.ksmobile.net
+ws.sj.qq.com
 ws.tapjoyads.com
 ws3.smartp.com
 wsds.cn
@@ -14121,6 +14351,8 @@ wumii.com
 wumufama.com
 wup-185a61e7.bendigobank.com.au
 wup-2ffe60ee.westpac.com.au
+wup.browser.qq.com
+wup.imtt.qq.com
 wuporg.com
 wuzbhjpvsf.com
 wv.inner-active.mobi
@@ -14149,12 +14381,18 @@ www15.jtv.com
 www4.smartadserver.com
 www6.smartadserver.com
 wxa.wxs.qq.com
+wxadliteapp.gdt.qq.com
 wxaintpcos.wxqcloud.qq.com.cn
 wxhiojortldjyegtkx.bid
 wxholjwexghnl.site
 wximg.wxs.qq.com
+wxs.qq.com
 wxsmw.wxs.qq.com
+wxsnsad.tc.qq.com
+wxsnsdy.tc.qq.com
+wxsnsdy.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
+wxsnsencsvp.wxs.qq.com
 wyaoormajvmzm.top
 wyhifdpatl.com
 wysistat.com
@@ -14162,9 +14400,11 @@ wyvlllooallok.top
 wzrkt.com
 x-stat.de
 x-traceur.com
+x.adnet.qq.com
 x.bidswitch.net
 x.disq.us
 x.jd.com
+x.research.qq.com
 x.xxxbule.com
 x01.aidata.io
 x011bt.com
@@ -14260,9 +14500,12 @@ xqvsufkeuiwde.website
 xray.mail.ru
 xrkbhl2cp.com
 xrxmxnukqfnud.website
+xs.gdt.qq.com
+xscdn.gdt.qq.com
 xsqaxmmepxmxw.site
 xsrbatihgyayg.site
 xssqdlcguplkd.space
+xsweb.gdt.qq.com
 xszpuvwr7.com
 xtendmedia.com
 xthghhrojx.com
@@ -14443,6 +14686,7 @@ yubziosgvkweu.online
 yudvl.org
 yumao.puata.info
 yumenetworks.com
+yun-hl.3g.qq.com
 yunzuowen.com
 yupqtvngbuy.com
 yuqafbvyvdy.com
@@ -14456,6 +14700,9 @@ ywlkcbmjagqkm.site
 ywrcqa.khou.com
 ywuzuazsjnzto.online
 yxihzhnofxrcm.space
+yyb.eve.mdt.qq.com
+yyb.str.mdt.qq.com
+yybadaccess.3g.qq.com
 yyhjwjkzgfucr.website
 yypqvjzprpsfm.online
 yzdqrkjwamsuy.space
@@ -14586,6 +14833,7 @@ zunsoach.com
 zvochalmngvcx.com
 zvwhrc.com
 zx.da.mgtv.com
+zxcv.3g.qq.com
 zxid-m.mobileservice.cn
 zxiws.cn
 zxrrop.musely.com
