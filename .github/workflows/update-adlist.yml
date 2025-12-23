@@ -30,14 +30,19 @@ jobs:
           python - <<EOF
           import requests
           import os
+          import re
 
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
           
+          # 远程白名单 (简单文本格式)
           REMOTE_WHITELISTS = [
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/dns.txt",
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
+
+          # anti-AD 官方 PHP 白名单规则文件
+          ANTI_AD_WL_PHP_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/adlist-maker/scripts/lib/white_domain_list.php"
 
           HAGEZI_ULTIMATE_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
 
@@ -66,6 +71,78 @@ jobs:
                   lines.add(line)
               return lines
 
+          def parse_php_rules(url):
+              """
+              从 PHP 文件中解析白名单规则。
+              PHP 格式示例: "domain.com" => 0,
+              """
+              print(f"正在获取并解析 anti-AD PHP 规则: {url}")
+              text = download_text(url)
+              if not text:
+                  print("警告: 无法获取 PHP 规则文件，跳过规则清洗。")
+                  return {}
+
+              rules = {}
+              # 正则匹配: 引号中的域名 => 数字
+              # 兼容单引号和双引号，处理 => 前后的空格
+              pattern = re.compile(r"[\"']([\w\-\.]+)[\"']\s*=>\s*(-?\d+)")
+
+              for line in text.splitlines():
+                  line = line.strip()
+                  # 移除行内注释
+                  if "//" in line:
+                      line = line.split("//")[0].strip()
+                  
+                  # 忽略以 # 或 // 开头的行（虽然上面处理了 //，但防止整行注释）
+                  if not line or line.startswith("#") or line.startswith("//"):
+                      continue
+
+                  match = pattern.search(line)
+                  if match:
+                      domain = match.group(1)
+                      val = int(match.group(2))
+                      rules[domain] = val
+              
+              print(f"成功解析出 {len(rules)} 条 anti-AD 规则。")
+              return rules
+
+          def apply_anti_ad_rules(domains, rules):
+              """
+              根据 anti-AD 规则进行过滤。
+              Value 0: 仅移除该域名
+              Value 1/2: 移除该域名及其所有子域名
+              Value -1: 忽略规则
+              """
+              if not rules:
+                  return domains, 0
+
+              initial_count = len(domains)
+              
+              # 预处理规则分类
+              exact_whitelist = {d for d, v in rules.items() if v == 0}
+              root_whitelist = {d for d, v in rules.items() if v in [1, 2]}
+              
+              # 1. 精确匹配过滤 (Set 差集运算，极快)
+              domains = domains - exact_whitelist
+              
+              # 2. 子域名匹配过滤
+              if root_whitelist:
+                  filtered_domains = set()
+                  for d in domains:
+                      # 检查是否是白名单根域名本身，或者以 .root 结尾
+                      should_remove = False
+                      for root in root_whitelist:
+                          if d == root or d.endswith("." + root):
+                              should_remove = True
+                              break
+                      
+                      if not should_remove:
+                          filtered_domains.add(d)
+                  domains = filtered_domains
+                  
+              removed_count = initial_count - len(domains)
+              return domains, removed_count
+
           def main():
               # --- 1. anti-AD 主列表 ---
               ad_text = download_text(AD_LIST_URL)
@@ -73,7 +150,7 @@ jobs:
               original_count = len(ad_domains)
               print(f"原始 anti-AD 数量: {original_count}")
 
-              # --- 2. 新增：从 Ultimate 提取特定主域名的子域名 (先加进来) ---
+              # --- 2. 新增：从 Ultimate 提取特定主域名的子域名 ---
               added_from_ultimate = 0
               if os.path.exists(LOCAL_EXTRA_DOMAINS_FILE):
                   with open(LOCAL_EXTRA_DOMAINS_FILE, "r", encoding="utf-8") as f:
@@ -86,19 +163,17 @@ jobs:
                       
                       extracted_subdomains = set()
                       for d in ultimate_domains:
-                          # 匹配：域名本身等于主域名，或者以 .主域名 结尾
                           if any(d == m or d.endswith("." + m) for m in extra_main_domains):
                               extracted_subdomains.add(d)
                       
                       before_add = len(ad_domains)
-                      # 合并去重
                       ad_domains.update(extracted_subdomains)
                       added_from_ultimate = len(ad_domains) - before_add
                       print(f"从 Ultimate 提取并新增了 {added_from_ultimate} 个条目")
 
               count_before_whitelist = len(ad_domains)
 
-              # --- 3. 远程白名单（精确匹配，现在才开始删） ---
+              # --- 3. 远程白名单（文本列表，直接删） ---
               remote_wl_domains = set()
               for url in REMOTE_WHITELISTS:
                   remote_wl_domains.update(parse_lines(download_text(url)))
@@ -106,7 +181,7 @@ jobs:
               ad_domains -= remote_wl_domains
               removed_by_remote = count_before_whitelist - len(ad_domains)
 
-              # --- 4. 本地白名单（子域名匹配，最后把关） ---
+              # --- 4. 本地白名单（txt文件，模糊匹配） ---
               user_rules = set()
               if os.path.exists(LOCAL_WHITELIST_FILE):
                   with open(LOCAL_WHITELIST_FILE, "r", encoding="utf-8") as f:
@@ -114,16 +189,22 @@ jobs:
 
               removed_by_user = 0
               if user_rules:
+                  count_before_local = len(ad_domains)
                   filtered = []
                   for domain in ad_domains:
-                      # 检查是否命中本地白名单
                       if any(domain == r or domain.endswith("." + r) for r in user_rules):
-                          removed_by_user += 1
-                      else:
-                          filtered.append(domain)
+                          continue
+                      filtered.append(domain)
                   ad_domains = set(filtered)
+                  removed_by_user = count_before_local - len(ad_domains)
 
-              # --- 5. GitHub Summary ---
+              # --- 5. [Dynamic] Anti-AD 规则清洗 (最后一道防线) ---
+              # 动态下载 PHP 文件并解析
+              anti_ad_rules = parse_php_rules(ANTI_AD_WL_PHP_URL)
+              ad_domains, removed_by_anti_ad_rules = apply_anti_ad_rules(ad_domains, anti_ad_rules)
+              print(f"Anti-AD 规则清洗移除了 {removed_by_anti_ad_rules} 个条目")
+
+              # --- 6. GitHub Summary ---
               final_count = len(ad_domains)
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary:
@@ -134,9 +215,10 @@ jobs:
                       f.write(f"| 1. 📥 初始加载 | **{original_count}** | {original_count} |\n")
                       f.write(f"| 2. ➕ Ultimate 补充 | +{added_from_ultimate} | {count_before_whitelist} |\n")
                       f.write(f"| 3. 🌍 远程白名单 | -{removed_by_remote} | {count_before_whitelist - removed_by_remote} |\n")
-                      f.write(f"| 4. 👤 本地白名单 | -{removed_by_user} | **{final_count}** |\n")
+                      f.write(f"| 4. 👤 本地白名单 | -{removed_by_user} | {count_before_whitelist - removed_by_remote - removed_by_user} |\n")
+                      f.write(f"| 5. 🧹 Anti-AD 规则清洗 | -{removed_by_anti_ad_rules} | **{final_count}** |\n")
 
-              # --- 6. 写入最终文件 ---
+              # --- 7. 写入最终文件 ---
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   for domain in sorted(ad_domains):
                       f.write(domain + "\n")
@@ -153,6 +235,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add clean-list.txt
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "Update list: Add extras first, then whitelist" &&
+            git commit -m "Update list: Dynamic anti-ad rules fetching" &&
             git push
           )
