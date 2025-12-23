@@ -1,2 +1,3 @@
 qq.com
-report.tencentmusic.com
+tencentmusic.com
+tencent-cloud.net
