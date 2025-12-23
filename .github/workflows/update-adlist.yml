@@ -2,7 +2,7 @@ name: Update AdBlock List
 
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 permissions:
@@ -39,7 +39,6 @@ jobs:
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
 
-          # 已移除 HAGEZI_LIGHT_URL，不再需要取交集
           HAGEZI_ULTIMATE_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
 
           LOCAL_WHITELIST_FILE = "whitelist.txt"
@@ -72,38 +71,9 @@ jobs:
               ad_text = download_text(AD_LIST_URL)
               ad_domains = parse_lines(ad_text)
               original_count = len(ad_domains)
-              print(f"原始广告域名数量: {original_count}")
+              print(f"原始 anti-AD 数量: {original_count}")
 
-              # --- 2. 远程白名单（精确匹配） ---
-              remote_wl_domains = set()
-              for url in REMOTE_WHITELISTS:
-                  remote_wl_domains.update(parse_lines(download_text(url)))
-
-              before_remote = len(ad_domains)
-              ad_domains -= remote_wl_domains
-              removed_by_remote = before_remote - len(ad_domains)
-
-              # --- 3. 本地白名单（子域名匹配） ---
-              user_rules = set()
-              if os.path.exists(LOCAL_WHITELIST_FILE):
-                  with open(LOCAL_WHITELIST_FILE, "r", encoding="utf-8") as f:
-                      user_rules = parse_lines(f.read())
-
-              removed_by_user = 0
-              if user_rules:
-                  filtered = []
-                  for domain in ad_domains:
-                      # 如果域名在白名单里，或者是以白名单域名结尾（子域名），则剔除
-                      if any(domain == r or domain.endswith("." + r) for r in user_rules):
-                          removed_by_user += 1
-                      else:
-                          filtered.append(domain)
-                  ad_domains = set(filtered)
-
-              # --- 4. (已删除) 与 hagezi light 取交集步骤 ---
-              # 原先的 intersection 逻辑已移除，现在保留 anti-AD 的全量（清洗后）
-
-              # --- 5. 新增：从 Ultimate 提取特定主域名的子域名 ---
+              # --- 2. 新增：从 Ultimate 提取特定主域名的子域名 (先加进来) ---
               added_from_ultimate = 0
               if os.path.exists(LOCAL_EXTRA_DOMAINS_FILE):
                   with open(LOCAL_EXTRA_DOMAINS_FILE, "r", encoding="utf-8") as f:
@@ -116,30 +86,57 @@ jobs:
                       
                       extracted_subdomains = set()
                       for d in ultimate_domains:
+                          # 匹配：域名本身等于主域名，或者以 .主域名 结尾
                           if any(d == m or d.endswith("." + m) for m in extra_main_domains):
                               extracted_subdomains.add(d)
                       
                       before_add = len(ad_domains)
-                      # Python 的 set.update 方法会自动处理去重，只添加不存在的条目
+                      # 合并去重
                       ad_domains.update(extracted_subdomains)
                       added_from_ultimate = len(ad_domains) - before_add
-                      print(f"从 Ultimate 提取并新增了 {added_from_ultimate} 个条目 (自动去重)")
+                      print(f"从 Ultimate 提取并新增了 {added_from_ultimate} 个条目")
 
-              # --- 6. GitHub Summary ---
+              count_before_whitelist = len(ad_domains)
+
+              # --- 3. 远程白名单（精确匹配，现在才开始删） ---
+              remote_wl_domains = set()
+              for url in REMOTE_WHITELISTS:
+                  remote_wl_domains.update(parse_lines(download_text(url)))
+
+              ad_domains -= remote_wl_domains
+              removed_by_remote = count_before_whitelist - len(ad_domains)
+
+              # --- 4. 本地白名单（子域名匹配，最后把关） ---
+              user_rules = set()
+              if os.path.exists(LOCAL_WHITELIST_FILE):
+                  with open(LOCAL_WHITELIST_FILE, "r", encoding="utf-8") as f:
+                      user_rules = parse_lines(f.read())
+
+              removed_by_user = 0
+              if user_rules:
+                  filtered = []
+                  for domain in ad_domains:
+                      # 检查是否命中本地白名单
+                      if any(domain == r or domain.endswith("." + r) for r in user_rules):
+                          removed_by_user += 1
+                      else:
+                          filtered.append(domain)
+                  ad_domains = set(filtered)
+
+              # --- 5. GitHub Summary ---
               final_count = len(ad_domains)
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary:
                   with open(summary, "a", encoding="utf-8") as f:
                       f.write("### 🛡️ 广告过滤统计报告 (Anti-AD Core)\n")
-                      f.write("| 项目 | 数量 |\n")
-                      f.write("| :--- | :--- |\n")
-                      f.write(f"| 📥 anti-AD 原始 | **{original_count}** |\n")
-                      f.write(f"| 🌍 远程白名单 | -{removed_by_remote} |\n")
-                      f.write(f"| 👤 本地白名单 | -{removed_by_user} |\n")
-                      f.write(f"| ➕ Ultimate 提取 | +{added_from_ultimate} |\n")
-                      f.write(f"| ✅ **最终数量** | **{final_count}** |\n")
+                      f.write("| 步骤 | 变动 | 结果数量 |\n")
+                      f.write("| :--- | :--- | :--- |\n")
+                      f.write(f"| 1. 📥 初始加载 | **{original_count}** | {original_count} |\n")
+                      f.write(f"| 2. ➕ Ultimate 补充 | +{added_from_ultimate} | {count_before_whitelist} |\n")
+                      f.write(f"| 3. 🌍 远程白名单 | -{removed_by_remote} | {count_before_whitelist - removed_by_remote} |\n")
+                      f.write(f"| 4. 👤 本地白名单 | -{removed_by_user} | **{final_count}** |\n")
 
-              # --- 7. 写入最终文件 ---
+              # --- 6. 写入最终文件 ---
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   for domain in sorted(ad_domains):
                       f.write(domain + "\n")
@@ -156,6 +153,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add clean-list.txt
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "Update clean adblock list (Anti-AD Core + Extras)" &&
+            git commit -m "Update list: Add extras first, then whitelist" &&
             git push
           )
