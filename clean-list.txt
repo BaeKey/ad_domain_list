@@ -27134,6 +27134,7 @@ datingtop-flirt.com
 datingtop-flirtses.com
 datingtopgirls.com
 datk.anythinktech.com
+datk.statisticslinks.com
 datouniao.com
 datsoaksou.net
 datum.appfleet.com
@@ -29413,8 +29414,6 @@ dnre5xkn2r25r.cloudfront.net
 dnrwtqdqfthjh.net
 dns.chuzushijian.cn
 dns.m.sm.cn
-dns.qq.com
-dns.weixin.qq.com
 dns.ximalaya.com
 dns1.oadz.com
 dns2.oadz.com
@@ -32323,7 +32322,6 @@ eilgrairyi.com
 eilloupnjlzoj.site
 eimcqw.dickies.com
 eimesthanzogt.space
-eimg.smzdm.com
 eimjjpkxirtmp.space
 einfmxudckhxd.xyz
 einothepz.com
@@ -43192,7 +43190,6 @@ htqowgone.net
 htrace.wetvinfo.com
 htrem.site
 htthnossikyqb.net
-httpdns.kg.qq.com
 httpkafka.unityads.unity3d.com
 httpool.com
 httpring.qq.com
@@ -78346,6 +78343,7 @@ sdk-ab-config.aiclk.com
 sdk-ab-config.qquanquan.com
 sdk-analytics-web.cloud.itau.com.br
 sdk-cache.video.ptqy.gitv.tv
+sdk-config.tanx.com
 sdk-globalconfig.aiclk.com
 sdk-open-phone.getui.com
 sdk.1rtb.net
@@ -86775,6 +86773,7 @@ statistics.tattermedia.com
 statistics.tuv.com
 statistics.wibiya.com
 statisticsaccent.com
+statisticslinks.com
 statisticsplatform.com
 statistiek.rijksoverheid.nl
 statistik-gallup.net
@@ -91686,6 +91685,7 @@ tk.santevet.de
 tk.santevet.es
 tk.santevet.it
 tk.speedway.fr
+tk.statisticslinks.com
 tk.svsound.com
 tk.teleshopping.fr
 tk.tikamoon.at
