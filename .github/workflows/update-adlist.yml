@@ -39,7 +39,7 @@ jobs:
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
 
-          HAGEZI_LIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/multi.txt"
+          HAGEZI_LIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
 
           LOCAL_WHITELIST_FILE = "whitelist.txt"
           OUTPUT_FILE = "clean-list.txt"
