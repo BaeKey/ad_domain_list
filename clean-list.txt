@@ -10294,6 +10294,7 @@ report.meituan.com
 report.nfa.qq.com
 report.qqweb.qq.com
 report.syzs.qq.com
+report.tencentmusic.com
 report.tgp.qq.com
 report.trade.weixin.qq.com
 report.tv.kohesport.qq.com
