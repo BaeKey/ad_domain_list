@@ -22,14 +22,16 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
+        # ⚠️ 关键修改：增加 tldextract 库，专门用于精准提取主域名
         run: |
-          pip install requests
+          pip install requests tldextract
 
       - name: Process Domain Lists
         run: |
           python - <<EOF
           import requests
           import os
+          import tldextract
 
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
@@ -59,26 +61,30 @@ jobs:
               lines = set()
               for line in text.splitlines():
                   line = line.strip()
+                  # 移除注释和空行
                   if not line or line.startswith("#"):
                       continue
                   lines.add(line)
               return lines
 
-          def get_base_domain(domain):
-              """提取主域名，处理 .com.cn 等特殊情况"""
-              parts = domain.split('.')
-              if len(parts) < 2:
+          # --- ⚠️ 修复：使用 tldextract 精准提取主域名 ---
+          # 这样能准确识别 tanx.com 是主域名，而不会把 .com.cn 这种后缀当成主域名
+          def get_registered_domain(domain):
+              try:
+                  # tldextract 会自动处理 .co.uk, .com.cn, .github.io 等复杂情况
+                  extracted = tldextract.extract(domain)
+                  # 如果解析出 registered_domain (如 tanx.com)，则返回它
+                  # 如果是 IP 地址或无法解析，registered_domain 可能为空，此时回退到原域名
+                  if extracted.registered_domain:
+                      return extracted.registered_domain
                   return domain
-              if len(parts) >= 3 and parts[-2] in ['com', 'net', 'org', 'gov', 'edu', 'co', 'ac'] and parts[-1] in ['cn', 'uk', 'hk', 'tw', 'jp', 'kr']:
-                  return ".".join(parts[-3:])
-              return ".".join(parts[-2:])
+              except Exception:
+                  return domain
 
           def is_whitelisted(domain, rules):
               """检查域名是否在白名单规则中"""
               if not rules:
                   return False
-              # 优化性能：如果规则很少，可以用 any；如果规则很多，建议优化算法。
-              # 这里保持原有的后缀匹配逻辑
               return any(domain == r or domain.endswith("." + r) for r in rules)
 
           def main():
@@ -98,13 +104,12 @@ jobs:
               removed_by_remote = before_remote - len(ad_domains)
               print(f"远程白名单移除数量: {removed_by_remote}")
 
-              # --- 3. 本地白名单（准备规则） ---
+              # --- 3. 本地白名单（规则匹配） ---
               user_rules = set()
               if os.path.exists(LOCAL_WHITELIST_FILE):
                   with open(LOCAL_WHITELIST_FILE, "r", encoding="utf-8") as f:
                       user_rules = parse_lines(f.read())
 
-              # 过滤 anti-AD
               removed_by_user = 0
               if user_rules:
                   filtered = []
@@ -121,45 +126,47 @@ jobs:
               hagezi_domains = parse_lines(download_text(HAGEZI_LIST_URL))
               print(f"Hagezi 原始数量: {len(hagezi_domains)}")
               
-              # A. 计算严格交集 (Strict Intersection)
+              # A. 计算严格交集
               intersection_domains = ad_domains & hagezi_domains
               print(f"严格交集数量: {len(intersection_domains)}")
 
-              # B. 提取交集中的“活跃主域名家族” (Active Roots)
+              # B. 提取交集中的“活跃主域名家族”
+              # 这里使用 tldextract，确保 tanx.com 被准确提取
               active_roots = set()
+              print("正在分析交集域名的家族归属...")
               for d in intersection_domains:
-                  active_roots.add(get_base_domain(d))
+                  root = get_registered_domain(d)
+                  active_roots.add(root)
+              
               print(f"活跃主域名家族数: {len(active_roots)}")
 
               # C. 双向救援 (Bi-directional Rescue)
-              # 目标：找出 (Anti-AD 并集 Hagezi) 中，所有主域名属于 active_roots 的域名
               
-              # 救援来源 1: Anti-AD 中被丢弃的部分 (ad_domains - intersection)
-              # 注意：ad_domains 已经在前面经过了白名单过滤，所以这里直接用
+              # 救援 1: Anti-AD 剩余部分
               candidates_ad = ad_domains - intersection_domains
               rescued_from_ad = set()
               for d in candidates_ad:
-                  if get_base_domain(d) in active_roots:
+                  root = get_registered_domain(d)
+                  if root in active_roots:
                       rescued_from_ad.add(d)
               
-              # 救援来源 2: Hagezi 中被丢弃的部分 (hagezi - intersection)
-              # 注意：Hagezi 是原始列表，救援回来前必须过一遍白名单！
+              # 救援 2: Hagezi 剩余部分
               candidates_hagezi = hagezi_domains - intersection_domains
               rescued_from_hagezi = set()
               for d in candidates_hagezi:
-                  if get_base_domain(d) in active_roots:
-                      # 关键：检查是否误杀白名单
+                  root = get_registered_domain(d)
+                  if root in active_roots:
+                      # 必须再次检查白名单，防止误伤
                       if not is_whitelisted(d, user_rules):
                           rescued_from_hagezi.add(d)
               
-              # D. 合并最终结果
+              # D. 合并
               final_domains = intersection_domains | rescued_from_ad | rescued_from_hagezi
               
               count_rescued_ad = len(rescued_from_ad)
               count_rescued_hagezi = len(rescued_from_hagezi)
               
-              # 计算被逻辑过滤掉的总数 (Anti-AD 剩余总数 - 最终结果中来自 Anti-AD 的部分)
-              # 这是一个粗略统计，为了报表好看
+              # 统计被逻辑移除的数量
               kept_from_ad = intersection_domains | rescued_from_ad
               removed_by_logic = len(ad_domains) - len(kept_from_ad)
 
