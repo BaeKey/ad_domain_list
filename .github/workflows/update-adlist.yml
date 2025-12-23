@@ -33,15 +33,17 @@ jobs:
 
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
-
+          
           REMOTE_WHITELISTS = [
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/dns.txt",
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
 
-          HAGEZI_LIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
+          HAGEZI_LIGHT_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
+          HAGEZI_ULTIMATE_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
 
           LOCAL_WHITELIST_FILE = "whitelist.txt"
+          LOCAL_EXTRA_DOMAINS_FILE = "extra_domains.txt" # 新增：存放需要提取子域名的主域名
           OUTPUT_FILE = "clean-list.txt"
           # ===========================================
 
@@ -57,6 +59,7 @@ jobs:
 
           def parse_lines(text):
               lines = set()
+              if not text: return lines
               for line in text.splitlines():
                   line = line.strip()
                   if not line or line.startswith("#"):
@@ -79,7 +82,6 @@ jobs:
               before_remote = len(ad_domains)
               ad_domains -= remote_wl_domains
               removed_by_remote = before_remote - len(ad_domains)
-              print(f"远程白名单移除数量: {removed_by_remote}")
 
               # --- 3. 本地白名单（子域名匹配） ---
               user_rules = set()
@@ -97,17 +99,35 @@ jobs:
                           filtered.append(domain)
                   ad_domains = set(filtered)
 
-              print(f"用户白名单移除数量: {removed_by_user}")
-
               # --- 4. 与 hagezi light 取交集 ---
-              hagezi_domains = parse_lines(download_text(HAGEZI_LIST_URL))
+              hagezi_light = parse_lines(download_text(HAGEZI_LIGHT_URL))
               before_intersect = len(ad_domains)
-              ad_domains &= hagezi_domains
+              ad_domains &= hagezi_light
               removed_by_intersect = before_intersect - len(ad_domains)
 
-              print(f"与 hagezi light 取交集移除数量: {removed_by_intersect}")
+              # --- 5. 新增：从 Ultimate 提取特定主域名的子域名 ---
+              added_from_ultimate = 0
+              if os.path.exists(LOCAL_EXTRA_DOMAINS_FILE):
+                  with open(LOCAL_EXTRA_DOMAINS_FILE, "r", encoding="utf-8") as f:
+                      extra_main_domains = parse_lines(f.read())
+                  
+                  if extra_main_domains:
+                      print(f"正在从 Ultimate 列表提取 {len(extra_main_domains)} 个主域名的子域名...")
+                      ultimate_text = download_text(HAGEZI_ULTIMATE_URL)
+                      ultimate_domains = parse_lines(ultimate_text)
+                      
+                      extracted_subdomains = set()
+                      for d in ultimate_domains:
+                          # 匹配：域名本身等于主域名，或者以 .主域名 结尾
+                          if any(d == m or d.endswith("." + m) for m in extra_main_domains):
+                              extracted_subdomains.add(d)
+                      
+                      before_add = len(ad_domains)
+                      ad_domains.update(extracted_subdomains)
+                      added_from_ultimate = len(ad_domains) - before_add
+                      print(f"从 Ultimate 提取并新增了 {added_from_ultimate} 个条目")
 
-              # --- 5. GitHub Summary ---
+              # --- 6. GitHub Summary ---
               final_count = len(ad_domains)
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary:
@@ -119,9 +139,10 @@ jobs:
                       f.write(f"| 🌍 远程白名单 | -{removed_by_remote} |\n")
                       f.write(f"| 👤 本地白名单 | -{removed_by_user} |\n")
                       f.write(f"| 🔗 hagezi 交集 | -{removed_by_intersect} |\n")
+                      f.write(f"| ➕ Ultimate 提取 | +{added_from_ultimate} |\n")
                       f.write(f"| ✅ **最终数量** | **{final_count}** |\n")
 
-              # --- 6. 写入最终文件 ---
+              # --- 7. 写入最终文件 ---
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   for domain in sorted(ad_domains):
                       f.write(domain + "\n")
@@ -138,6 +159,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add clean-list.txt
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "Update clean adblock list" &&
+            git commit -m "Update clean adblock list with ultimate extras" &&
             git push
           )
