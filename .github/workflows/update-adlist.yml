@@ -22,16 +22,14 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        # ⚠️ 关键修改：增加 tldextract 库，专门用于精准提取主域名
         run: |
-          pip install requests tldextract
+          pip install requests
 
       - name: Process Domain Lists
         run: |
           python - <<EOF
           import requests
           import os
-          import tldextract
 
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
@@ -41,7 +39,7 @@ jobs:
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
 
-          HAGEZI_LIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
+          HAGEZI_LIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/multi.txt"
 
           LOCAL_WHITELIST_FILE = "whitelist.txt"
           OUTPUT_FILE = "clean-list.txt"
@@ -61,31 +59,10 @@ jobs:
               lines = set()
               for line in text.splitlines():
                   line = line.strip()
-                  # 移除注释和空行
                   if not line or line.startswith("#"):
                       continue
                   lines.add(line)
               return lines
-
-          # --- ⚠️ 修复：使用 tldextract 精准提取主域名 ---
-          # 这样能准确识别 tanx.com 是主域名，而不会把 .com.cn 这种后缀当成主域名
-          def get_registered_domain(domain):
-              try:
-                  # tldextract 会自动处理 .co.uk, .com.cn, .github.io 等复杂情况
-                  extracted = tldextract.extract(domain)
-                  # 如果解析出 registered_domain (如 tanx.com)，则返回它
-                  # 如果是 IP 地址或无法解析，registered_domain 可能为空，此时回退到原域名
-                  if extracted.registered_domain:
-                      return extracted.registered_domain
-                  return domain
-              except Exception:
-                  return domain
-
-          def is_whitelisted(domain, rules):
-              """检查域名是否在白名单规则中"""
-              if not rules:
-                  return False
-              return any(domain == r or domain.endswith("." + r) for r in rules)
 
           def main():
               # --- 1. anti-AD 主列表 ---
@@ -104,7 +81,7 @@ jobs:
               removed_by_remote = before_remote - len(ad_domains)
               print(f"远程白名单移除数量: {removed_by_remote}")
 
-              # --- 3. 本地白名单（规则匹配） ---
+              # --- 3. 本地白名单（子域名匹配） ---
               user_rules = set()
               if os.path.exists(LOCAL_WHITELIST_FILE):
                   with open(LOCAL_WHITELIST_FILE, "r", encoding="utf-8") as f:
@@ -114,7 +91,7 @@ jobs:
               if user_rules:
                   filtered = []
                   for domain in ad_domains:
-                      if is_whitelisted(domain, user_rules):
+                      if any(domain == r or domain.endswith("." + r) for r in user_rules):
                           removed_by_user += 1
                       else:
                           filtered.append(domain)
@@ -122,59 +99,16 @@ jobs:
 
               print(f"用户白名单移除数量: {removed_by_user}")
 
-              # --- 4. Hagezi 列表与双向救援逻辑 ---
+              # --- 4. 与 hagezi light 取交集 ---
               hagezi_domains = parse_lines(download_text(HAGEZI_LIST_URL))
-              print(f"Hagezi 原始数量: {len(hagezi_domains)}")
-              
-              # A. 计算严格交集
-              intersection_domains = ad_domains & hagezi_domains
-              print(f"严格交集数量: {len(intersection_domains)}")
+              before_intersect = len(ad_domains)
+              ad_domains &= hagezi_domains
+              removed_by_intersect = before_intersect - len(ad_domains)
 
-              # B. 提取交集中的“活跃主域名家族”
-              # 这里使用 tldextract，确保 tanx.com 被准确提取
-              active_roots = set()
-              print("正在分析交集域名的家族归属...")
-              for d in intersection_domains:
-                  root = get_registered_domain(d)
-                  active_roots.add(root)
-              
-              print(f"活跃主域名家族数: {len(active_roots)}")
-
-              # C. 双向救援 (Bi-directional Rescue)
-              
-              # 救援 1: Anti-AD 剩余部分
-              candidates_ad = ad_domains - intersection_domains
-              rescued_from_ad = set()
-              for d in candidates_ad:
-                  root = get_registered_domain(d)
-                  if root in active_roots:
-                      rescued_from_ad.add(d)
-              
-              # 救援 2: Hagezi 剩余部分
-              candidates_hagezi = hagezi_domains - intersection_domains
-              rescued_from_hagezi = set()
-              for d in candidates_hagezi:
-                  root = get_registered_domain(d)
-                  if root in active_roots:
-                      # 必须再次检查白名单，防止误伤
-                      if not is_whitelisted(d, user_rules):
-                          rescued_from_hagezi.add(d)
-              
-              # D. 合并
-              final_domains = intersection_domains | rescued_from_ad | rescued_from_hagezi
-              
-              count_rescued_ad = len(rescued_from_ad)
-              count_rescued_hagezi = len(rescued_from_hagezi)
-              
-              # 统计被逻辑移除的数量
-              kept_from_ad = intersection_domains | rescued_from_ad
-              removed_by_logic = len(ad_domains) - len(kept_from_ad)
-
-              print(f"从 Anti-AD 救援: {count_rescued_ad}")
-              print(f"从 Hagezi 救援: {count_rescued_hagezi}")
+              print(f"与 hagezi light 取交集移除数量: {removed_by_intersect}")
 
               # --- 5. GitHub Summary ---
-              final_count = len(final_domains)
+              final_count = len(ad_domains)
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary:
                   with open(summary, "a", encoding="utf-8") as f:
@@ -184,14 +118,12 @@ jobs:
                       f.write(f"| 📥 anti-AD 原始 | **{original_count}** |\n")
                       f.write(f"| 🌍 远程白名单 | -{removed_by_remote} |\n")
                       f.write(f"| 👤 本地白名单 | -{removed_by_user} |\n")
-                      f.write(f"| 🔗 严格交集 | {len(intersection_domains)} |\n")
-                      f.write(f"| 🚑 **Anti-AD 救援** | **+{count_rescued_ad}** |\n")
-                      f.write(f"| 🚑 **Hagezi 救援** | **+{count_rescued_hagezi}** |\n")
+                      f.write(f"| 🔗 hagezi 交集 | -{removed_by_intersect} |\n")
                       f.write(f"| ✅ **最终数量** | **{final_count}** |\n")
 
               # --- 6. 写入最终文件 ---
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                  for domain in sorted(final_domains):
+                  for domain in sorted(ad_domains):
                       f.write(domain + "\n")
 
               print(f"完成，输出至 {OUTPUT_FILE}")
