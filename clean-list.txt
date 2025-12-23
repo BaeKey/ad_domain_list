@@ -586,10 +586,13 @@ adc3-launch.adcolony.com
 adcalls.nl
 adcannyxml.com
 adcash.com
+adcdn.tencentmusic.com
+adcdn6.tencentmusic.com
 adcdnx.com
 adcell.de
 adcharriot.com
 adclick.g.doubleclick.net
+adclick.tencentmusic.com
 adclickad.com
 adclickbyte.com
 adclickppc.com
@@ -621,6 +624,7 @@ adexchangegate.com
 adexchangeprediction.com
 adexp.chinaliftoff.io
 adexp.liftoff.io
+adexpo.tencentmusic.com
 adextrem.com
 adfenix.com
 adfilter.imtt.qq.com
@@ -1655,9 +1659,12 @@ ap.dongqiudi.com
 apapuacauthong.com
 apardondegage.com
 apcgsqwbegnovy.com
+apd-pcdnvodstat.teg.tencent-cloud.net
 apd-pcdnwxlogin.teg.tencent-cloud.net
 apd-pcdnwxnat.teg.tencent-cloud.net
 apd-pcdnwxstat.teg.tencent-cloud.net
+apd-vodp2pnat.teg.tencent-cloud.net
+apd-vodp2preport.teg.tencent-cloud.net
 apeagle.io
 apenterprise.io
 apharponloun.com
@@ -1907,6 +1914,7 @@ assured-tool.com
 assyctifor.com
 astaifuwoocair.net
 astarsbuilding.com
+astat-bugly-tgw4l.mig.tencent-cloud.net
 astat.bugly.qq.com
 astat.nikkei.com
 astelicbanes.com
@@ -9796,6 +9804,7 @@ pubgenius.io
 pubguru.com
 pubguru.net
 public.gdtimg.com
+publiclog.zhiyan.tencent-cloud.net
 publicsofa.com
 publift.com
 publir.com
@@ -12933,6 +12942,7 @@ trace.aqyad.com
 trace.qq.com
 trace.rtbasia.com
 trace.swaven.com
+trace.zhiyan.tencent-cloud.net
 tracelog-debug.aiclk.com
 tracelog-debug.yunxish.com
 track-srv.vietnamnet.vn
