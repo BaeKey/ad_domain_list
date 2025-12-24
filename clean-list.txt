@@ -43004,6 +43004,7 @@ hpymkg.air-austral.com
 hpyrdr.com
 hpztfyfrnudnd.space
 hpzvitkflstxx.website
+hq-tracking-pay.qq.com
 hq-tracking-zq.qq.com
 hq-tracking.qq.com
 hq.appsflyer.com
@@ -53695,7 +53696,6 @@ log.m.sm.cn
 log.mediacategory.com
 log.medietall.no
 log.mgtv.com
-log.minigame.qq.com
 log.mix.sina.com.cn
 log.mofa.go.kr
 log.moji.com
@@ -57976,7 +57976,6 @@ massrelevance.com
 master-push.com
 master-push.net
 master.cifraclub.com.br
-master.etl.desktop.qq.com
 masterconn.qq.com
 masterconn11.qq.com
 masterconn2.qq.com
@@ -84359,6 +84358,7 @@ softdl4.360.cn
 softdown.coumie.top
 softenedimmortalityprocedure.com
 softentears.com
+softfile.3g.qq.com
 softlyacrossany.com
 softonic-analytics.net
 softonicads.com
@@ -107811,7 +107811,6 @@ zxbumj.edreams.it
 zxcdn.com
 zxcs.ggwan.com
 zxcs.linghit.com
-zxcv.3g.qq.com
 zxcvb23.com
 zxdnsx7si.com
 zxenwgfnhknxs.click
