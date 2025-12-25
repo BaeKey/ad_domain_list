@@ -40,7 +40,6 @@ jobs:
           
           # 远程白名单 (简单文本格式)
           REMOTE_WHITELISTS = [
-              "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/dns.txt",
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
 
