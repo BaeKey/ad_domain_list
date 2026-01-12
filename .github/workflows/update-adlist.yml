@@ -2,6 +2,7 @@ name: Update AdBlock List
 
 on:
   schedule:
+    # 每天 19:00 UTC（= 北京时间次日 03:00）
     - cron: '0 19 * * *'
   workflow_dispatch:
 
@@ -27,208 +28,179 @@ jobs:
 
       - name: Process Domain Lists
         run: |
-          python - <<EOF
+          python - <<'EOF'
           import requests
           import os
           import re
+          import sys
 
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
-          
-          # [新增] Hagezi pro 列表 (用于取交集)
+
           HAGEZI_PRO_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/pro.txt"
-          
-          # 远程白名单 (简单文本格式)
+          HAGEZI_ULTIMATE_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
+
           REMOTE_WHITELISTS = [
               "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
           ]
 
-          # anti-AD 官方 PHP 白名单规则文件
           ANTI_AD_WL_PHP_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/adlist-maker/scripts/lib/white_domain_list.php"
 
-          HAGEZI_ULTIMATE_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
-
           LOCAL_WHITELIST_FILE = "whitelist.txt"
+          LOCAL_BLACKLIST_FILE = "blacklist.txt"
           LOCAL_EXTRA_DOMAINS_FILE = "extra_domains.txt"
+
           OUTPUT_FILE = "clean-list.txt"
           # ===========================================
 
-          def download_text(url):
+          HEADERS = {
+              "User-Agent": "Adblock-List-Builder/1.0 (GitHub Actions)"
+          }
+
+          def download_text(url, critical=True):
               try:
                   print(f"Downloading: {url}")
-                  resp = requests.get(url, timeout=30)
-                  resp.raise_for_status()
-                  return resp.text
+                  r = requests.get(url, timeout=30, headers=HEADERS)
+                  r.raise_for_status()
+                  return r.text
               except Exception as e:
                   print(f"Error downloading {url}: {e}")
+                  if critical:
+                      sys.exit(1)
                   return ""
 
           def parse_lines(text):
-              lines = set()
-              if not text: return lines
+              s = set()
+              if not text:
+                  return s
               for line in text.splitlines():
                   line = line.strip()
                   if not line or line.startswith("#"):
                       continue
-                  lines.add(line)
-              return lines
+                  s.add(line)
+              return s
 
           def parse_php_rules(url):
-              """
-              从 PHP 文件中解析白名单规则。
-              """
-              print(f"正在获取并解析 anti-AD PHP 规则: {url}")
-              text = download_text(url)
+              text = download_text(url, critical=False)
               if not text:
-                  print("警告: 无法获取 PHP 规则文件，跳过规则清洗。")
                   return {}
 
               rules = {}
-              # 正则匹配: 引号中的域名 => 数字
-              pattern = re.compile(r"[\"']([\w\-\.]+)[\"']\s*=>\s*(-?\d+)")
+              pattern = re.compile(r"[\"']([\w\.-]+)[\"']\s*=>\s*(-?\d+)")
 
               for line in text.splitlines():
-                  line = line.strip()
-                  if "//" in line:
-                      line = line.split("//")[0].strip()
-                  
-                  if not line or line.startswith("#") or line.startswith("//"):
+                  line = line.split("//")[0].strip()
+                  if not line:
                       continue
+                  m = pattern.search(line)
+                  if m:
+                      rules[m.group(1)] = int(m.group(2))
 
-                  match = pattern.search(line)
-                  if match:
-                      domain = match.group(1)
-                      val = int(match.group(2))
-                      rules[domain] = val
-              
-              print(f"成功解析出 {len(rules)} 条 anti-AD 规则。")
+              print(f"Parsed {len(rules)} anti-AD whitelist rules")
               return rules
 
           def apply_anti_ad_rules(domains, rules):
-              """
-              根据 anti-AD 规则进行过滤。
-              """
               if not rules:
                   return domains, 0
 
-              initial_count = len(domains)
-              
-              exact_whitelist = {d for d, v in rules.items() if v == 0}
-              root_whitelist = {d for d, v in rules.items() if v in [1, 2]}
-              
-              # 1. 精确匹配过滤
-              domains = domains - exact_whitelist
-              
-              # 2. 子域名匹配过滤
-              if root_whitelist:
-                  filtered_domains = set()
+              exact = {d for d, v in rules.items() if v == 0}
+              roots = {d for d, v in rules.items() if v in (1, 2)}
+
+              before = len(domains)
+              domains -= exact
+
+              if roots:
+                  filtered = set()
                   for d in domains:
-                      should_remove = False
-                      for root in root_whitelist:
-                          if d == root or d.endswith("." + root):
-                              should_remove = True
-                              break
-                      
-                      if not should_remove:
-                          filtered_domains.add(d)
-                  domains = filtered_domains
-                  
-              removed_count = initial_count - len(domains)
-              return domains, removed_count
+                      if any(d == r or d.endswith("." + r) for r in roots):
+                          continue
+                      filtered.add(d)
+                  domains = filtered
+
+              return domains, before - len(domains)
 
           def main():
-              # --- 1. anti-AD 主列表 ---
-              ad_text = download_text(AD_LIST_URL)
-              ad_domains = parse_lines(ad_text)
-              original_count = len(ad_domains)
-              print(f"原始 anti-AD 数量: {original_count}")
+              # 1. Anti-AD
+              ad_domains = parse_lines(download_text(AD_LIST_URL))
+              c1 = len(ad_domains)
+              print(f"Anti-AD loaded: {c1}")
 
-              # --- 2. [新增] 与 Hagezi Pro 取交集 ---
-              print("正在获取 Hagezi Pro 列表进行交集过滤...")
-              pro_text = download_text(HAGEZI_PRO_URL)
-              pro_domains = parse_lines(pro_text)
-              
-              count_before_intersect = len(ad_domains)
-              # Set intersection: 仅保留两者共有的域名
-              ad_domains = ad_domains.intersection(pro_domains)
-              removed_by_intersect = count_before_intersect - len(ad_domains)
-              print(f"交集过滤完成: 移除了 {removed_by_intersect} 个非公共条目，剩余 {len(ad_domains)}")
+              # 2. Intersection with Hagezi Pro
+              pro_domains = parse_lines(download_text(HAGEZI_PRO_URL))
+              ad_domains &= pro_domains
+              c2 = len(ad_domains)
+              print(f"After Pro intersection: {c2}")
 
-              # --- 3. 新增：从 Ultimate 提取特定主域名的子域名 ---
-              # (注意：因为第2步取了交集，这里如果提取的子域名不在Pro里，会被加回来，这是符合逻辑的)
+              # 3. Ultimate 定向补充
               added_from_ultimate = 0
               if os.path.exists(LOCAL_EXTRA_DOMAINS_FILE):
-                  with open(LOCAL_EXTRA_DOMAINS_FILE, "r", encoding="utf-8") as f:
-                      extra_main_domains = parse_lines(f.read())
-                  
-                  if extra_main_domains:
-                      print(f"正在从 Ultimate 列表提取 {len(extra_main_domains)} 个主域名的子域名...")
-                      ultimate_text = download_text(HAGEZI_ULTIMATE_URL)
-                      ultimate_domains = parse_lines(ultimate_text)
-                      
-                      extracted_subdomains = set()
-                      for d in ultimate_domains:
-                          if any(d == m or d.endswith("." + m) for m in extra_main_domains):
-                              extracted_subdomains.add(d)
-                      
-                      before_add = len(ad_domains)
-                      ad_domains.update(extracted_subdomains)
-                      added_from_ultimate = len(ad_domains) - before_add
-                      print(f"从 Ultimate 提取并新增了 {added_from_ultimate} 个条目")
+                  extra_roots = parse_lines(open(LOCAL_EXTRA_DOMAINS_FILE, encoding="utf-8").read())
+                  if extra_roots:
+                      ultimate = parse_lines(download_text(HAGEZI_ULTIMATE_URL))
+                      extracted = {
+                          d for d in ultimate
+                          if any(d == r or d.endswith("." + r) for r in extra_roots)
+                      }
+                      before = len(ad_domains)
+                      ad_domains |= extracted
+                      added_from_ultimate = len(ad_domains) - before
 
-              count_before_whitelist = len(ad_domains)
+              c3 = len(ad_domains)
 
-              # --- 4. 远程白名单 ---
-              remote_wl_domains = set()
+              # 4. Remote whitelist
+              remote_wl = set()
               for url in REMOTE_WHITELISTS:
-                  remote_wl_domains.update(parse_lines(download_text(url)))
+                  remote_wl |= parse_lines(download_text(url, critical=False))
+              ad_domains -= remote_wl
+              c4 = len(ad_domains)
 
-              ad_domains -= remote_wl_domains
-              removed_by_remote = count_before_whitelist - len(ad_domains)
-
-              # --- 5. 本地白名单 ---
-              user_rules = set()
+              # 5. Local whitelist
               if os.path.exists(LOCAL_WHITELIST_FILE):
-                  with open(LOCAL_WHITELIST_FILE, "r", encoding="utf-8") as f:
-                      user_rules = parse_lines(f.read())
+                  local_wl = parse_lines(open(LOCAL_WHITELIST_FILE, encoding="utf-8").read())
+                  if local_wl:
+                      ad_domains = {
+                          d for d in ad_domains
+                          if not any(d == r or d.endswith("." + r) for r in local_wl)
+                      }
 
-              removed_by_user = 0
-              if user_rules:
-                  count_before_local = len(ad_domains)
-                  filtered = []
-                  for domain in ad_domains:
-                      if any(domain == r or domain.endswith("." + r) for r in user_rules):
-                          continue
-                      filtered.append(domain)
-                  ad_domains = set(filtered)
-                  removed_by_user = count_before_local - len(ad_domains)
+              c5 = len(ad_domains)
 
-              # --- 6. Anti-AD 规则清洗 ---
-              anti_ad_rules = parse_php_rules(ANTI_AD_WL_PHP_URL)
-              ad_domains, removed_by_anti_ad_rules = apply_anti_ad_rules(ad_domains, anti_ad_rules)
-              print(f"Anti-AD 规则清洗移除了 {removed_by_anti_ad_rules} 个条目")
+              # 6. Anti-AD official rules
+              rules = parse_php_rules(ANTI_AD_WL_PHP_URL)
+              ad_domains, removed_by_rules = apply_anti_ad_rules(ad_domains, rules)
+              c6 = len(ad_domains)
 
-              # --- 7. GitHub Summary ---
-              final_count = len(ad_domains)
+              # 7. 🔥 Local blacklist (highest priority)
+              added_by_blacklist = 0
+              if os.path.exists(LOCAL_BLACKLIST_FILE):
+                  blacklist = parse_lines(open(LOCAL_BLACKLIST_FILE, encoding="utf-8").read())
+                  before = len(ad_domains)
+                  ad_domains |= blacklist
+                  added_by_blacklist = len(ad_domains) - before
+
+              c7 = len(ad_domains)
+
+              # Summary
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary:
                   with open(summary, "a", encoding="utf-8") as f:
-                      f.write("### 🛡️ 广告过滤统计报告 (Intersection Mode)\n")
-                      f.write("| 步骤 | 变动 | 结果数量 |\n")
-                      f.write("| :--- | :--- | :--- |\n")
-                      f.write(f"| 1. 📥 初始加载 (Anti-AD) | **{original_count}** | {original_count} |\n")
-                      f.write(f"| 2. ⚔️ 与 Hagezi Pro 取交集 | -{removed_by_intersect} | {len(ad_domains) - added_from_ultimate} |\n")
-                      f.write(f"| 3. ➕ Ultimate 补充 | +{added_from_ultimate} | {count_before_whitelist} |\n")
-                      f.write(f"| 4. 🌍 远程白名单 | -{removed_by_remote} | {count_before_whitelist - removed_by_remote} |\n")
-                      f.write(f"| 5. 👤 本地白名单 | -{removed_by_user} | {count_before_whitelist - removed_by_remote - removed_by_user} |\n")
-                      f.write(f"| 6. 🧹 Anti-AD 规则清洗 | -{removed_by_anti_ad_rules} | **{final_count}** |\n")
+                      f.write("### 🛡️ 广告过滤构建报告\n")
+                      f.write("| 步骤 | 数量 |\n")
+                      f.write("| :--- | ---: |\n")
+                      f.write(f"| Anti-AD 初始 | {c1} |\n")
+                      f.write(f"| ∩ Hagezi Pro | {c2} |\n")
+                      f.write(f"| + Ultimate 补充 | {c3} |\n")
+                      f.write(f"| - 远程白名单 | {c4} |\n")
+                      f.write(f"| - 本地白名单 | {c5} |\n")
+                      f.write(f"| - Anti-AD 规则 | {c6} |\n")
+                      f.write(f"| + 本地黑名单 | {c7} |\n")
 
-              # --- 8. 写入最终文件 ---
+              # Output
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                  for domain in sorted(ad_domains):
-                      f.write(domain + "\n")
+                  for d in sorted(ad_domains):
+                      f.write(d + "\n")
 
-              print(f"完成，输出至 {OUTPUT_FILE}")
+              print(f"Done. Final count: {c7}")
 
           if __name__ == "__main__":
               main()
@@ -240,6 +212,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add clean-list.txt
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "Update list: Intersection with Hagezi Pro" &&
+            git commit -m "Update adblock list" &&
             git push
           )
