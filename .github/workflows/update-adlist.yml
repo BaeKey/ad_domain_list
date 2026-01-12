@@ -35,8 +35,8 @@ jobs:
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
           
-          # [新增] Hagezi light 列表 (用于取交集)
-          HAGEZI_LIGHT_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
+          # [新增] Hagezi pro 列表 (用于取交集)
+          HAGEZI_PRO_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/pro.txt"
           
           # 远程白名单 (简单文本格式)
           REMOTE_WHITELISTS = [
@@ -145,7 +145,7 @@ jobs:
 
               # --- 2. [新增] 与 Hagezi Pro 取交集 ---
               print("正在获取 Hagezi Pro 列表进行交集过滤...")
-              pro_text = download_text(HAGEZI_LIGHT_URL)
+              pro_text = download_text(HAGEZI_PRO_URL)
               pro_domains = parse_lines(pro_text)
               
               count_before_intersect = len(ad_domains)
