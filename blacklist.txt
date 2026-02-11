@@ -1,2 +1,4 @@
 dns.weixin.qq.com
 dns.weixin.qq.com.cn
+huodong.caiyun.feixin.10086.cn
+jiguang.coc.10086.cn
