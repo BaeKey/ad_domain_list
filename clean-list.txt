@@ -14062,6 +14062,7 @@ data.em.officedepot.com
 data.em.viking.com
 data.emb-api.com
 data.embeddables.com
+data.emea.coca-cola.com
 data.engelhorn.de
 data.events.cbussuper.com.au
 data.events.pokerstars.dk
@@ -28496,10 +28497,12 @@ log.m.sm.cn
 log.mediacategory.com
 log.medietall.no
 log.mgtv.com
+log.minigame.qq.com
 log.mix.sina.com.cn
 log.mofa.go.kr
 log.moji.com
 log.music.baidu.com
+log.node.minigame.qq.com
 log.nordot.jp
 log.nuomi.com
 log.olark.com
@@ -55573,7 +55576,6 @@ wghoubdaxpsik.site
 wghvvdmdqgdzz.space
 wgkwfkdvltuqy.online
 wgmenxpvnxnbs.space
-wgnpq.com
 wgovzfxfccdpd.site
 wgs.wgs-static.com
 wgsaralfncvvb.online
@@ -58650,6 +58652,7 @@ z737.thestar.com
 z9dy1kq9wv.com
 za.qeeq.com
 za.zalo.me
+za5.net
 zaatpjzahehda.space
 zaaukprozdvsl.space
 zabanit.xyz
@@ -59188,7 +59191,6 @@ zoom.zshu.net
 zoomanalytics.co
 zoomcflhjpiou.site
 zoomino.com
-zoossoft.cn
 zoossoft.net
 zoovanuzauphoth.net
 zoowhausairoun.net
