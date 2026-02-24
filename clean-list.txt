@@ -95,7 +95,6 @@
 0e4a4c9e4e.com
 0e7mnbmbb.com
 0e9knynfb.com
-0emm.com
 0f857e584a.com
 0f8eec5673.com
 0fa6d5f434.com
@@ -177,6 +176,7 @@
 103092804.com
 103bees.com
 104i5bbzs.com
+106778d1a7.com
 1080872514.rsc.cdn77.org
 1090pjopm.de
 10desires.com
@@ -1621,6 +1621,7 @@
 94444717.xyz
 9453e87db8.com
 94782806.xyz
+947e33602e.com
 94ab.com
 94lm.com
 95558000.com
@@ -1786,6 +1787,7 @@ a.guzhilin.com
 a.hbf23.cn
 a.hcaptcha.com
 a.hellowork.com
+a.hrewards.com
 a.hymin.xyz
 a.jamni.xyz
 a.lifehacker.ru
@@ -2097,6 +2099,8 @@ ablelaunchshorts.com
 ablenctionalle.info
 abletitle.pro
 ablida.net
+ablink.comms.trainline.com
+ablinks.mail.hinge.co
 ablybeastssarcastic.com
 ablyft.com
 abmr.net
@@ -2349,7 +2353,6 @@ acscdn.com
 acstat.com
 act-on.ioactive.com
 act.colorlines.com
-act.qq.com
 actglimpse.com
 actiflex.org
 actingproductive.com
@@ -3427,6 +3430,7 @@ ads.youtube.com
 ads.zhinengxiyifang.cn
 ads1-adnow.com
 ads1-adqva.com
+ads1.lfengmobile.com
 ads2.contentabc.com
 ads2.hsoub.com
 ads2.opensubtitles.org
@@ -5894,7 +5898,6 @@ api.w.inmobi.com
 api.wipmania.com
 api.yfanads.com
 api.youngle.tech
-api.youtu.qq.com
 api0.tuisong.baidu.com
 api1.tuisong.baidu.com
 api168168.com
@@ -9100,7 +9103,6 @@ btprmnav.com
 btr.domywife.com
 btrace.play.aiseet.atianqi.com
 btrace.qq.com
-btrace.video.qq.com
 btrace.ysp.cctv.cn
 btrem.site
 btrll.com
@@ -16366,6 +16368,7 @@ dyn.varsity.co.uk
 dynad.net
 dynamic.aol.com
 dynamic.ziftsolutions.com
+dynamic.zol.com.cn
 dynamicapl.com
 dynamitedata.com
 dynatrace.att.com
@@ -23623,7 +23626,6 @@ httpdns.pro
 httpdns.push.oppomobile.com
 httpkafka.unityads.unity3d.com
 httpool.com
-httpring.qq.com
 htufkxrviozxm.space
 htvwdruzmaqlb.site
 hua4207.xyz
@@ -24758,6 +24760,7 @@ influads.com
 info.3g.qq.com
 info.calnexsol.com
 info.osufoundation.org
+info.wps.cn
 info1.thermoscientific.com
 info3.thermofisher.com
 info4.video.qq.com
@@ -27827,7 +27830,6 @@ lcnmoccchdoij.vip
 lcpavtrwvavnq.website
 lcportal.kbinsure.co.kr
 lcs.naver.com
-lcsdk.3g.qq.com
 lcuaerlknisgy.space
 lcugzodfdo.com
 lcumxhquenoqh.online
@@ -29608,6 +29610,7 @@ mailboxboynutrition.com
 mailcoupletime.net
 mailesmelanoi.shop
 mailestaucou.net
+maillist-manage.com
 mailstat.us
 main.exdynsrv.com
 main.exoclick.com
@@ -30032,7 +30035,6 @@ mdcetkhmfktrmwm.com
 mddbdmylgchjx.space
 mddsp.info
 mdeifbcnejbjr.online
-mdevstat.qqlive.qq.com
 mdfbzgwhrfffg.site
 mdfsbn.com
 mdfull.com
@@ -31982,6 +31984,7 @@ monitor.fraudblocker.com
 monitor.kg.qq.com
 monitor.l.qq.com
 monitor.music.qq.com
+monitor.qq.com
 monitor.uu.qq.com
 monitoring.iraiser.eu
 monitoringservice.co
@@ -32329,6 +32332,7 @@ mssdk.zijieapi.com
 msslwa.icu
 mssuzyhqlqjwj.site
 mstat.mos.ru
+mstat.zol.com.cn
 mstm.motorsport.com
 mstmsbz.com
 mstrlytcs.com
@@ -33203,7 +33207,6 @@ news-xvuwabi.live
 news-xzomigu.cc
 news.jennydanny.com
 news.jiukang.org
-news.l.qq.com
 news.libn.com
 news.mecktimes.com
 news.mpush.qq.com
@@ -39243,7 +39246,6 @@ qliwncicprtay.site
 qljytcmigkfxc.website
 qlkysc.icu
 qloekmmsuwjlq.website
-qlogo1.store.qq.com
 qlpwodpqwzqcc.website
 qlspgxhlng.com
 qlwttuys.xyz
@@ -39374,7 +39376,6 @@ qrcvbzqlsbshx.space
 qreport.qunar.com
 qrevdusqviats.space
 qrfdaxoxjwgyu.space
-qring-tms.qq.com
 qrlsx.com
 qrmhvvmsakwbo.website
 qrqofbbkajwci.site
@@ -42353,7 +42354,6 @@ scavelbuntine.life
 scb4tpwq40.com
 sccotxcyhkpsm.site
 scdn.literatur-couch.de
-scdown.qq.com
 scenarycareme.com
 scenedaybreakpatronize.com
 scenicapparel.com
@@ -42560,7 +42560,6 @@ sdkm.w.inmobi.com
 sdkoptedge.chinanetcenter.com
 sdkquic.e.qq.com
 sdkreport.e.qq.com
-sdksp.video.qq.com
 sdktmp.hubcloud.com.cn
 sdmfyqkghzedvx.com
 sdnc.top
@@ -43948,7 +43947,6 @@ smart-business-365.com
 smart-business-foresight.com
 smart-cloud-intelligence.com
 smart-company-365.com
-smart-company365.com
 smart-counter.net
 smart-data-systems.com
 smart-digital-solutions.com
@@ -53063,7 +53061,6 @@ uoarghkmwxcvj.website
 uoceijctt.net
 uocxajpuhrfyi.website
 uod2quk646.com
-uodoo.com
 uoenkcbxwumqh.xyz
 uoew.cn
 uofddaueodbeq.space
@@ -53107,7 +53104,6 @@ updaight.com
 update.aegis.aliyun.com
 update.lejiao.tv
 update0.aiclk.com
-updatecenter.qq.com
 updaterack.com
 updates.conexpoconagg.com
 updates.gaylordhotels.com
@@ -59980,7 +59976,6 @@ zx.docin.com
 zxbehrtmvceoi.site
 zxcdn.com
 zxcjijwocylga.online
-zxcv.3g.qq.com
 zxdnsx7si.com
 zxenwgfnhknxs.click
 zxfqtqmtlldld.world
