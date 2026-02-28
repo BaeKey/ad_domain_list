@@ -37,7 +37,7 @@ jobs:
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
 
-          HAGEZI_PRO_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/pro.txt"
+          HAGEZI_LIGHT_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
           HAGEZI_ULTIMATE_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
 
           REMOTE_WHITELISTS = [
@@ -126,7 +126,7 @@ jobs:
               print(f"Anti-AD loaded: {c1}")
 
               # 2. Intersection with Hagezi Pro
-              pro_domains = parse_lines(download_text(HAGEZI_PRO_URL))
+              pro_domains = parse_lines(download_text(HAGEZI_LIGHT_URL))
               ad_domains &= pro_domains
               c2 = len(ad_domains)
               print(f"After Pro intersection: {c2}")
