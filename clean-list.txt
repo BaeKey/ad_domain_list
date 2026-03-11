@@ -578,7 +578,6 @@ ad.xiaomi.com
 ad.xxam.org
 ad.yieldlab.net
 ad.ymcdn.org
-ad.zijieapi.com
 ad01.tmgrup.com.tr
 ad2bitcoin.com
 ad2f8c6f8e.com
@@ -1015,17 +1014,9 @@ ads1-adqva.com
 ads2.contentabc.com
 ads2550.bid
 ads3-adnow.com
-ads3-normal-hl.zijieapi.com
-ads3-normal-lf.zijieapi.com
-ads3-normal-lq.zijieapi.com
-ads3-normal.zijieapi.com
 ads4g.pl
 ads4trk.com
 ads5-adnow.com
-ads5-normal-hl.zijieapi.com
-ads5-normal-lf.zijieapi.com
-ads5-normal-lq.zijieapi.com
-ads5-normal.zijieapi.com
 ads6-adnow.com
 ads7-adnow.com
 adsafeprotected.com
@@ -2068,7 +2059,6 @@ applog.lc.quark.cn
 applog.reader.qq.com
 applog.uc.cn
 applog.ucdns.uc.cn
-applog.zijieapi.com
 applogios.uc.cn
 applovin.com
 applvn.com
@@ -3866,6 +3856,7 @@ cobwebcomprehension.com
 cockysnailleather.com
 cocoonelectronicsconfined.com
 code.hot-mob.com
+code.randomhouse.com
 codefund.io
 coderformylife.info
 codwormtallied.com
@@ -6860,6 +6851,7 @@ gridsumdissector.com
 grievedvicerecord.com
 grillwry.com
 grimlycask.com
+grimy-awareness.pro
 gripping-bread.com
 grippingdelay.com
 gripspigyard.com
@@ -7637,6 +7629,7 @@ inclk.com
 incloak.com
 includemodal.com
 incomparable-pair.com
+incompatible-fill.pro
 incompetencesorting.com
 inconceivableimperial.com
 inconclusiveaction.com
@@ -8825,7 +8818,6 @@ log.webnovel.com
 log.weixin.qq.com
 log.worldsoft-cms.info
 log.wtlogin.qq.com
-log.zijieapi.com
 log000.goo.ne.jp
 log1.wtlogin.qq.com
 log2.musical.ly
@@ -9256,7 +9248,6 @@ mcs.snssdk.com
 mcs.tiktokv.us
 mcs.tiktokw.us
 mcs.us.tiktokv.com
-mcs.zijieapi.com
 mczbf.com
 mdc.meitustat.com
 mddsp.info
@@ -9663,7 +9654,6 @@ momentsjuergen.com
 momijoy.ru
 mon.snssdk.com
 mon.us.tiktokv.com
-mon.zijieapi.com
 monacobeatles.com
 monadplug.com
 mondayrecalled.com
@@ -9810,7 +9800,6 @@ mshago.com
 msite.baidu.com
 msnfcixxunwrh.site
 mssdk.volces.com
-mssdk.zijieapi.com
 mstat.mos.ru
 mstm.motorsport.com
 mstmsbz.com
@@ -11999,6 +11988,7 @@ radexports.com
 radiantcanopy.com
 radiateprose.com
 radiosfax.com
+radiusix.net
 radiusmarketing.com
 raewqamkmzbej.fun
 raf.postnl.be
@@ -14557,6 +14547,7 @@ subseacare.com
 subseasecurity.com
 substituteyonder.com
 suburbcriticizefragment.com
+subwayeachaccompaniment.com
 success.act-on.com
 successbuffet.com
 successesservicetrips.com
@@ -15267,16 +15258,11 @@ tms.hft.factor75.com
 tms.hft.greenchef.com
 tms.hft.hellofresh.com
 tnative.ru
-tnc0-aliec2.zijieapi.com
-tnc0-alisc1.zijieapi.com
 tnc3-aliec2.bytedance.com
 tnc3-aliec2.snssdk.com
-tnc3-aliec2.zijieapi.com
 tnc3-alisc1.bytedance.com
-tnc3-alisc1.zijieapi.com
 tnc3-bjlgy.bytedance.com
 tnc3-bjlgy.snssdk.com
-tnc3-bjlgy.zijieapi.com
 tncid.app
 tneca.com
 tnoxsetvyobzu.space
@@ -15355,6 +15341,7 @@ totalresponsibilityeconomics.com
 totemcash.com
 totesnobis.com
 touch.myntra.com
+touchstronglymuseum.com
 toughbirth.pro
 toupeeshatting.shop
 tourism.visitorlando.com
@@ -15692,6 +15679,7 @@ transportationthou.com
 trashdisguisedextension.com
 trasre.com
 trasupr.com
+travellingcrushslit.com
 travelsplayboy.com
 traxex.gannettdigital.com
 trc.taboola.com
@@ -16188,6 +16176,7 @@ urlgone.com
 urlhausa.com
 us-go.experian.com
 us.l.qq.com
+us.ricoh-usa.com
 usabilitybook.com
 usabilitytools.com
 usage.centsdonations.com
@@ -16395,6 +16384,7 @@ vak345.com
 val.atm.youku.com
 valemedia.net
 vali-g1.cp31.ott.cibntv.net
+valid-mirror.pro
 validate.onecount.net
 validclick.com
 validcombine.com
@@ -17438,6 +17428,7 @@ ydwrubaluqe.com
 yektanet.com
 yellowblue.io
 yellowbrix.com
+yellowishbitter.pro
 yellowjm.com
 yellowprotection.com
 yelzrlnjpdhoz.online
