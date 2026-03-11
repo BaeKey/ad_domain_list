@@ -31,24 +31,14 @@ jobs:
           python - <<'EOF'
           import requests
           import os
-          import re
           import sys
 
           # ================= 配置区域 =================
           AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
-
           HAGEZI_LIGHT_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
-          HAGEZI_ULTIMATE_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt"
-
-          REMOTE_WHITELISTS = [
-              "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt"
-          ]
-
-          ANTI_AD_WL_PHP_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/adlist-maker/scripts/lib/white_domain_list.php"
 
           LOCAL_WHITELIST_FILE = "whitelist.txt"
           LOCAL_BLACKLIST_FILE = "blacklist.txt"
-          LOCAL_EXTRA_DOMAINS_FILE = "extra_domains.txt"
 
           OUTPUT_FILE = "clean-list.txt"
           # ===========================================
@@ -80,81 +70,19 @@ jobs:
                   s.add(line)
               return s
 
-          def parse_php_rules(url):
-              text = download_text(url, critical=False)
-              if not text:
-                  return {}
-
-              rules = {}
-              pattern = re.compile(r"[\"']([\w\.-]+)[\"']\s*=>\s*(-?\d+)")
-
-              for line in text.splitlines():
-                  line = line.split("//")[0].strip()
-                  if not line:
-                      continue
-                  m = pattern.search(line)
-                  if m:
-                      rules[m.group(1)] = int(m.group(2))
-
-              print(f"Parsed {len(rules)} anti-AD whitelist rules")
-              return rules
-
-          def apply_anti_ad_rules(domains, rules):
-              if not rules:
-                  return domains, 0
-
-              exact = {d for d, v in rules.items() if v == 0}
-              roots = {d for d, v in rules.items() if v in (1, 2)}
-
-              before = len(domains)
-              domains -= exact
-
-              if roots:
-                  filtered = set()
-                  for d in domains:
-                      if any(d == r or d.endswith("." + r) for r in roots):
-                          continue
-                      filtered.add(d)
-                  domains = filtered
-
-              return domains, before - len(domains)
-
           def main():
               # 1. Anti-AD
               ad_domains = parse_lines(download_text(AD_LIST_URL))
               c1 = len(ad_domains)
               print(f"Anti-AD loaded: {c1}")
 
-              # 2. Intersection with Hagezi Pro
-              pro_domains = parse_lines(download_text(HAGEZI_LIGHT_URL))
-              ad_domains &= pro_domains
+              # 2. Intersection with Hagezi Light
+              light_domains = parse_lines(download_text(HAGEZI_LIGHT_URL))
+              ad_domains &= light_domains
               c2 = len(ad_domains)
-              print(f"After Pro intersection: {c2}")
+              print(f"After Light intersection: {c2}")
 
-              # 3. Ultimate 定向补充
-              added_from_ultimate = 0
-              if os.path.exists(LOCAL_EXTRA_DOMAINS_FILE):
-                  extra_roots = parse_lines(open(LOCAL_EXTRA_DOMAINS_FILE, encoding="utf-8").read())
-                  if extra_roots:
-                      ultimate = parse_lines(download_text(HAGEZI_ULTIMATE_URL))
-                      extracted = {
-                          d for d in ultimate
-                          if any(d == r or d.endswith("." + r) for r in extra_roots)
-                      }
-                      before = len(ad_domains)
-                      ad_domains |= extracted
-                      added_from_ultimate = len(ad_domains) - before
-
-              c3 = len(ad_domains)
-
-              # 4. Remote whitelist
-              remote_wl = set()
-              for url in REMOTE_WHITELISTS:
-                  remote_wl |= parse_lines(download_text(url, critical=False))
-              ad_domains -= remote_wl
-              c4 = len(ad_domains)
-
-              # 5. Local whitelist
+              # 3. Local whitelist (Domain and its subdomains)
               if os.path.exists(LOCAL_WHITELIST_FILE):
                   local_wl = parse_lines(open(LOCAL_WHITELIST_FILE, encoding="utf-8").read())
                   if local_wl:
@@ -162,23 +90,15 @@ jobs:
                           d for d in ad_domains
                           if not any(d == r or d.endswith("." + r) for r in local_wl)
                       }
+              c3 = len(ad_domains)
+              print(f"After Local Whitelist: {c3}")
 
-              c5 = len(ad_domains)
-
-              # 6. Anti-AD official rules
-              rules = parse_php_rules(ANTI_AD_WL_PHP_URL)
-              ad_domains, removed_by_rules = apply_anti_ad_rules(ad_domains, rules)
-              c6 = len(ad_domains)
-
-              # 7. 🔥 Local blacklist (highest priority)
-              added_by_blacklist = 0
+              # 4. 🔥 Local blacklist (highest priority)
               if os.path.exists(LOCAL_BLACKLIST_FILE):
                   blacklist = parse_lines(open(LOCAL_BLACKLIST_FILE, encoding="utf-8").read())
-                  before = len(ad_domains)
                   ad_domains |= blacklist
-                  added_by_blacklist = len(ad_domains) - before
-
-              c7 = len(ad_domains)
+              c4 = len(ad_domains)
+              print(f"After Local Blacklist: {c4}")
 
               # Summary
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
@@ -188,19 +108,16 @@ jobs:
                       f.write("| 步骤 | 数量 |\n")
                       f.write("| :--- | ---: |\n")
                       f.write(f"| Anti-AD 初始 | {c1} |\n")
-                      f.write(f"| ∩ Hagezi Pro | {c2} |\n")
-                      f.write(f"| + Ultimate 补充 | {c3} |\n")
-                      f.write(f"| - 远程白名单 | {c4} |\n")
-                      f.write(f"| - 本地白名单 | {c5} |\n")
-                      f.write(f"| - Anti-AD 规则 | {c6} |\n")
-                      f.write(f"| + 本地黑名单 | {c7} |\n")
+                      f.write(f"| ∩ Hagezi Light | {c2} |\n")
+                      f.write(f"| - 本地白名单 | {c3} |\n")
+                      f.write(f"| + 本地黑名单 | {c4} |\n")
 
               # Output
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   for d in sorted(ad_domains):
                       f.write(d + "\n")
 
-              print(f"Done. Final count: {c7}")
+              print(f"Done. Final count: {c4}")
 
           if __name__ == "__main__":
               main()
