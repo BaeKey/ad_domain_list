@@ -1,2 +1,2 @@
 sensors.cloud.tencent.com
-zijieapi.com
+#zijieapi.com
