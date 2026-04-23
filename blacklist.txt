@@ -5,3 +5,4 @@ ccdace.hupu.com
 hd.hupu.com
 e-ad-monitor.huya.com
 e-stat.huya.com
+pangolin.snssdk.com
