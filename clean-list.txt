@@ -4014,6 +4014,7 @@ collect.helsana.ch
 collect.hollisterco.com
 collect.klove.com
 collect.kugou.com
+collect.ptengine.cn
 collect.reagroupdata.com.au
 collect.rebelmouse.io
 collect.rewardstyle.com
@@ -7768,6 +7769,7 @@ iid-network.jp
 iigmlx.com
 iilupdcuq.com
 iionads.com
+iis1.deliver.ifeng.com
 iivt.com
 iiwbooqgxbkig.site
 iiwtetyjho.com
@@ -12067,6 +12069,7 @@ public.profitwell.com
 publicsofa.com
 publift.com
 publir.com
+publish-pic-cpu.baidu.com
 publisher-config.unityads.unity3d.com
 pubmatic.com
 pubmine.com
