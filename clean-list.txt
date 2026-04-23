@@ -1306,6 +1306,7 @@ adx.ads.oppomobile.com
 adx.adwangmai.com
 adx.com.ru
 adx.g.doubleclick.net
+adx.hupu.com
 adx.maplehaze.cn
 adx.opera.com
 adx.sogaha.cn
@@ -3488,6 +3489,7 @@ cbro.win
 cbso.uk.net
 cbtrk.net
 cbzxy.com
+cc.dace.hupu.com
 cc.pennstatehealth.org
 cc.swiftype.com
 cc33b86bbf.com
@@ -3495,6 +3497,7 @@ ccaas.avaya.com
 ccbvr.com
 ccc-x.jd.com
 ccc.sys.miui.com
+ccdace.hupu.com
 ccgateway.net
 ccmiocw.com
 ccoyaballots.com
@@ -7240,6 +7243,7 @@ hcsbbnilecce.com
 hctgwbignhfoz.website
 hcvyivimlp.com
 hd.browser.miui.com
+hd.hupu.com
 hd.pe.fr
 hd2.3g.qq.com
 hdbcome.com
@@ -13640,6 +13644,7 @@ shechourguloulr.net
 shedmanpetful.com
 sheecmimty.net
 shegaisoultou.net
+shence.hupu.com
 shengfleming.com
 shenshiads.com
 shephazigry.com
