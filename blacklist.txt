@@ -3,3 +3,5 @@ adx.hupu.com
 cc.dace.hupu.com
 ccdace.hupu.com
 hd.hupu.com
+e-ad-monitor.huya.com
+e-stat.huya.com
