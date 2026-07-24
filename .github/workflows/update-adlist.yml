@@ -26,16 +26,27 @@ jobs:
         run: |
           pip install requests
 
-      - name: Process Domain Lists
+      - name: Process Domain Lists (Multi-Source Voting)
         run: |
-          python - <<'EOF'
+          python - <<'PYEOF'
           import requests
           import os
           import sys
+          from collections import defaultdict
 
           # ================= 配置区域 =================
-          AD_LIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
-          HAGEZI_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt"
+          SOURCES = {
+              "anti-ad":   "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt",
+              "hagezi":    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt",
+              "1hosts":    "https://raw.githubusercontent.com/badmojr/1Hosts/refs/heads/master/Lite/domains.txt",
+              "oisd":      "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_small.txt",
+          }
+
+          # OISD 的语义：example.com 表示拦截 example.com 及其所有子域名
+          # 这个集合记录了哪些源需要做"父域名匹配"
+          PARENT_MATCH_SOURCES = {"oisd"}
+
+          VOTE_THRESHOLD = 2          # ≥ 2 票拦截（安全共识）
 
           LOCAL_WHITELIST_FILE = "whitelist.txt"
           LOCAL_BLACKLIST_FILE = "blacklist.txt"
@@ -49,17 +60,18 @@ jobs:
 
           def download_text(url, critical=True):
               try:
-                  print(f"Downloading: {url}")
+                  print(f"  Downloading: {url}")
                   r = requests.get(url, timeout=30, headers=HEADERS)
                   r.raise_for_status()
                   return r.text
               except Exception as e:
-                  print(f"Error downloading {url}: {e}")
+                  print(f"  ⚠ Error downloading {url}: {e}")
                   if critical:
                       sys.exit(1)
                   return ""
 
           def parse_lines(text):
+              """解析纯文本：每行一个域名，# 开头为注释"""
               s = set()
               if not text:
                   return s
@@ -70,58 +82,100 @@ jobs:
                   s.add(line)
               return s
 
+          def parent_domains(domain):
+              """生成 domain 的所有父级域名（从短到长），用于 OISD 匹配"""
+              parts = domain.split(".")
+              for i in range(1, len(parts)):
+                  yield ".".join(parts[i:])
+
+          def count_votes(domain, source_sets, parent_match_sources):
+              """计算一个域名获得多少源的投票"""
+              votes = 0
+              for name, sset in source_sets:
+                  if domain in sset:
+                      votes += 1
+                      continue
+                  # 对于 OISD 等声明了"子域名通配"的源，检查父域名
+                  if name in parent_match_sources:
+                      for parent in parent_domains(domain):
+                          if parent in sset:
+                              votes += 1
+                              break
+              return votes
+
           def main():
-              # 1. Anti-AD
-              ad_domains = parse_lines(download_text(AD_LIST_URL))
-              c1 = len(ad_domains)
-              print(f"Anti-AD loaded: {c1}")
+              # ---------- 1. 下载所有源 ----------
+              source_sets = []
+              stats = {}
+              for name, url in SOURCES.items():
+                  print(f"\n[{name}]")
+                  text = download_text(url)
+                  s = parse_lines(text)
+                  source_sets.append((name, s))
+                  stats[name] = len(s)
+                  print(f"  → {len(s)} domains")
 
-              # 2. Intersection with Hagezi Light
-              light_domains = parse_lines(download_text(HAGEZI_URL))
-              ad_domains &= light_domains
-              c2 = len(ad_domains)
-              print(f"After Light intersection: {c2}")
+              # ---------- 2. 投票筛选 ----------
+              # 先求所有域的并集
+              print("\n=== Voting ===")
+              all_domains = set()
+              for _, s in source_sets:
+                  all_domains |= s
+              print(f"Union of all sources: {len(all_domains)}")
 
-              # 3. Local whitelist (Domain and its subdomains)
+              selected = set()
+              for d in all_domains:
+                  v = count_votes(d, source_sets, PARENT_MATCH_SOURCES)
+                  if v >= VOTE_THRESHOLD:
+                      selected.add(d)
+
+              c_vote = len(selected)
+              print(f"After voting (≥{VOTE_THRESHOLD} votes): {c_vote}")
+
+              # ---------- 3. 本地白名单 ----------
               if os.path.exists(LOCAL_WHITELIST_FILE):
                   local_wl = parse_lines(open(LOCAL_WHITELIST_FILE, encoding="utf-8").read())
                   if local_wl:
-                      ad_domains = {
-                          d for d in ad_domains
+                      selected = {
+                          d for d in selected
                           if not any(d == r or d.endswith("." + r) for r in local_wl)
                       }
-              c3 = len(ad_domains)
-              print(f"After Local Whitelist: {c3}")
+              c_wl = len(selected)
+              print(f"After Local Whitelist: {c_wl}")
 
-              # 4. 🔥 Local blacklist (highest priority)
+              # ---------- 4. 本地黑名单（最高优先级） ----------
               if os.path.exists(LOCAL_BLACKLIST_FILE):
                   blacklist = parse_lines(open(LOCAL_BLACKLIST_FILE, encoding="utf-8").read())
-                  ad_domains |= blacklist
-              c4 = len(ad_domains)
-              print(f"After Local Blacklist: {c4}")
+                  selected |= blacklist
+              c_final = len(selected)
+              print(f"After Local Blacklist: {c_final}")
 
-              # Summary
+              # ---------- 5. 输出 ----------
+              with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                  for d in sorted(selected):
+                      f.write(d + "\n")
+              print(f"\n✅ Done. Written to {OUTPUT_FILE}: {c_final} domains")
+
+              # ---------- 6. GitHub Step Summary ----------
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary:
                   with open(summary, "a", encoding="utf-8") as f:
-                      f.write("### 🛡️ 广告过滤构建报告\n")
+                      f.write("### 🛡️ 广告过滤构建报告\n\n")
+                      f.write("| 源 | 数量 |\n")
+                      f.write("| :--- | ---: |\n")
+                      for name in SOURCES:
+                          f.write(f"| {name} | {stats[name]:,} |\n")
+                      f.write("\n")
                       f.write("| 步骤 | 数量 |\n")
                       f.write("| :--- | ---: |\n")
-                      f.write(f"| Anti-AD 初始 | {c1} |\n")
-                      f.write(f"| ∩ Hagezi Light | {c2} |\n")
-                      f.write(f"| - 本地白名单 | {c3} |\n")
-                      f.write(f"| + 本地黑名单 | {c4} |\n")
-
-              # Output
-              with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                  for d in sorted(ad_domains):
-                      f.write(d + "\n")
-
-              print(f"Done. Final count: {c4}")
+                      f.write(f"| 并集（∪） | {len(all_domains):,} |\n")
+                      f.write(f"| 投票 ≥{VOTE_THRESHOLD} | {c_vote:,} |\n")
+                      f.write(f"| - 白名单 | {c_wl:,} |\n")
+                      f.write(f"| + 黑名单 | {c_final:,} |\n")
 
           if __name__ == "__main__":
               main()
-          EOF
+          PYEOF
 
       - name: Commit and push changes
         run: |
