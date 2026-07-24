@@ -43,13 +43,14 @@ jobs:
           }
 
           # OISD 的语义：example.com 表示拦截 example.com 及其所有子域名
-          # 这个集合记录了哪些源需要做"父域名匹配"
           PARENT_MATCH_SOURCES = {"oisd"}
 
-          VOTE_THRESHOLD = 3          # ≥ 3 票拦截（安全共识）
+          VOTE_THRESHOLD = 3          # ≥ 3 票拦截（严格共识）
 
           LOCAL_WHITELIST_FILE = "whitelist.txt"
           LOCAL_BLACKLIST_FILE = "blacklist.txt"
+
+          EXTERNAL_WHITELIST_URL = "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt"
 
           OUTPUT_FILE = "clean-list.txt"
           # ===========================================
@@ -106,17 +107,16 @@ jobs:
           def main():
               # ---------- 1. 下载所有源 ----------
               source_sets = []
-              stats = {}
+              source_stats = {}
               for name, url in SOURCES.items():
                   print(f"\n[{name}]")
                   text = download_text(url)
                   s = parse_lines(text)
                   source_sets.append((name, s))
-                  stats[name] = len(s)
+                  source_stats[name] = len(s)
                   print(f"  → {len(s)} domains")
 
               # ---------- 2. 投票筛选 ----------
-              # 先求所有域的并集
               print("\n=== Voting ===")
               all_domains = set()
               for _, s in source_sets:
@@ -132,7 +132,36 @@ jobs:
               c_vote = len(selected)
               print(f"After voting (≥{VOTE_THRESHOLD} votes): {c_vote}")
 
-              # ---------- 3. 本地白名单 ----------
+              # ---- 各源在最终结果中的贡献统计 ----
+              contributed = {}
+              for name, sset in source_sets:
+                  contributed[name] = len(selected & sset)
+                  # OISD 额外：被父域名匹配带进来的（不在精确集合中，但子域名被投票通过）
+                  if name in PARENT_MATCH_SOURCES:
+                      oisd_parent_matched = selected - sset
+                      # 这些域名不在 OISD 精确集合，但因其父域名在 OISD 中而被投票通过
+                      parent_contributed = 0
+                      for d in oisd_parent_matched:
+                          for parent in parent_domains(d):
+                              if parent in sset:
+                                  parent_contributed += 1
+                                  break
+                      contributed[name + "_via_parent"] = parent_contributed
+
+              # ---------- 3. 外部白名单（最优先移除） ----------
+              ext_wl = parse_lines(download_text(EXTERNAL_WHITELIST_URL, critical=False))
+              if ext_wl:
+                  before = len(selected)
+                  selected = {
+                      d for d in selected
+                      if not any(d == r or d.endswith("." + r) for r in ext_wl)
+                  }
+                  print(f"After External Whitelist: {len(selected)} (removed {before - len(selected)})")
+              else:
+                  print("External Whitelist: skipped (empty or failed download)")
+              c_extwl = len(selected)
+
+              # ---------- 4. 本地白名单 ----------
               if os.path.exists(LOCAL_WHITELIST_FILE):
                   local_wl = parse_lines(open(LOCAL_WHITELIST_FILE, encoding="utf-8").read())
                   if local_wl:
@@ -143,35 +172,55 @@ jobs:
               c_wl = len(selected)
               print(f"After Local Whitelist: {c_wl}")
 
-              # ---------- 4. 本地黑名单（最高优先级） ----------
+              # ---------- 5. 本地黑名单（最高优先级） ----------
               if os.path.exists(LOCAL_BLACKLIST_FILE):
                   blacklist = parse_lines(open(LOCAL_BLACKLIST_FILE, encoding="utf-8").read())
                   selected |= blacklist
               c_final = len(selected)
               print(f"After Local Blacklist: {c_final}")
 
-              # ---------- 5. 输出 ----------
+              # ---------- 6. 输出 ----------
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   for d in sorted(selected):
                       f.write(d + "\n")
               print(f"\n✅ Done. Written to {OUTPUT_FILE}: {c_final} domains")
 
-              # ---------- 6. GitHub Step Summary ----------
+              # ---------- 7. GitHub Step Summary ----------
               summary = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary:
                   with open(summary, "a", encoding="utf-8") as f:
                       f.write("### 🛡️ 广告过滤构建报告\n\n")
-                      f.write("| 源 | 数量 |\n")
+
+                      f.write("#### 📥 源数据量\n\n")
+                      f.write("| 源 | 原始数量 |\n")
                       f.write("| :--- | ---: |\n")
                       for name in SOURCES:
-                          f.write(f"| {name} | {stats[name]:,} |\n")
+                          f.write(f"| {name} | {source_stats[name]:,} |\n")
                       f.write("\n")
+
+                      f.write("#### 🗳️ 投票结果（≥3 票）\n\n")
+                      f.write("| 源 | 进入最终结果 | 贡献率 |\n")
+                      f.write("| :--- | ---: | ---: |\n")
+                      for name in SOURCES:
+                          cnt = contributed.get(name, 0)
+                          pct = f"{cnt / source_stats[name] * 100:.1f}%" if source_stats[name] else "-"
+                          label = name
+                          if name in PARENT_MATCH_SOURCES:
+                              via = contributed.get(name + "_via_parent", 0)
+                              label = name
+                              f.write(f"| {label} | {cnt:,} (+{via:,} via parent) | {pct} |\n")
+                          else:
+                              f.write(f"| {label} | {cnt:,} | {pct} |\n")
+                      f.write("\n")
+
+                      f.write("#### 📊 处理流水线\n\n")
                       f.write("| 步骤 | 数量 |\n")
                       f.write("| :--- | ---: |\n")
                       f.write(f"| 并集（∪） | {len(all_domains):,} |\n")
                       f.write(f"| 投票 ≥{VOTE_THRESHOLD} | {c_vote:,} |\n")
-                      f.write(f"| - 白名单 | {c_wl:,} |\n")
-                      f.write(f"| + 黑名单 | {c_final:,} |\n")
+                      f.write(f"| - 外部白名单 | {c_extwl:,} |\n")
+                      f.write(f"| - 本地白名单 | {c_wl:,} |\n")
+                      f.write(f"| + 本地黑名单 | {c_final:,} |\n")
 
           if __name__ == "__main__":
               main()
