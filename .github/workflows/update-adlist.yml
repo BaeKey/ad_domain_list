@@ -37,9 +37,8 @@ jobs:
           # ================= 配置区域 =================
           SOURCES = {
               "anti-ad":   "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt",
-              "hagezi":    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt",
+              "hagezi":    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/multi-onlydomains.txt",
               "1hosts":    "https://raw.githubusercontent.com/badmojr/1Hosts/refs/heads/master/Lite/domains.txt",
-              "oisd":      "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_small.txt",
           }
 
           # OISD 的语义：example.com 表示拦截 example.com 及其所有子域名
