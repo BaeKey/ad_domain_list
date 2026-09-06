@@ -1437,6 +1437,7 @@ adport.io
 adpredictive.com
 adpresenter.de
 adprime.com
+adproxy.autohome.com.cn
 adpushup.com
 adquake.com
 adquery.io
@@ -3475,17 +3476,12 @@ axorawebnet.com
 axoxktmvnhtav.site
 axp.abc27.com
 axp.abc4.com
-axp.fox2now.com
-axp.fox4kc.com
-axp.fox59.com
 axp.fox5sandiego.com
 axp.fox8.com
 axp.keloland.com
 axp.kfor.com
 axp.kron4.com
 axp.ktla.com
-axp.kxan.com
-axp.myfox8.com
 axp.nbc4i.com
 axp.newsnationnow.com
 axp.thehill.com
@@ -3494,7 +3490,6 @@ axp.wavy.com
 axp.wfla.com
 axp.wgntv.com
 axp.who13.com
-axp.wivb.com
 axp.wjtv.com
 axp.wkbn.com
 axp.wkrn.com
@@ -8360,7 +8355,6 @@ data.abc.es
 data.allstate.com
 data.chsmarttv.com
 data.digitalks.az
-data.dow.com
 data.e.adobe.com
 data.econa.com
 data.eetech.com
@@ -10636,7 +10630,6 @@ elpbbuqu.com
 elpsirftovofi.space
 elq.blackrock.com
 elq.keysight.com
-elq.macu.com
 elqact.gartner.com
 elqtracking.capella.edu
 elqtracking.hitachienergy.com
@@ -12624,6 +12617,7 @@ frztpfjmnuexn.space
 frztrk.netmums.com
 fs-client-logger.herokuapp.com
 fs-loader.com
+fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com
 fsaaianvapxeh.site
 fsalfrwdr.com
 fsavmklplmddsu.com
@@ -13673,7 +13667,6 @@ gqbccmfmrilkt.site
 gqbkxohbonzxt.online
 gqbpkzehdkjur.site
 gqbzbszzbqsdi.online
-gqfsjyhaoqzxs.website
 gqhufphizxbjc.site
 gqiqpebzsgcrc.website
 gqkrkcicjfzwi.website
@@ -14041,7 +14034,6 @@ gykpevjdkqyys.online
 gylavpnvbaacd.online
 gyoeklehxwiuu.space
 gyoqtcogunavk.site
-gyorqvghimijp.website
 gyospsqu.com
 gypjdmigbouth.website
 gypsyairplanereign.com
@@ -14073,7 +14065,6 @@ gzugqzgsfr.com
 gzvknriwrcwtt.website
 gzynllfiy.com
 gzyszatxeaxjv.com
-gzyvwgbntckek.website
 h-adashx.ut.ele.me
 h-adashx.ut.taobao.com
 h-adashx.ut.youku.com
@@ -14303,6 +14294,7 @@ hcgrrlaawtra.com
 hcgzmbfewulwh.website
 hchwkwwflqsrc.website
 hcjjizmrsilri.online
+hcjpbc.mensjournal.com
 hcjpbc.usmagazine.com
 hcjqgdkjoljarh.com
 hcjzvzvavb.com
@@ -14343,7 +14335,6 @@ hdqtevaaenn.com
 hdrctfcvghgvq.site
 hdrjnmjbqlerc.site
 hduolaveybzmo.site
-hdwvdwnsiofkl.site
 hdyaeexvlldpygl.com
 he7ll.com
 headacheaim.com
@@ -14752,7 +14743,6 @@ hnnwonwjeiqpq.space
 hnrgmc.com
 hnsrvcjnrmzd.com
 hntiprpnvgsfh.site
-hntoejxghzjsw.space
 hnvhpxetfugpx.online
 hnvroitwwrvsf.website
 hnwbhkraakeyp.site
@@ -14871,7 +14861,6 @@ hostcomplicatedspam.com
 hostcontent.live
 hostileconductive.com
 hostingcloud.racing
-hoszfhclwdprg.site
 hot-mob.com
 hot4k.org
 hotadultvids.com
@@ -14948,7 +14937,6 @@ hqiozkugrprzc.site
 hqitrefgxtwvb.space
 hqivmamgiwbhv.site
 hqmxgbzzoxsfp.website
-hqrwwabaicwpt.website
 hqsawmshhxcoe.site
 hqstcsetsckmf.website
 hquerdxxxxdlp.site
@@ -15465,7 +15453,6 @@ ihi.flowplayer.com
 ihihvuohkrpvi.online
 ihixaaflnjkkp.site
 ihixmyzlqb.com
-ihkkckkiptbbv.site
 ihlfikzmbeyob.space
 ihmfcnonj.com
 ihnxftay.com
@@ -16869,6 +16856,7 @@ jmzoufvwxiswf.site
 jnarigjkijgoh.space
 jnhffeitzaycd.online
 jnjkkvkfwnlrd.site
+jnkqnf.cifraclub.com.br
 jnlevhmebqcxc.website
 jnljmuyjaiohr.online
 jnmqhpecyjrnf.online
@@ -22486,7 +22474,6 @@ omn.americanexpress.com
 omni-dex.io
 omni.dsw.com
 omniconvert.com
-omnis.basspro.com
 omnitagjs.com
 omniture-dc-sec.cadence.com
 omniture-ssl.direct.asda.com
@@ -22501,7 +22488,6 @@ oms.avast.com
 oms.ccleaner.com
 oms.citynews.ca
 oms.dowjones.com
-oms.factiva.com
 oms.neimanmarcus.com
 oms.wsj.com
 oms1.sportsnet.ca
@@ -22829,7 +22815,6 @@ osgotgtikfa.in
 osignaments.org
 osimg.nbcuni.com
 osimg.universalorlando.com
-osimg.universalparks.com
 osiseouvxbgzj.online
 osjbeyssyyunp.site
 oskiwood.com
@@ -27584,6 +27569,7 @@ sanalytics.express.de
 sanalytics.hallmark.com
 sanalytics.hottopic.com
 sanalytics.ksta.de
+sanalytics.metro.de
 sanalytics.ncaa.com
 sanalytics.spark.co.nz
 sanalytics.sydney.edu.au
@@ -27612,6 +27598,7 @@ sangopportunity.com
 sanguinecocky.com
 sanguineslang.com
 sanl.champssports.com
+sanl.footlocker.ca
 sanl.footlocker.com
 sanllvixm.com
 sanmet.originenergy.com.au
@@ -27938,7 +27925,6 @@ secu.hagerty.com
 secure-assets.rubiconproject.com
 secure.flashtalking.com
 secure.hiss3lark.com
-secure.kilo6alga.com
 secure.late6year.com
 secure.neck6bake.com
 secure.wauk1care.com
@@ -28789,7 +28775,6 @@ smearconventional.com
 smeasurement.nissan.ca
 smellyla.com
 smenqskfmpfxnb.bid
-smetric.4imprint.com
 smetric.biogen.com
 smetric.hilton.com
 smetric.schwab.com
@@ -28820,6 +28805,7 @@ smetrics.allstate.com
 smetrics.ambetterhealth.com
 smetrics.americancentury.com
 smetrics.ancestry.com
+smetrics.angara.com
 smetrics.angi.com
 smetrics.anntaylor.com
 smetrics.ansys.com
@@ -28832,7 +28818,6 @@ smetrics.audi.co.uk
 smetrics.autodesk.com
 smetrics.automobilwoche.de
 smetrics.autonews.com
-smetrics.avalara.com
 smetrics.aveva.com
 smetrics.aviationweek.com
 smetrics.aviva.co.uk
@@ -28849,8 +28834,6 @@ smetrics.bbva.com.co
 smetrics.bbva.es
 smetrics.bbva.mx
 smetrics.bbvanet.com.mx
-smetrics.bcbsm.com
-smetrics.bcbsnc.com
 smetrics.beatsbydre.com
 smetrics.belairdirect.com
 smetrics.belk.com
@@ -28861,7 +28844,6 @@ smetrics.bkstr.com
 smetrics.bmc.com
 smetrics.bmo.com
 smetrics.bncollege.com
-smetrics.bncvirtual.com
 smetrics.boostmobile.com
 smetrics.boston.com
 smetrics.bostonglobe.com
@@ -28883,7 +28865,6 @@ smetrics.cbc.ca
 smetrics.cedars-sinai.org
 smetrics.celebritycruises.com
 smetrics.centene.com
-smetrics.centerpointenergy.com
 smetrics.centurylink.com
 smetrics.cfainstitute.org
 smetrics.christies.com
@@ -28943,7 +28924,6 @@ smetrics.ets.org
 smetrics.eurekalert.org
 smetrics.europafm.com
 smetrics.eurowings.com
-smetrics.evernorth.com
 smetrics.eversource.com
 smetrics.evicore.com
 smetrics.express-scripts.com
@@ -28957,7 +28937,6 @@ smetrics.fcbarcelona.com
 smetrics.fcbarcelona.es
 smetrics.fedex.com
 smetrics.fifa.com
-smetrics.filemaker.com
 smetrics.fnac.com
 smetrics.fnac.pt
 smetrics.ford.com
@@ -28996,7 +28975,6 @@ smetrics.huntington.com
 smetrics.hyundaiusa.com
 smetrics.icicibank.com
 smetrics.inova.org
-smetrics.insight.com
 smetrics.intact.ca
 smetrics.intervalworld.com
 smetrics.jared.com
@@ -29013,7 +28991,6 @@ smetrics.kerry.com
 smetrics.keysight.com
 smetrics.kone.vn
 smetrics.kpmg.com
-smetrics.lakeshorelearning.com
 smetrics.lanebryant.com
 smetrics.laredoute.fr
 smetrics.lasexta.com
@@ -29041,18 +29018,13 @@ smetrics.maurices.com
 smetrics.maxicoffee.de
 smetrics.mcdonalds.com
 smetrics.mdlive.com
-smetrics.medstarhealth.org
-smetrics.memberdeals.com
 smetrics.mercola.com
-smetrics.mercy.net
 smetrics.metrobyt-mobile.com
 smetrics.mgmresorts.com
 smetrics.michaelkors.com
 smetrics.michaelkors.eu
 smetrics.michaelkors.uk
-smetrics.mitsubishi-motors.co.jp
 smetrics.modernhealthcare.com
-smetrics.moodys.com
 smetrics.morganstanley.com
 smetrics.murata.com
 smetrics.myhealthtoolkit.com
@@ -29060,7 +29032,6 @@ smetrics.napaonline.com
 smetrics.nascar.com
 smetrics.nationalgeneral.com
 smetrics.nationaltrust.org.uk
-smetrics.newark.com
 smetrics.newbalance.com
 smetrics.nfl.com
 smetrics.ni.com
@@ -29068,7 +29039,6 @@ smetrics.nisbets.co.uk
 smetrics.nvidia.com
 smetrics.o2online.de
 smetrics.oakley.com
-smetrics.oerproject.com
 smetrics.officeworks.com.au
 smetrics.oliverpeoples.com
 smetrics.ondacero.es
@@ -29079,7 +29049,6 @@ smetrics.optum.com
 smetrics.pacsun.com
 smetrics.pandora.net
 smetrics.panerabread.com
-smetrics.partssource.com
 smetrics.payback.de
 smetrics.payback.pl
 smetrics.pbteen.com
@@ -29129,7 +29098,6 @@ smetrics.rolex.com
 smetrics.roomandboard.com
 smetrics.royalcaribbean.com
 smetrics.salliemae.com
-smetrics.samedelman.com
 smetrics.samsung.com
 smetrics.santander.co.uk
 smetrics.sap.com
@@ -29223,7 +29191,6 @@ smetrics.vw.com
 smetrics.vwfs.de
 smetrics.walgreens.com
 smetrics.washingtonpost.com
-smetrics.waters.com
 smetrics.webex.com
 smetrics.westelm.com
 smetrics.westernunion.com
@@ -29440,10 +29407,7 @@ solsticeblack.com
 solutionbiologyisle.com
 solutions2forge.net
 solvemilitaryconsulate.com
-som.athenahealth.com
-som.healthgrades.com
 som.hotwire.com
-som.ringcentral.com
 somainpdeirit.online
 sombernewspaper.com
 sombersea.com
@@ -29466,7 +29430,6 @@ somfeubckguwd.site
 somni.accenture.com
 somni.alaskaair.com
 somni.australia.com
-somni.bluecrossma.com
 somni.carecredit.com
 somni.carecreditprovidercenter.com
 somni.choicehotels.com
@@ -29879,7 +29842,6 @@ ssl-services.com
 ssl.o.additudemag.com
 ssl.o.medicinenet.com
 ssl.o.medscape.com
-ssl.o.vitals.com
 sslstats.canadapost.ca
 ssmemwsactbto.space
 ssmtfxdslsvzz.space
@@ -29902,7 +29864,6 @@ sstats.americafirst.com
 sstats.coop.dk
 sstats.deloitte.com
 sstats.deluxe.com
-sstats.extendedstayhotels.com
 sstats.investors.com
 sstats.kroger.com
 sstats.meijer.com
@@ -29910,7 +29871,6 @@ sstats.motosport.com
 sstats.mt.com
 sstats.paloaltonetworks.com
 sstats.portauthorityclothing.com
-sstats.sanmar.com
 sstats.scholastic.com
 sstats.vizergy.com
 ssteeraa.net
@@ -30082,7 +30042,6 @@ statlytic.net
 statorkumyk.com
 stats-bq.stylight.net
 stats-dev.brid.tv
-stats-ssl.mdanderson.org
 stats.adobe.com
 stats.agl.com.au
 stats.appsflyer.com
@@ -30092,7 +30051,6 @@ stats.birgun.net
 stats.blogoscoop.net
 stats.bluebillywig.com
 stats.bradmax.com
-stats.canadapost-postescanada.ca
 stats.clickforknowledge.com
 stats.cn.ronghub.com
 stats.cruisingpower.com
@@ -30656,7 +30614,6 @@ sweatyprom.com
 sweb.ulta.com
 swebanalytics.acs.org
 swebmetrics.zebra.com
-swebreports.nature.org
 swebstats.americanbar.org
 swebstats.imf.org
 swedephotocopy.com
@@ -30715,6 +30672,8 @@ sxetpzonjqvzu.site
 sxgqqsngkzozy.website
 sxijascmyuisl.site
 sxjaywwshzjby.online
+sxjfhh.detroitnews.com
+sxjfhh.freep.com
 sxjfhh.usatoday.com
 sxkumarbqmnuc.space
 sxlflt.com
@@ -30812,7 +30771,6 @@ t.auburntigers.com
 t.birchlane.com
 t.blablacar.com
 t.blog.livedoor.jp
-t.bucky.uwbadgers.com
 t.bukalapak.com
 t.channeladvisor.com
 t.dailymail.co.uk
@@ -30823,7 +30781,6 @@ t.festo.com
 t.freelancer.com
 t.fullres.net
 t.gdt.qq.com
-t.hailstate.com
 t.hellowork.com
 t.huskers.com
 t.jasper.ai
@@ -30831,7 +30788,6 @@ t.jobsyn.org
 t.jossandmain.com
 t.kck.st
 t.ltiquery.com
-t.mgoblue.com
 t.mmganalytics.com
 t.mydialoginsight.com
 t.nc0.co
@@ -31178,7 +31134,6 @@ telemetry.dzen.ru
 telemetry.goodlifefitness.com
 telemetry.jivosite.com
 telemetry.nav.no
-telemetry.navispherecarrier.com
 telemetry.phenixrts.com
 telemetry.proton.me
 telemetry.soundcloud.com
@@ -31982,7 +31937,6 @@ track.pricespider.com
 track.robee.tech
 track.searchiq.co
 track.sohu.com
-track.solventum.com
 track.tesiteca.it
 track.thebase.in
 track.totalav.com
@@ -32095,7 +32049,6 @@ tracking.livingsocial.com
 tracking.markethero.io
 tracking.mathworks.com
 tracking.musixmatch.com
-tracking.netsuite.com
 tracking.oe24.at
 tracking.offerista.com
 tracking.olx-st.com
@@ -32337,7 +32290,6 @@ trk.storyly.io
 trk.techtarget.com
 trk.us.vacasa.com
 trk2-wtb.swaven.com
-trk2.avalara.com
 trkapi.impact.com
 trkbc.com
 trker.com
@@ -32873,6 +32825,7 @@ udmserve.net
 udplgiotjursc.website
 udppercfezmis.online
 udrbgoiyqzii.com
+udrvvx.kabum.com.br
 udsxhdtukvz.com
 uduwdbhmot.com
 udzpel.com
@@ -34960,7 +34913,6 @@ web-stat.com
 web.ali213.net
 web.comunicazioni.iol.it
 web.northwestern.nm.org
-web.redazione.milanofinanza.it
 web0.eu
 web1.51.la
 web3ads.net
@@ -37702,6 +37654,7 @@ zubniivgigntj.website
 zubvdghmyhajk.website
 zubxulmxdrtxy.website
 zuchhsparxodc.site
+zuciwang.com
 zucks.net
 zudoswamvj.in
 zuekohojehjsx.space
