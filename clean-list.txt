@@ -981,6 +981,7 @@ ad.kisscartoon.sh
 ad.l2b.co.za
 ad.linksynergy.com
 ad.mail.ru
+ad.maoyan.com
 ad.mediamixer.co.kr
 ad.mox.tv
 ad.netmedia.hu
@@ -999,7 +1000,6 @@ ad.toutiao.com
 ad.tpmn.co.kr
 ad.us.sinaimg.cn
 ad.video-mech.ru
-ad.weibo.com
 ad.weixin.qq.com
 ad.winrar.com.cn
 ad.xiaomi.com
@@ -1087,6 +1087,7 @@ adc-js.nine.com.au
 adcalls.nl
 adcalm.com
 adcannyxml.com
+adcanvas.com
 adcdn.goo.ne.jp
 adcdn.hpplay.cn
 adcdnx.com
@@ -1436,6 +1437,7 @@ ads-marketing-vivofs.vivo.com.cn
 ads-media.wildberries.ru
 ads-pixiv.net
 ads-sg.tiktok.com
+ads-shopping.shouqianba.com
 ads-static.conde.digital
 ads-tracking.collectiveaudience.co
 ads-twitter.com
@@ -1745,6 +1747,7 @@ adxpub.com
 adxserver.ad.cmvideo.cn
 adxsource.com
 adxsrver.com
+adxstatic.vivo.com.cn
 adxvip.com
 adxxxxxmost.co
 adyoulike.com
@@ -3320,6 +3323,7 @@ axolotlly.com
 axonix.com
 axorawebnet.com
 axoxktmvnhtav.site
+axp.8newsnow.com
 axp.abc27.com
 axp.abc4.com
 axp.fox2now.com
@@ -3330,7 +3334,6 @@ axp.fox8.com
 axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
-axp.khon2.com
 axp.koin.com
 axp.kron4.com
 axp.ktla.com
@@ -3344,11 +3347,13 @@ axp.wavy.com
 axp.wfla.com
 axp.wgntv.com
 axp.who13.com
+axp.wivb.com
 axp.wjtv.com
 axp.wkbn.com
 axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
+axp.wric.com
 axp.wtnh.com
 axpedsqboflar.space
 axshhgmltiycy.site
@@ -6245,6 +6250,7 @@ content-cooperation.com
 content-garden.com
 content-row.com
 content-website-analytics.com
+content.livesportmedia.eu
 content.tab.com.au
 content22.bmo.com
 content22.citibankonline.com
@@ -9986,6 +9992,7 @@ eizgttovabu.com
 eizzih.com
 ejadhobthckao.site
 ejaxbjcsdmjwm.site
+ejbbcf.finishline.com
 ejepontspwiip.website
 ejexgcirsdwvx.online
 ejfstrkmgwrql.site
@@ -10092,6 +10099,7 @@ elq.blackrock.com
 elq.keysight.com
 elq.macu.com
 elqact.gartner.com
+elqtrack.kubotausa.com
 elqtracking.capella.edu
 elqtracking.hitachienergy.com
 elqtrk.cummins.com
@@ -11758,7 +11766,6 @@ fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
 fpadserver.com
 fpapi.io
-fpc.acponline.org
 fpc.gartner.com
 fpc.sage.com
 fpcbltqovzjwg.website
@@ -13787,6 +13794,7 @@ hinwwezapkyiu.website
 hiobplukootgn.site
 hip-97166b.com
 hippierrapiner.com
+hippinglawns.com
 hippobulse.com
 hiprofitnetworks.com
 hipzpktsyugcu.website
@@ -14371,6 +14379,7 @@ iaacknkvbidsc.site
 iaahxcxdjhrsr.space
 iad.apple.com
 iadbsntna.com
+iadcontent.apple.com
 iadctest.qwapi.com
 iadmat.nosdn.127.net
 iadmusicmat.music.126.net
@@ -17772,6 +17781,7 @@ logstracker.com
 logtail.com
 logtake.weidian.com
 logupdate.avlyun.sec.miui.com
+logv2.ireader.com
 logx-experimentation.iherb.com
 logx.optimizely.com
 loijtoottuleringv.info
@@ -17800,6 +17810,7 @@ looibkennqryb.space
 lookandfind.me
 looksmart.com
 looktotheright.com
+lookup.api.bsb.baidu.com
 loonykenyans.shop
 loopaautomate.com
 loopme.me
@@ -20912,7 +20923,6 @@ ohxdkzbwzpvid.website
 ohyswagriuexx.space
 oi.429men.com
 oi.lesbianbliss.com
-oiat.dow.com
 oicfkmbppdusr.website
 oidgctozcfsrr.site
 oidzrvnbsbgmx.online
@@ -21125,7 +21135,6 @@ onlyry.net
 onlystreets.com
 onmanectrictor.com
 onmxrrvzhikqu.website
-onoztg.ultimate-guitar.com
 onrbmrwalqttw.website
 onrt-stsdk.vivo.com.cn
 onrvyrdwqpiwn.online
@@ -24231,6 +24240,7 @@ rackforstorage.com
 racunn.com
 radar.imgsmail.ru
 radar.wizzo.media
+raddus.bayescom.com
 radiancelongitude.com
 radiantmedia.net
 radiantspacecraftbell.com
@@ -24527,7 +24537,6 @@ reconsideroverweight.com
 reconsiderquestions.com
 reconstructambition.com
 reconstructnicestain.com
-record.betzillopartners.com
 record.guts.com
 recordedheavinessexperience.com
 recordedthereby.com
@@ -25701,6 +25710,7 @@ sadobe.falabella.com
 sadobemetrics.la-z-boy.com
 sadvvowejqfet.site
 safebrowsdv.com
+safebrowsing.urlsec.qq.com
 safeguardemergency.com
 safeoffers.pro
 safeonlinetips.com
@@ -26244,7 +26254,6 @@ sepiarypooris.com
 sepsidmanjack.com
 septbajri.com
 septemberbrightest.com
-seqbxxrpkkiaj.space
 seqmfwzsktmuj.site
 sequenceclickmeasles.com
 sequentmalus.shop
@@ -26418,7 +26427,6 @@ she-want-fuck.com
 shealapish.com
 sheareasygoingcommerce.com
 sheathsgabfest.shop
-sheavssgfkthz.space
 shebeanshanty.shop
 shebudriftaiter.net
 shedimlobbish.com
@@ -26513,7 +26521,6 @@ shrubspirate.com
 shrugaged.com
 shrugverificationauto.com
 shrunkcakes.shop
-shsdxfkcguooa.site
 shsrqndzhaqdo.site
 shstvvexwudrg.website
 shticksyahuna.com
@@ -26521,7 +26528,6 @@ shtipukdnuusx.site
 shtptt.cupshe.com
 shubadubadlskjfkf.com
 shudderviolence.com
-shufdgapqiekr.space
 shuffleentrust.com
 shunremarkbuddy.com
 shutdownprovince.com
@@ -26933,7 +26939,6 @@ smetrics.allianzlife.com
 smetrics.allstate.com
 smetrics.ambetterhealth.com
 smetrics.americancentury.com
-smetrics.americastire.com
 smetrics.ancestry.com
 smetrics.angara.com
 smetrics.angi.com
@@ -27115,6 +27120,7 @@ smetrics.inova.org
 smetrics.insight.com
 smetrics.intact.ca
 smetrics.intervalworld.com
+smetrics.jackson.com
 smetrics.jared.com
 smetrics.jcb.co.jp
 smetrics.jcpenney.com
@@ -27185,6 +27191,7 @@ smetrics.o2online.de
 smetrics.oakley.com
 smetrics.oerproject.com
 smetrics.officeworks.com.au
+smetrics.ok.dk
 smetrics.oliverpeoples.com
 smetrics.ondacero.es
 smetrics.onetrust.com
@@ -27265,7 +27272,6 @@ smetrics.sivasdescalzo.com
 smetrics.sj.se
 smetrics.sky.com
 smetrics.sky.it
-smetrics.sleepnumber.com
 smetrics.sling.com
 smetrics.solarwinds.com
 smetrics.solinst.com
@@ -27273,7 +27279,7 @@ smetrics.sony.jp
 smetrics.sothebys.com
 smetrics.southwest.com
 smetrics.spdrs.com
-smetrics.ssfcu.org
+smetrics.srpnet.com
 smetrics.ssga.com
 smetrics.stanfordhealthcare.org
 smetrics.staples.com
@@ -27850,7 +27856,6 @@ springify.io
 sprintrade.com
 sprkl.io
 sproutamazedpursuing.com
-sprtnd.com
 sprungstorm.com
 spry-glad.pro
 spry-trick.com
@@ -27993,6 +27998,7 @@ sstats.americafirst.com
 sstats.coop.dk
 sstats.deloitte.com
 sstats.deluxe.com
+sstats.extendedstayhotels.com
 sstats.investors.com
 sstats.kroger.com
 sstats.meijer.com
@@ -29092,8 +29098,6 @@ tblcontent.com
 tblsbzfxvamuk.website
 tbm.snssdk.com
 tbmoxtvskajqz.space
-tbrlymawhqlfh.website
-tbsakweladkbq.website
 tbslehgnmaets.space
 tburybrcvclih.online
 tbuujyqojwgrz.site
@@ -29654,7 +29658,6 @@ tmi.jv-telcoid.es
 tmjlhukzzbhut.online
 tmjrmpkkgatjh.website
 tmlfunrthtnff.online
-tmlsxuvjfzyhz.space
 tmluyaszhetwu.online
 tmmjwelxryxod.site
 tmmp.io
@@ -29678,7 +29681,6 @@ tncycnhulwray.website
 tnczawrllvifh.site
 tnegeszxnuwpo.space
 tnfnfuvbfllyn.website
-tngizkrkjxvak.space
 tnhbasulnwrqt.online
 tniiydilgpdrf.site
 tnijhexxbrdag.online
@@ -31152,6 +31154,7 @@ unkindpendulum.com
 unknowndeliquencydeliquencypenthouse.com
 unknownpermission.com
 unlawfuldamage.com
+unlaxguttus.com
 unleashtuneafter.com
 unlessprovidence.com
 unlesssecret.com
@@ -31222,6 +31225,7 @@ unsteady-challenge.com
 unstripsawmont.com
 unsuccessfulimmense.com
 unsung-comment.com
+unsunnybirse.com
 untackreviler.com
 untho.de
 untidynondescript.com
