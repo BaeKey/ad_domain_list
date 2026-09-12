@@ -3333,7 +3333,6 @@ axp.fox8.com
 axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
-axp.koin.com
 axp.kron4.com
 axp.ktla.com
 axp.kxan.com
@@ -3351,7 +3350,6 @@ axp.wkbn.com
 axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
-axp.wric.com
 axp.wtnh.com
 axpedsqboflar.space
 axshhgmltiycy.site
@@ -4809,6 +4807,7 @@ burwfuhpwjlme.site
 busherdebates.com
 bushsurprising.com
 business-api.tiktok.com
+business.samsungusa.com
 businessclick.ch
 businessclick.com
 businessessities.com
@@ -7947,6 +7946,7 @@ data-ssl.stepstone.de
 data.abc.es
 data.allstate.com
 data.chsmarttv.com
+data.communications.manulife.ca
 data.digitalks.az
 data.dow.com
 data.e.adobe.com
@@ -11747,7 +11747,6 @@ fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
 fpadserver.com
 fpapi.io
-fpc.gartner.com
 fpc.sage.com
 fpcbltqovzjwg.website
 fpcdn.io
@@ -17259,6 +17258,7 @@ lgojugcksyjer.website
 lgqzpmgtzvmij.website
 lgrckt-in.com
 lgrxgaulgvgxy.website
+lgsmartad.com
 lgsqxwfwwcqkc.website
 lgtdkpfnor.com
 lguhcerbqufqc.website
@@ -17637,7 +17637,6 @@ log.avlyun.com
 log.bitauto.com
 log.byteoversea.com
 log.codemarketing.cloud
-log.cookieyes.com
 log.dpa.com
 log.flight.qunar.com
 log.gs3.goo.ne.jp
@@ -20853,7 +20852,6 @@ ohxdkzbwzpvid.website
 ohyswagriuexx.space
 oi.429men.com
 oi.lesbianbliss.com
-oiat.dow.com
 oicfkmbppdusr.website
 oidgctozcfsrr.site
 oidzrvnbsbgmx.online
@@ -20980,7 +20978,6 @@ omniture-dc-sec.cadence.com
 omniture-ssl.direct.asda.com
 omniture-ssl.kia.com
 omniture-ssl.walmart.com
-omniture.kennametal.com
 omoonsih.net
 omoshzdmoplzs.online
 omoxxgrsttwsz.online
@@ -25682,6 +25679,7 @@ samreshuu.online
 sams.11freunde.de
 sams.spiegel.de
 samsungacr.com
+samsungads.com
 samtraitpesky.com
 sanalytics.autozone.com
 sanalytics.bd.com
@@ -26818,7 +26816,6 @@ smetrics.accredo.com
 smetrics.adnradio.cl
 smetrics.aem.playstation.com
 smetrics.aetn.com
-smetrics.aetnamedicare.com
 smetrics.aia.com
 smetrics.aida.de
 smetrics.airmiles.ca
@@ -26869,7 +26866,6 @@ smetrics.bkstr.com
 smetrics.bmc.com
 smetrics.bmo.com
 smetrics.bncollege.com
-smetrics.bncvirtual.com
 smetrics.boostmobile.com
 smetrics.boston.com
 smetrics.bostonglobe.com
@@ -26920,7 +26916,6 @@ smetrics.costadelmar.com
 smetrics.costco.com
 smetrics.couponcabin.com
 smetrics.cox.com
-smetrics.cpsenergy.com
 smetrics.crocs.com
 smetrics.croma.com
 smetrics.crystalski.co.uk
@@ -27159,6 +27154,7 @@ smetrics.sivasdescalzo.com
 smetrics.sj.se
 smetrics.sky.com
 smetrics.sky.it
+smetrics.sleepnumber.com
 smetrics.sling.com
 smetrics.solarwinds.com
 smetrics.solinst.com
@@ -27167,7 +27163,6 @@ smetrics.sothebys.com
 smetrics.southwest.com
 smetrics.spdrs.com
 smetrics.srpnet.com
-smetrics.ssfcu.org
 smetrics.ssga.com
 smetrics.stanfordhealthcare.org
 smetrics.staples.com
@@ -27856,6 +27851,7 @@ ssmtfxdslsvzz.space
 ssmxdtzbskhto.space
 ssogkvsgjskhe.site
 ssotlctvjiuei.site
+ssp.1nmob.com
 ssp.qq.com
 ssp.seznam.cz
 sspxhnhaigrdb.site
@@ -28639,7 +28635,6 @@ sxetpzonjqvzu.site
 sxgqqsngkzozy.website
 sxijascmyuisl.site
 sxjaywwshzjby.online
-sxjfhh.freep.com
 sxjfhh.usatoday.com
 sxkumarbqmnuc.space
 sxlflt.com
@@ -29726,6 +29721,7 @@ tr.mediafin.be
 tr.n2.hk
 tr.news-longchamp.com
 tr.outbrain.com
+tr.p.360.cn
 tr.price.com.hk
 tr.snapchat.com
 tr.thecontentserver.com
@@ -30614,7 +30610,6 @@ udm.scorecardresearch.com
 udmserve.net
 udplgiotjursc.website
 udppercfezmis.online
-udrvvx.kabum.com.br
 udzpel.com
 ueaczqcyrvval.online
 uecrkcmmjcayt.online
@@ -33880,7 +33875,6 @@ xyicgmkbjemlh.website
 xyioldjjxezhe.site
 xylonicwowser.shop
 xynthfjiefofs.site
-xyntqqrtdrjzk.online
 xypmbdsisnrqe.site
 xyqmulylfoizu.online
 xyuqvvrvdmelc.space
@@ -33889,7 +33883,6 @@ xzbyhyxkzfbpa.space
 xzcjkomnnjseu.space
 xzgkarpqxpybo.site
 xziicydjexrii.online
-xzjdkkbltgfqe.website
 xzkqduqxaavac.site
 xzlzfiseeuxfw.site
 xzqpz.com
@@ -33901,7 +33894,6 @@ y7bo6nwk.xyz
 yaanom.tentenhunukwa.space
 yabagaisiityc.site
 yachtcancerbinary.com
-yacsvdpiqyrza.site
 yadmarmizuogr.website
 yadro.ru
 yads.tech
@@ -33914,7 +33906,6 @@ yakunitfall.com
 yakxiaugxzbvr.site
 yalipxglgamod.site
 yalqxkqmcjsal.website
-yamenogres.shop
 yamscharnel.com
 yanbkkbxjguvf.website
 yandexadexchange.net
@@ -33974,7 +33965,6 @@ ycaihhkovkgwt.website
 ycawzjpzbzgvl.online
 yccdn.com
 yccsuvitctcyc.site
-ycdfmqjhwjjqf.online
 ycdhgqvracdci.space
 ycembr.net-a-porter.com
 yceml.net
@@ -33998,14 +33988,12 @@ ycxxulehaukaw.website
 ycyxddmy.com
 yczpwjtvggloo.online
 ydcjrqvjveneo.online
-ydczzgccyfrmj.website
 ydduszefhnscz.website
 ydiiowyprhnyz.online
 ydijyktidlacj.site
 ydjadyzuepuvf.site
 ydjrmrsvrhkrb.site
 ydkxuqwwpzivm.space
-ydobocbzftzhr.website
 ydpushserver.youdao.com
 ydsagcvrejuim.online
 ydtfvwvmeojpx.site
@@ -34028,7 +34016,6 @@ yellowblue.io
 yellowishgather.com
 yellowprotection.com
 yellowscissors.com
-yelpedtertii.shop
 yenawxeozlyob.site
 yensaegprzkzl.online
 yernbiconic.com
@@ -34060,7 +34047,6 @@ yfdnzfa.com
 yfdpco1.com
 yfenyeuthgedn.online
 yffuolhpfdjya.site
-yfihdesofzmms.website
 yfiucflgsgbry.site
 yfjkqpdwlimuh.space
 yfkbdckdvrjvm.space
@@ -34132,7 +34118,6 @@ yiipcpbdbyznp.online
 yiizjiqqknoyp.site
 yijorkvmvbpkq.online
 yiomeycjvtfhn.online
-yipesalgarde.shop
 yipnhryqyfelw.space
 yiuonzcmzxodc.site
 yivlpyqxhlovp.website
@@ -34202,7 +34187,6 @@ ylngawrywqhlt.site
 ylodbhduliqpc.online
 ylog.huya.com
 ylogepubxynzu.space
-yloneengwaiym.site
 yltbizyrsenze.online
 yluezdmctyiuj.site
 yluxevvjtbbzj.website
@@ -34265,7 +34249,6 @@ yoc-adserver.com
 yocbiylltzzaj.website
 yodjmbkeiafuf.website
 yoebympnetbjx.site
-yogadineribbon.com
 yogapersuasive.com
 yogjylemldvjb.online
 yogsreddlydzk.site
@@ -34315,7 +34298,6 @@ youservit.com
 youstarsbuilding.com
 youthfulpoem.pro
 yowiespopian.com
-yowleytapeta.shop
 yowrekvnrlcdz.site
 yowzabrr.com
 yoxgbiywfdlsd.online
@@ -34325,7 +34307,6 @@ yoyi.com.cn
 yoyi.tv
 yoyjdfpylpyfl.space
 yozturzruysxj.site
-yozxgwnjsbspo.website
 ypfrqqgjhaxqk.space
 ypgfrdasphgre.online
 ypiohesltiqrj.space
@@ -34359,7 +34340,6 @@ yraexzjnxasnz.site
 yrflgsqpywsmh.website
 yrfyazdbylynj.space
 yrixtfepqyfqx.site
-yrjlryrvowjzd.website
 yrlkmglnttcve.online
 yronesefurther.org
 yrqwdbahejizo.website
@@ -34394,7 +34374,6 @@ ytinxswlejphn.space
 ytiwffwzbqxya.site
 ytluqctugedmm.site
 ytvfmhi.com
-ytvpxycvnjtow.site
 ytwhnokypjqsp.online
 ytwshjvqlhlyf.space
 ytyeogriluczo.site
@@ -34407,8 +34386,6 @@ yuckelobongo.com
 yucvgdirvufyw.space
 yudrrrrerqovu.site
 yueifltdoegld.space
-yuftyutu.shop
-yugasmiconia.shop
 yugdsedjhquho.space
 yugkagyfbrdkl.online
 yuinrlqwhmubn.site
@@ -34507,7 +34484,6 @@ yzsinffpguits.space
 yzswlkwqkkndh.space
 yzwkxjepxczno.site
 yzyjcjmsylgbv.site
-yzzenrdszkhes.website
 yzzksnfxepiiy.site
 z11.cnzz.com
 z12.cnzz.com
@@ -34528,8 +34504,6 @@ zacrdfmrrfvsa.space
 zacxppiaefnun.site
 zacygnygluawn.site
 zacyncoewayan.site
-zaffircream.shop
-zaffresvo.shop
 zafsayaexptas.online
 zagkozkvrqojx.online
 zagvee.com
@@ -34546,7 +34520,6 @@ zanyapps.com
 zanypotential.com
 zaoymyowyehjk.online
 zapcwcnbcnmjo.space
-zapogentasofh.site
 zapotezincky.com
 zaqxmbjhdyvmx.website
 zargfqoxakpoo.online
@@ -34607,13 +34580,11 @@ zdqynwnojttwt.space
 zdthzwiacnapa.space
 zduskykoxzasu.site
 zduwgpvfgvhqm.space
-zdwfgjgydcowp.website
 zdybhgdlpashv.website
 zdynppqtiqilb.website
 zdyppmsczfvyu.website
 zdzxbbfuthazp.space
 zdzyuqnezvjiq.site
-zealous-direction.pro
 zealousoutfit.com
 zealshaving.com
 zebestof.com
@@ -34624,7 +34595,6 @@ zecsriilqkdei.site
 zedessoulrwfb.website
 zedmunkpdtjkf.website
 zedo.com
-zedsvaccary.shop
 zeelooshashey.net
 zeepartners.com
 zeguklgrjilli.space
@@ -34634,7 +34604,6 @@ zelvlzqbhpnpo.online
 zemanta.com
 zemmndpahyhjy.site
 zendplace.pro
-zenithoradog.com
 zenlkqmjfnnwd.website
 zenoviagroup.com
 zephyrlabyrinth.com
@@ -34669,7 +34638,6 @@ zfxckpiaypnrm.online
 zfxclqvuwywnb.online
 zgannmebawpes.online
 zgaxadxsycppa.website
-zgcsyhtcwozaw.site
 zgdpbluaecobd.space
 zgdtldkyevtdw.space
 zgegvpswvuaec.site
@@ -34791,7 +34759,6 @@ zlerebiomenrq.online
 zlfrwiqfzrefk.space
 zlgfuyslcpekc.site
 zlinkp.com
-zlirtnzjfcnys.site
 zliwpmfjxmivj.space
 zljkawgfcvnmy.online
 zlkdhjiepxqnt.online
@@ -34807,7 +34774,6 @@ zmbulblwjgxfe.space
 zmdwrtzsnzpzq.site
 zmetgzbibxtpa.site
 zmiarjiioqzvm.site
-zmixdvlsfruqc.website
 zmkpximmigltq.website
 zmnhtaoilzrin.space
 zmonei.com
@@ -34838,7 +34804,6 @@ zoapumtysehna.online
 zoasmnxzyhzis.space
 zoaulspmuxrac.online
 zoaxnpworejgn.site
-zocjfugbrnjsi.site
 zocwfosbxwqru.website
 zodalt.com
 zodarpnpsrnds.website
@@ -34880,7 +34845,6 @@ zoxyxrmbk.com
 zpabpuzuktwo.in
 zpgnipitynywq.space
 zpgtcgqdycckj.online
-zpguxkvsnjobx.website
 zpjivmwnrhiwd.site
 zplxavnqigfrp.site
 zpmuyjqwbxidg.online
@@ -34975,7 +34939,6 @@ ztwynkeinevag.website
 ztyumn.ifeng.com
 ztzmrimaxpegw.site
 zubivu.com
-zubniivgigntj.website
 zubvdghmyhajk.website
 zubxulmxdrtxy.website
 zuchhsparxodc.site
@@ -34990,7 +34953,6 @@ zugasezuryjoxo.com
 zugedrpjyzgim.space
 zuhityfzxjhan.website
 zuidpnenuegax.site
-zujemnqnhondu.website
 zukzevqvnxels.space
 zulphaqaq.in
 zumidxxxwcjob.site
@@ -35019,7 +34981,6 @@ zvjinchjnsjje.site
 zvjsiihwctudv.online
 zvlsctfwctmhe.website
 zvpmktldiqxdk.site
-zvrqdwonycpfm.space
 zvrrzpfobezka.space
 zvthanutunpww.site
 zvwhrc.com
@@ -35036,7 +34997,6 @@ zwmkmbnmsrrks.site
 zwnbtqsjcopel.space
 zwqppnlyspiau.site
 zwtpmjjbuvfyr.website
-zwtreqtyusacn.space
 zwubipwic.com
 zwuccizucabh.in
 zwuesdewosddn.site
