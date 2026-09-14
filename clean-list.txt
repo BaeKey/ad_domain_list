@@ -956,6 +956,7 @@ ad.about.co.kr
 ad.aceplanet.co.kr
 ad.animehub.ac
 ad.api.moji.com
+ad.bayescom.com
 ad.bitmedia.io
 ad.cn.doubleclick.net
 ad.cpcstar.com
@@ -9981,7 +9982,6 @@ eizgttovabu.com
 eizzih.com
 ejadhobthckao.site
 ejaxbjcsdmjwm.site
-ejbbcf.finishline.com
 ejepontspwiip.website
 ejexgcirsdwvx.online
 ejfstrkmgwrql.site
@@ -13001,6 +13001,7 @@ grimlycask.com
 grimlywarden.com
 grimytradition.pro
 grincircus.com
+grindaldenim.com
 grindharassment.com
 grindsteeplesprung.com
 griony.xyz
@@ -14315,6 +14316,7 @@ hypercarart.com
 hyperlinksecure.com
 hyperpromote.com
 hypnotizesqueegeetricolor.com
+hypothesisgarden.com
 hypptujyuaxyz.space
 hyraterook.com
 hyscaixutgyck.online
@@ -15787,6 +15789,7 @@ jkluxjhnnbfka.online
 jklxapwjjgyqb.space
 jkmawumzebcim.space
 jkmdfnarliyun.website
+jknarp.kakaku.com
 jktrnmllgenlb.online
 jktuulfyqhkxw.site
 jkvbegvzzmrsn.website
@@ -16942,6 +16945,7 @@ lameconnotation.com
 lameletters.com
 lamentinsecureheadlight.com
 lammasbananas.com
+lammockdanite.com
 lamplynx.com
 lamppostadaptationlassitude.com
 lampshadescreen.com
@@ -18633,6 +18637,7 @@ metrics.elsevier.com
 metrics.fedex.com
 metrics.find.gr
 metrics.fortinet.com
+metrics.foxsports.com.au
 metrics.freemake.com
 metrics.giftcards.com
 metrics.gs-chat.com
@@ -23847,6 +23852,7 @@ qpuajvzdhsmrk.space
 qpufhoviouoby.website
 qqcvdfytarpbw.site
 qqdata.ab.qq.com
+qqdflf.lpga.or.jp
 qqeamubuikcai.site
 qqfzedopftitm.website
 qqhjdsbubacon.online
@@ -26920,6 +26926,7 @@ smetrics.deutschepost.de
 smetrics.dhl.de
 smetrics.dickssportinggoods.com
 smetrics.directauto.com
+smetrics.directv.com
 smetrics.discounttire.com
 smetrics.dish.co
 smetrics.dish.com
@@ -27114,6 +27121,7 @@ smetrics.rolex.com
 smetrics.roomandboard.com
 smetrics.royalcaribbean.com
 smetrics.salliemae.com
+smetrics.samedelman.com
 smetrics.samsung.com
 smetrics.santander.co.uk
 smetrics.sap.com
@@ -27430,7 +27438,6 @@ somni.accenture.com
 somni.alaskaair.com
 somni.australia.com
 somni.carecredit.com
-somni.carecreditprovidercenter.com
 somni.choicehotels.com
 somni.creditonebank.com
 somni.deere.com
@@ -28713,7 +28720,6 @@ t.jobsyn.org
 t.jossandmain.com
 t.kck.st
 t.ltiquery.com
-t.mgoblue.com
 t.mmganalytics.com
 t.mydialoginsight.com
 t.nc0.co
