@@ -956,7 +956,6 @@ ad.about.co.kr
 ad.aceplanet.co.kr
 ad.animehub.ac
 ad.api.moji.com
-ad.bayescom.com
 ad.bitmedia.io
 ad.cn.doubleclick.net
 ad.cpcstar.com
@@ -1386,7 +1385,6 @@ adport.io
 adpredictive.com
 adpresenter.de
 adprime.com
-adproxy.autohome.com.cn
 adpushup.com
 adquake.com
 adquery.io
@@ -1543,7 +1541,6 @@ adsforallmedia.com
 adsfs.oppomobile.com
 adsgateway.net
 adshot.de
-adshow.58.com
 adsiduous.com
 adsight.nl
 adsinstant.com
@@ -2385,6 +2382,7 @@ analytics.algolia.com
 analytics.api.justeattakeaway.com
 analytics.apnewsregistry.com
 analytics.archive.org
+analytics.asml.com
 analytics.atom.com
 analytics.audioeye.com
 analytics.aweber.com
@@ -3329,12 +3327,19 @@ axorawebnet.com
 axoxktmvnhtav.site
 axp.abc27.com
 axp.abc4.com
+axp.fox2now.com
+axp.fox4kc.com
+axp.fox59.com
 axp.fox5sandiego.com
 axp.fox8.com
+axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
+axp.koin.com
 axp.kron4.com
 axp.ktla.com
+axp.kxan.com
+axp.myfox8.com
 axp.nbc4i.com
 axp.newsnationnow.com
 axp.thehill.com
@@ -5468,7 +5473,6 @@ charhometown.com
 charitablewithdrawal.com
 charitylingoreformer.com
 charlottemice.com
-charltonmedia.com
 charmingpoliteinjunction.com
 chart.dk
 chartbeat.net
@@ -6753,7 +6757,6 @@ ctgkrtjuarrzp.online
 ctgpterrasekv.space
 ctgxakoxvb.com
 ctheibgpttmxu.site
-ctlayn.talbots.com
 ctlsmzvtfq.com
 ctmofpzrkmjxt.site
 ctmpjhldreytz.space
@@ -7864,7 +7867,6 @@ d9leupuz17y6i.cloudfront.net
 d9qjkk0othy76.cloudfront.net
 d9r4lqt28t1fm.cloudfront.net
 d9yk47of1efyy.cloudfront.net
-da.hunantv.com
 da26k71rxh0kb.cloudfront.net
 da327va27j0hh.cloudfront.net
 da4talg8ap14y.cloudfront.net
@@ -7947,7 +7949,9 @@ data-ssl.stepstone.de
 data.abc.es
 data.allstate.com
 data.chsmarttv.com
+data.cs.officedepot.com
 data.digitalks.az
+data.dow.com
 data.e.adobe.com
 data.econa.com
 data.eetech.com
@@ -7961,6 +7965,7 @@ data.inbank.it
 data.jerkmate.com
 data.latinamerica.coca-cola.com
 data.madridista-free.realmadrid.com
+data.mmail.northeast.aaa.com
 data.northeast.aaa.com
 data.nrk.no
 data.queryly.com
@@ -9982,6 +9987,7 @@ eizgttovabu.com
 eizzih.com
 ejadhobthckao.site
 ejaxbjcsdmjwm.site
+ejbbcf.finishline.com
 ejepontspwiip.website
 ejexgcirsdwvx.online
 ejfstrkmgwrql.site
@@ -10085,6 +10091,7 @@ elpbbuqu.com
 elpsirftovofi.space
 elq.blackrock.com
 elq.keysight.com
+elq.macu.com
 elqact.gartner.com
 elqtracking.capella.edu
 elqtracking.hitachienergy.com
@@ -11186,6 +11193,7 @@ fenixm.com
 fenoofaussut.net
 fenxi.com
 fepqwzejwtlmx.online
+feqbqn.rent.com
 feqgpykeuppfi.space
 feqriiemuqxis.online
 feqwggxdibzmq.online
@@ -11221,6 +11229,7 @@ ffjrpdfduteic.website
 ffjzmuwqcpdsq.online
 ffponnvhnttoh.online
 ffqumyjlunpga.online
+ffrmwn.musinsa.com
 ffskgnxhhnqaf.website
 ffsrxeamzwtsl.website
 fftvarabrusqk.website
@@ -12117,7 +12126,6 @@ fyzfvrnfmtzxm.online
 fzanswueeajvf.online
 fzdimble.com
 fzdwntsrbrodu.space
-fzexkf.drogaraia.com.br
 fzhlcpylcgicc.online
 fzioggf.com
 fzlnk.com
@@ -15789,7 +15797,6 @@ jkluxjhnnbfka.online
 jklxapwjjgyqb.space
 jkmawumzebcim.space
 jkmdfnarliyun.website
-jknarp.kakaku.com
 jktrnmllgenlb.online
 jktuulfyqhkxw.site
 jkvbegvzzmrsn.website
@@ -15838,7 +15845,6 @@ jmzoufvwxiswf.site
 jnarigjkijgoh.space
 jnhffeitzaycd.online
 jnjkkvkfwnlrd.site
-jnkqnf.cifraclub.com.br
 jnlevhmebqcxc.website
 jnljmuyjaiohr.online
 jnmqhpecyjrnf.online
@@ -18629,6 +18635,7 @@ metrics.data.hicloud.com
 metrics.doppiostreams.com
 metrics.duluthtrading.com
 metrics.ee.co.uk
+metrics.egencia.co.uk
 metrics.egencia.com
 metrics.egencia.de
 metrics.egencia.fr
@@ -20859,6 +20866,7 @@ ohxdkzbwzpvid.website
 ohyswagriuexx.space
 oi.429men.com
 oi.lesbianbliss.com
+oiat.dow.com
 oicfkmbppdusr.website
 oidgctozcfsrr.site
 oidzrvnbsbgmx.online
@@ -20979,6 +20987,7 @@ omn.americanexpress.com
 omni-dex.io
 omni.dsw.com
 omniconvert.com
+omnis.basspro.com
 omnitagjs.com
 omniture-dc-sec.cadence.com
 omniture-ssl.direct.asda.com
@@ -20993,6 +21002,7 @@ oms.avast.com
 oms.ccleaner.com
 oms.citynews.ca
 oms.dowjones.com
+oms.factiva.com
 oms.neimanmarcus.com
 oms.wsj.com
 oms1.sportsnet.ca
@@ -23852,7 +23862,6 @@ qpuajvzdhsmrk.space
 qpufhoviouoby.website
 qqcvdfytarpbw.site
 qqdata.ab.qq.com
-qqdflf.lpga.or.jp
 qqeamubuikcai.site
 qqfzedopftitm.website
 qqhjdsbubacon.online
@@ -26030,6 +26039,7 @@ secure-assets.rubiconproject.com
 secure.alea6badb.com
 secure.flashtalking.com
 secure.hiss3lark.com
+secure.kilo6alga.com
 secure.late6year.com
 secure.neck6bake.com
 secure.wauk1care.com
@@ -26796,10 +26806,12 @@ smearconventional.com
 smeasurement.nissan.ca
 smellyla.com
 smenqskfmpfxnb.bid
+smetric.4imprint.com
 smetric.biogen.com
 smetric.hilton.com
 smetric.schwab.com
 smetric.schwabinstitutional.com
+smetric.schwabplan.com
 smetric.trulia.com
 smetrics-ieeexplore.ieee.org
 smetrics.10daily.com.au
@@ -26813,10 +26825,12 @@ smetrics.aarp.org
 smetrics.abanca.com
 smetrics.abbvie.com
 smetrics.abercrombie.com
+smetrics.accaglobal.com
 smetrics.accredo.com
 smetrics.adnradio.cl
 smetrics.aem.playstation.com
 smetrics.aetn.com
+smetrics.aetnamedicare.com
 smetrics.aia.com
 smetrics.aida.de
 smetrics.airmiles.ca
@@ -26838,10 +26852,12 @@ smetrics.audi.co.uk
 smetrics.autodesk.com
 smetrics.automobilwoche.de
 smetrics.autonews.com
+smetrics.avalara.com
 smetrics.aveva.com
 smetrics.aviationweek.com
 smetrics.aviva.co.uk
 smetrics.avnet.com
+smetrics.axs.com
 smetrics.bamboohr.com
 smetrics.banamex.com
 smetrics.bancomundial.org
@@ -26854,6 +26870,8 @@ smetrics.bbva.com.co
 smetrics.bbva.es
 smetrics.bbva.mx
 smetrics.bbvanet.com.mx
+smetrics.bcbsm.com
+smetrics.bcbsnc.com
 smetrics.beatsbydre.com
 smetrics.belairdirect.com
 smetrics.belk.com
@@ -26885,6 +26903,7 @@ smetrics.cbc.ca
 smetrics.cedars-sinai.org
 smetrics.celebritycruises.com
 smetrics.centene.com
+smetrics.centerpointenergy.com
 smetrics.centurylink.com
 smetrics.cfainstitute.org
 smetrics.christies.com
@@ -26913,6 +26932,7 @@ smetrics.costadelmar.com
 smetrics.costco.com
 smetrics.couponcabin.com
 smetrics.cox.com
+smetrics.cpsenergy.com
 smetrics.crocs.com
 smetrics.croma.com
 smetrics.crystalski.co.uk
@@ -26926,7 +26946,6 @@ smetrics.deutschepost.de
 smetrics.dhl.de
 smetrics.dickssportinggoods.com
 smetrics.directauto.com
-smetrics.directv.com
 smetrics.discounttire.com
 smetrics.dish.co
 smetrics.dish.com
@@ -26945,6 +26964,7 @@ smetrics.ets.org
 smetrics.eurekalert.org
 smetrics.europafm.com
 smetrics.eurowings.com
+smetrics.evernorth.com
 smetrics.eversource.com
 smetrics.evicore.com
 smetrics.express-scripts.com
@@ -26958,6 +26978,7 @@ smetrics.fcbarcelona.com
 smetrics.fcbarcelona.es
 smetrics.fedex.com
 smetrics.fifa.com
+smetrics.filemaker.com
 smetrics.fnac.com
 smetrics.fnac.pt
 smetrics.ford.com
@@ -26996,8 +27017,10 @@ smetrics.huntington.com
 smetrics.hyundaiusa.com
 smetrics.icicibank.com
 smetrics.inova.org
+smetrics.insight.com
 smetrics.intact.ca
 smetrics.intervalworld.com
+smetrics.jackson.com
 smetrics.jared.com
 smetrics.jcb.co.jp
 smetrics.jcpenney.com
@@ -27012,6 +27035,7 @@ smetrics.kerry.com
 smetrics.keysight.com
 smetrics.kone.vn
 smetrics.kpmg.com
+smetrics.lakeshorelearning.com
 smetrics.lanebryant.com
 smetrics.laredoute.fr
 smetrics.lasexta.com
@@ -27039,14 +27063,17 @@ smetrics.maurices.com
 smetrics.maxicoffee.de
 smetrics.mcdonalds.com
 smetrics.mdlive.com
+smetrics.medstarhealth.org
 smetrics.memberdeals.com
 smetrics.mercola.com
+smetrics.mercy.net
 smetrics.metrobyt-mobile.com
 smetrics.mgmresorts.com
 smetrics.michaelkors.com
 smetrics.michaelkors.eu
 smetrics.michaelkors.uk
 smetrics.modernhealthcare.com
+smetrics.moodys.com
 smetrics.morganstanley.com
 smetrics.murata.com
 smetrics.myhealthtoolkit.com
@@ -27054,6 +27081,7 @@ smetrics.napaonline.com
 smetrics.nascar.com
 smetrics.nationalgeneral.com
 smetrics.nationaltrust.org.uk
+smetrics.newark.com
 smetrics.newbalance.com
 smetrics.nfl.com
 smetrics.ni.com
@@ -27061,6 +27089,7 @@ smetrics.nisbets.co.uk
 smetrics.nvidia.com
 smetrics.o2online.de
 smetrics.oakley.com
+smetrics.oerproject.com
 smetrics.officeworks.com.au
 smetrics.ok.dk
 smetrics.oliverpeoples.com
@@ -27072,6 +27101,7 @@ smetrics.optum.com
 smetrics.pacsun.com
 smetrics.pandora.net
 smetrics.panerabread.com
+smetrics.partssource.com
 smetrics.payback.de
 smetrics.payback.pl
 smetrics.pbteen.com
@@ -27150,6 +27180,7 @@ smetrics.sony.jp
 smetrics.sothebys.com
 smetrics.southwest.com
 smetrics.spdrs.com
+smetrics.srpnet.com
 smetrics.ssga.com
 smetrics.stanfordhealthcare.org
 smetrics.staples.com
@@ -27176,6 +27207,7 @@ smetrics.telegraph.co.uk
 smetrics.tesco.com
 smetrics.tfl.gov.uk
 smetrics.theathletesfoot.com.au
+smetrics.thelawyer.com
 smetrics.thewhitecompany.com
 smetrics.thingspeak.com
 smetrics.three.co.uk
@@ -27201,6 +27233,7 @@ smetrics.unipolsai.it
 smetrics.ups.com
 smetrics.usbank.com
 smetrics.vanguard.com
+smetrics.velocityfrequentflyer.com
 smetrics.verisign.com
 smetrics.viabcp.com
 smetrics.virginatlantic.com
@@ -27215,6 +27248,7 @@ smetrics.vw.com
 smetrics.vwfs.de
 smetrics.walgreens.com
 smetrics.washingtonpost.com
+smetrics.waters.com
 smetrics.webex.com
 smetrics.westelm.com
 smetrics.westernunion.com
@@ -27416,7 +27450,10 @@ solsticeblack.com
 solutionbiologyisle.com
 solutions2forge.net
 solvemilitaryconsulate.com
+som.athenahealth.com
+som.healthgrades.com
 som.hotwire.com
+som.ringcentral.com
 somainpdeirit.online
 sombernewspaper.com
 sombersea.com
@@ -27437,7 +27474,9 @@ somfeubckguwd.site
 somni.accenture.com
 somni.alaskaair.com
 somni.australia.com
+somni.bluecrossma.com
 somni.carecredit.com
+somni.carecreditprovidercenter.com
 somni.choicehotels.com
 somni.creditonebank.com
 somni.deere.com
@@ -27826,13 +27865,13 @@ ssl-services.com
 ssl.o.additudemag.com
 ssl.o.medicinenet.com
 ssl.o.medscape.com
+ssl.o.vitals.com
 sslstats.canadapost.ca
 ssmemwsactbto.space
 ssmtfxdslsvzz.space
 ssmxdtzbskhto.space
 ssogkvsgjskhe.site
 ssotlctvjiuei.site
-ssp.1nmob.com
 ssp.qq.com
 ssp.seznam.cz
 sspxhnhaigrdb.site
@@ -27849,6 +27888,7 @@ sstats.americafirst.com
 sstats.coop.dk
 sstats.deloitte.com
 sstats.deluxe.com
+sstats.extendedstayhotels.com
 sstats.investors.com
 sstats.kroger.com
 sstats.meijer.com
@@ -27856,6 +27896,7 @@ sstats.motosport.com
 sstats.mt.com
 sstats.paloaltonetworks.com
 sstats.portauthorityclothing.com
+sstats.sanmar.com
 sstats.scholastic.com
 sstats.vizergy.com
 ssteeraa.net
@@ -28615,7 +28656,6 @@ sxetpzonjqvzu.site
 sxgqqsngkzozy.website
 sxijascmyuisl.site
 sxjaywwshzjby.online
-sxjfhh.freep.com
 sxjfhh.usatoday.com
 sxkumarbqmnuc.space
 sxlflt.com
@@ -28703,6 +28743,7 @@ t.auburntigers.com
 t.birchlane.com
 t.blablacar.com
 t.blog.livedoor.jp
+t.bucky.uwbadgers.com
 t.bukalapak.com
 t.channeladvisor.com
 t.dailymail.co.uk
@@ -28713,6 +28754,7 @@ t.festo.com
 t.freelancer.com
 t.fullres.net
 t.gdt.qq.com
+t.hailstate.com
 t.hellowork.com
 t.huskers.com
 t.jasper.ai
@@ -28720,11 +28762,13 @@ t.jobsyn.org
 t.jossandmain.com
 t.kck.st
 t.ltiquery.com
+t.mgoblue.com
 t.mmganalytics.com
 t.mydialoginsight.com
 t.nc0.co
 t.nypost.com
 t.ofsys.com
+t.olemisssports.com
 t.pagesix.com
 t.perigold.com
 t.pie.org
@@ -29031,6 +29075,7 @@ telemetry.dzen.ru
 telemetry.goodlifefitness.com
 telemetry.jivosite.com
 telemetry.nav.no
+telemetry.navispherecarrier.com
 telemetry.phenixrts.com
 telemetry.proton.me
 telemetry.soundcloud.com
@@ -29756,6 +29801,7 @@ track.pricespider.com
 track.robee.tech
 track.searchiq.co
 track.sohu.com
+track.solventum.com
 track.tesiteca.it
 track.thebase.in
 track.totalav.com
@@ -29868,6 +29914,7 @@ tracking.livingsocial.com
 tracking.markethero.io
 tracking.mathworks.com
 tracking.musixmatch.com
+tracking.netsuite.com
 tracking.oe24.at
 tracking.offerista.com
 tracking.olx-st.com
@@ -30101,6 +30148,7 @@ trk.storyly.io
 trk.techtarget.com
 trk.us.vacasa.com
 trk2-wtb.swaven.com
+trk2.avalara.com
 trkapi.impact.com
 trkbc.com
 trker.com
@@ -30587,7 +30635,6 @@ udm.scorecardresearch.com
 udmserve.net
 udplgiotjursc.website
 udppercfezmis.online
-udrvvx.kabum.com.br
 udzpel.com
 ueaczqcyrvval.online
 uecrkcmmjcayt.online
@@ -32048,7 +32095,6 @@ vskfhfqsvurqy.online
 vsksdftatdnwg.site
 vslkklvzrqftq.online
 vslnphbyuqbkz.site
-vslpnvutywvnb.space
 vsofglbfeiewy.site
 vsorcyifkcbwo.site
 vsqczzvkhzphx.site
@@ -32322,7 +32368,6 @@ watapehsmeeked.shop
 wataxpf.com
 watchetdorlot.shop
 watchetifuters.cloud
-watchful-development.pro
 watchfulsorrow.com
 watchingthat.com
 watchingthat.net
@@ -32461,6 +32506,7 @@ web-stat.com
 web.ali213.net
 web.comunicazioni.iol.it
 web.northwestern.nm.org
+web.redazione.milanofinanza.it
 web0.eu
 web1.51.la
 web3ads.net
@@ -32575,7 +32621,6 @@ weqeagfolnehx.space
 wesicuros.com
 westnarrow.com
 westsideglobe.com
-wet-ambition.pro
 wet-judge.com
 wetnesstommer.com
 weuaubbolvxby.website
@@ -33406,7 +33451,6 @@ xcultur.com
 xcxmpiysijwjr.website
 xdbfroeqjhkqw.site
 xdbofzoobrmgu.site
-xddofaytuemne.site
 xdhdubnhaymal.site
 xdhjbmysilynq.site
 xdiccukqbviiz.online
@@ -33912,7 +33956,6 @@ yavli.com
 yawmarqmnbndi.website
 yawncollaremotion.com
 yawnexactplum.com
-yawningloss.com
 yawuyibzriuzn.space
 yaxbsamkhdycw.online
 yazspspjorqhx.site
@@ -33953,7 +33996,6 @@ ycnvuhcrdomqz.space
 ycoecgqypbqtv.space
 ycoxikgxkmddm.online
 ycqq-protect.pro
-ycqsozlszqmdr.website
 ycsixagtzyhs.com
 ycstajztzoyiu.online
 ycuixpwkugaot.space
@@ -34919,7 +34961,6 @@ zubivu.com
 zubvdghmyhajk.website
 zubxulmxdrtxy.website
 zuchhsparxodc.site
-zuciwang.com
 zucks.net
 zudoswamvj.in
 zuekohojehjsx.space
