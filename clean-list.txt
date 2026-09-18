@@ -3336,13 +3336,11 @@ axp.fox8.com
 axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
-axp.koin.com
 axp.kron4.com
 axp.ktla.com
 axp.kxan.com
 axp.myfox8.com
 axp.nbc4i.com
-axp.news10.com
 axp.newsnationnow.com
 axp.thehill.com
 axp.wane.com
@@ -3355,6 +3353,7 @@ axp.wkbn.com
 axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
+axp.wreg.com
 axp.wtnh.com
 axpedsqboflar.space
 axshhgmltiycy.site
@@ -7968,13 +7967,13 @@ data.inbank.it
 data.jerkmate.com
 data.latinamerica.coca-cola.com
 data.madridista-free.realmadrid.com
-data.mmail.northeast.aaa.com
 data.northeast.aaa.com
 data.nrk.no
 data.queryly.com
 data.reactandshare.com
 data.replo.app
 data.segugio.it
+data.service.manulife.ca
 data.trx.costco.com
 data.vevor.com
 data1.virginmobile.ca
@@ -14106,7 +14105,6 @@ hrihqgbkuarzq.online
 hrjarhlgpebrw.site
 hrknqbbxmyvyo.site
 hrllzdgzyzoiy.website
-hrm.healthgrades.com
 hrogrpee.de
 hrpbmvgbihfac.site
 hrrlwaavrttks.online
@@ -15024,6 +15022,7 @@ insideofnews.com
 insideoftech.com
 insidepsych.net
 insidethegames.live
+insight.business.hsbc.com
 insight.mintel.com
 insightadz.com
 insights.academy.com
@@ -18644,7 +18643,6 @@ metrics.data.hicloud.com
 metrics.doppiostreams.com
 metrics.duluthtrading.com
 metrics.ee.co.uk
-metrics.egencia.co.uk
 metrics.egencia.com
 metrics.egencia.de
 metrics.egencia.fr
@@ -21003,9 +21001,7 @@ omnitagjs.com
 omniture-dc-sec.cadence.com
 omniture-ssl.direct.asda.com
 omniture-ssl.kia.com
-omniture-ssl.walmart.ca
 omniture-ssl.walmart.com
-omniture.kennametal.com
 omoonsih.net
 omoshzdmoplzs.online
 omoxxgrsttwsz.online
@@ -24185,7 +24181,6 @@ rackforstorage.com
 racunn.com
 radar.imgsmail.ru
 radar.wizzo.media
-raddus.bayescom.com
 radiancelongitude.com
 radiantmedia.net
 radiantspacecraftbell.com
@@ -27195,7 +27190,6 @@ smetrics.sony.jp
 smetrics.sothebys.com
 smetrics.southwest.com
 smetrics.spdrs.com
-smetrics.srpnet.com
 smetrics.ssga.com
 smetrics.stanfordhealthcare.org
 smetrics.staples.com
@@ -27223,7 +27217,6 @@ smetrics.telegraph.co.uk
 smetrics.tesco.com
 smetrics.tfl.gov.uk
 smetrics.theathletesfoot.com.au
-smetrics.thelawyer.com
 smetrics.thewhitecompany.com
 smetrics.thingspeak.com
 smetrics.three.co.uk
@@ -27249,7 +27242,6 @@ smetrics.unipolsai.it
 smetrics.ups.com
 smetrics.usbank.com
 smetrics.vanguard.com
-smetrics.velocityfrequentflyer.com
 smetrics.verisign.com
 smetrics.viabcp.com
 smetrics.virginatlantic.com
@@ -28782,7 +28774,6 @@ t.mydialoginsight.com
 t.nc0.co
 t.nypost.com
 t.ofsys.com
-t.olemisssports.com
 t.pagesix.com
 t.perigold.com
 t.pie.org
