@@ -2461,6 +2461,7 @@ analytics.nike.com
 analytics.nordea.dk
 analytics.oceanengine.com
 analytics.optilead.co.uk
+analytics.org.coveo.com
 analytics.ostr.io
 analytics.ovh.com
 analytics.oyorooms.com
@@ -3353,7 +3354,6 @@ axp.wkbn.com
 axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
-axp.wreg.com
 axp.wtnh.com
 axpedsqboflar.space
 axshhgmltiycy.site
@@ -5749,6 +5749,7 @@ click-performance.assets.rndtech.de
 click.chinaliftoff.io
 click.gamersky.com
 click.kataweb.it
+click.lenovo.com
 click.scour.com
 clickable.com
 clickad.pl
@@ -6770,6 +6771,7 @@ ctosrd.com
 ctpgylmhxxtie.space
 ctprevrinugss.online
 ctqofdizkaput.website
+ctr.hd.sohu.com
 ctr.nmg.de
 ctrdwm.com
 cts.tradepub.com
@@ -7973,7 +7975,6 @@ data.queryly.com
 data.reactandshare.com
 data.replo.app
 data.segugio.it
-data.service.manulife.ca
 data.trx.costco.com
 data.vevor.com
 data1.virginmobile.ca
@@ -9990,7 +9991,6 @@ eizgttovabu.com
 eizzih.com
 ejadhobthckao.site
 ejaxbjcsdmjwm.site
-ejbbcf.finishline.com
 ejepontspwiip.website
 ejexgcirsdwvx.online
 ejfstrkmgwrql.site
@@ -11196,7 +11196,6 @@ fenixm.com
 fenoofaussut.net
 fenxi.com
 fepqwzejwtlmx.online
-feqbqn.rent.com
 feqgpykeuppfi.space
 feqriiemuqxis.online
 feqwggxdibzmq.online
@@ -13490,7 +13489,6 @@ hcegngzriixcl.site
 hcgzmbfewulwh.website
 hchwkwwflqsrc.website
 hcjjizmrsilri.online
-hcjpbc.mensjournal.com
 hcjpbc.usmagazine.com
 hcjzvzvavb.com
 hclcvthefqyac.space
@@ -15022,7 +15020,6 @@ insideofnews.com
 insideoftech.com
 insidepsych.net
 insidethegames.live
-insight.business.hsbc.com
 insight.mintel.com
 insightadz.com
 insights.academy.com
@@ -20875,7 +20872,6 @@ ohxdkzbwzpvid.website
 ohyswagriuexx.space
 oi.429men.com
 oi.lesbianbliss.com
-oiat.dow.com
 oicfkmbppdusr.website
 oidgctozcfsrr.site
 oidzrvnbsbgmx.online
@@ -21001,6 +20997,7 @@ omnitagjs.com
 omniture-dc-sec.cadence.com
 omniture-ssl.direct.asda.com
 omniture-ssl.kia.com
+omniture-ssl.walmart.ca
 omniture-ssl.walmart.com
 omoonsih.net
 omoshzdmoplzs.online
@@ -22494,6 +22491,7 @@ playstream.media
 playtem.com
 playukinternet.com
 playvideodirect.com
+plbcsd.vidaxl.se
 plbpzwoxisdwb.website
 plchldr.co
 plcxocydjdfhe.space
@@ -25615,7 +25613,6 @@ saa.globalspec.com
 saa.last.fm
 saa.maxpreps.com
 saa.pluto.tv
-saa.sportsline.com
 saa.tescomobile.com
 saad.ms.zhangyue.net
 saam.gumtree.com.au
@@ -26842,7 +26839,6 @@ smetrics.accredo.com
 smetrics.adnradio.cl
 smetrics.aem.playstation.com
 smetrics.aetn.com
-smetrics.aetnamedicare.com
 smetrics.aia.com
 smetrics.aida.de
 smetrics.airmiles.ca
@@ -27490,6 +27486,7 @@ somni.creditonebank.com
 somni.deere.com
 somni.dsw.com
 somni.mysynchrony.com
+somni.orvis.com
 somni.pluralsight.com
 somni.rei.com
 somni.rocketmortgage.com
