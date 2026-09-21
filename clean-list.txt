@@ -958,6 +958,7 @@ ad.animehub.ac
 ad.api.moji.com
 ad.bitmedia.io
 ad.charltonmedia.com
+ad.cn.doubleclick.net
 ad.cpcstar.com
 ad.cyapi.cn
 ad.daum.net
@@ -1630,7 +1631,6 @@ adthrive.com
 adtilt.com
 adtimaserver.vn
 adtiming.com
-adtival.network
 adtlgc.com
 adtng.com
 adtoox.com
@@ -4944,6 +4944,7 @@ bzzbncgvnlplx.site
 bzzeozksrbqxf.space
 bzzoedvaxpaeu.space
 c.arstechnica.com
+c.baidu.com
 c.bannerflow.net
 c.bigmir.net
 c.bing.com
@@ -6755,6 +6756,7 @@ ctgkrtjuarrzp.online
 ctgpterrasekv.space
 ctgxakoxvb.com
 ctheibgpttmxu.site
+ctlayn.talbots.com
 ctlsmzvtfq.com
 ctmofpzrkmjxt.site
 ctmpjhldreytz.space
@@ -7944,6 +7946,7 @@ data-logdelivery.wconcept.co.kr
 data-optout-service.uca.cloud.unity3d.com
 data-px.services
 data-sdk-uuid-log.d.meituan.net
+data-ssl.pnet.co.za
 data-ssl.stepstone.de
 data.abc.es
 data.allstate.com
@@ -18641,8 +18644,10 @@ metrics.egencia.de
 metrics.egencia.fr
 metrics.el-mundo.net
 metrics.elsevier.com
+metrics.fedex.com
 metrics.find.gr
 metrics.fortinet.com
+metrics.foxsports.com.au
 metrics.freemake.com
 metrics.giftcards.com
 metrics.gs-chat.com
@@ -22839,6 +22844,7 @@ pqudnqrlwleqr.site
 pqwdiwikgevnn.site
 pr-bh.ybp.yahoo.com
 pr.nss.netease.com
+pr.ybp.yahoo.com
 practicablepancakevisual.com
 practical-associate.pro
 practicalboil.com
@@ -24551,6 +24557,7 @@ refusalcustody.com
 refusalspudvicinity.com
 refutationflowerbed.com
 refzcaenroiyh.space
+reg.techweb.com
 regardingfourteenth.com
 regardingsnappy.com
 regardlived.com
@@ -25049,6 +25056,7 @@ rluhlgvsxabon.online
 rlusaglqgblxw.website
 rlwttnzdgmirv.site
 rlzxejmnaxkht.website
+rm.sina.com.cn
 rmajfshtdeoko.space
 rmazxvjbpymsz.website
 rmb-trf.net
@@ -27033,6 +27041,7 @@ smetrics.lpl.com
 smetrics.lww.com
 smetrics.manheim.com
 smetrics.marcus.com
+smetrics.markandgraham.com
 smetrics.marketing.philips-hue.com
 smetrics.marksandspencer.com
 smetrics.marriott.com
@@ -27095,6 +27104,7 @@ smetrics.potterybarn.com
 smetrics.potterybarnkids.com
 smetrics.princess.com
 smetrics.proximus.be
+smetrics.pulte.com
 smetrics.purchasingpower.com
 smetrics.pwc.com
 smetrics.qatarairways.com
@@ -27204,6 +27214,7 @@ smetrics.unipolsai.it
 smetrics.ups.com
 smetrics.usbank.com
 smetrics.vanguard.com
+smetrics.velocityfrequentflyer.com
 smetrics.verisign.com
 smetrics.viabcp.com
 smetrics.virginatlantic.com
@@ -27441,7 +27452,6 @@ somni.accenture.com
 somni.alaskaair.com
 somni.australia.com
 somni.carecredit.com
-somni.carecreditprovidercenter.com
 somni.choicehotels.com
 somni.creditonebank.com
 somni.deere.com
@@ -27861,7 +27871,6 @@ sstats.motosport.com
 sstats.mt.com
 sstats.paloaltonetworks.com
 sstats.portauthorityclothing.com
-sstats.sanmar.com
 sstats.scholastic.com
 sstats.vizergy.com
 ssteeraa.net
@@ -28725,12 +28734,12 @@ t.jobsyn.org
 t.jossandmain.com
 t.kck.st
 t.ltiquery.com
-t.mgoblue.com
 t.mmganalytics.com
 t.mydialoginsight.com
 t.nc0.co
 t.nypost.com
 t.ofsys.com
+t.olemisssports.com
 t.pagesix.com
 t.perigold.com
 t.pie.org
@@ -31195,6 +31204,7 @@ userstat.net
 usertag.online
 usewmeukdgmnh.website
 usgutmbdobzni.website
+usgzei.vidaxl.ch
 ushercensor.com
 usherfrightenwaiter.com
 ushermassacrecranny.com
@@ -34344,6 +34354,7 @@ yswpcoftefaes.site
 yswrwlzzbhqjs.site
 ysxbgquecngah.site
 ysyskedunnkuo.online
+yszedg.vidaxl.dk
 yt-adp.nosdn.127.net
 yt-adp.ws.126.net
 yt7ztgi0.xyz
