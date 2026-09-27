@@ -1,2 +1,3 @@
 sensors.cloud.tencent.com
 mon.zijieapi.com
+log.amemv.com
