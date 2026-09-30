@@ -3246,12 +3246,14 @@ axoxktmvnhtav.site
 axp.abc27.com
 axp.abc4.com
 axp.fox2now.com
+axp.fox4kc.com
 axp.fox59.com
 axp.fox5sandiego.com
 axp.fox8.com
 axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
+axp.koin.com
 axp.kron4.com
 axp.ktla.com
 axp.kxan.com
@@ -7696,7 +7698,6 @@ data-ssl.stepstone.de
 data.abc.es
 data.allstate.com
 data.chsmarttv.com
-data.cs.officedepot.com
 data.digitalks.az
 data.dow.com
 data.e.adobe.com
@@ -7712,7 +7713,6 @@ data.inbank.it
 data.jerkmate.com
 data.latinamerica.coca-cola.com
 data.madridista-free.realmadrid.com
-data.mmail.northeast.aaa.com
 data.northeast.aaa.com
 data.nrk.no
 data.queryly.com
@@ -9772,7 +9772,6 @@ elq.blackrock.com
 elq.keysight.com
 elq.macu.com
 elqact.gartner.com
-elqtrack.kubotausa.com
 elqtracking.capella.edu
 elqtracking.hitachienergy.com
 elqtrk.cummins.com
@@ -10807,7 +10806,6 @@ fendersgaily.com
 fenixm.com
 fenoofaussut.net
 fenxi.com
-feqbqn.rent.com
 feqgpykeuppfi.space
 feqriiemuqxis.online
 feqwggxdibzmq.online
@@ -13577,6 +13575,7 @@ hrihqgbkuarzq.online
 hrjarhlgpebrw.site
 hrknqbbxmyvyo.site
 hrllzdgzyzoiy.website
+hrm.healthgrades.com
 hrogrpee.de
 hrpbmvgbihfac.site
 hrrlwaavrttks.online
@@ -14460,6 +14459,7 @@ insideofnews.com
 insideoftech.com
 insidepsych.net
 insidethegames.live
+insight.business.hsbc.com
 insight.mintel.com
 insightadz.com
 insights.academy.com
@@ -17917,7 +17917,6 @@ metrics.data.hicloud.com
 metrics.doppiostreams.com
 metrics.duluthtrading.com
 metrics.ee.co.uk
-metrics.egencia.co.uk
 metrics.egencia.com
 metrics.egencia.de
 metrics.egencia.fr
@@ -17952,7 +17951,6 @@ metrics.radissonhotels.com
 metrics.rapidedge.io
 metrics.rewe.de
 metrics.samsclub.com
-metrics.sgproof.com
 metrics.skynews.com.au
 metrics.steelcase.com
 metrics.supercoach.com.au
@@ -20059,7 +20057,6 @@ ohxdkzbwzpvid.website
 ohyswagriuexx.space
 oi.429men.com
 oi.lesbianbliss.com
-oiat.dow.com
 oicfkmbppdusr.website
 oidgctozcfsrr.site
 oidzrvnbsbgmx.online
@@ -23599,7 +23596,6 @@ refusalcustody.com
 refusalspudvicinity.com
 refutationflowerbed.com
 refzcaenroiyh.space
-reg.techweb.com
 regardingfourteenth.com
 regardingsnappy.com
 regardlived.com
@@ -25928,6 +25924,7 @@ smetrics.fcbarcelona.cat
 smetrics.fcbarcelona.com
 smetrics.fcbarcelona.es
 smetrics.fedex.com
+smetrics.fetnet.net
 smetrics.fifa.com
 smetrics.filemaker.com
 smetrics.fnac.com
@@ -26023,6 +26020,7 @@ smetrics.mgmresorts.com
 smetrics.michaelkors.com
 smetrics.michaelkors.eu
 smetrics.michaelkors.uk
+smetrics.mitsubishi-motors.com.au
 smetrics.modernhealthcare.com
 smetrics.moodys.com
 smetrics.morganstanley.com
@@ -26131,6 +26129,7 @@ smetrics.sony.jp
 smetrics.sothebys.com
 smetrics.southwest.com
 smetrics.spdrs.com
+smetrics.srpnet.com
 smetrics.ssga.com
 smetrics.stanfordhealthcare.org
 smetrics.staples.com
@@ -26830,7 +26829,6 @@ sstats.americafirst.com
 sstats.coop.dk
 sstats.deloitte.com
 sstats.deluxe.com
-sstats.extendedstayhotels.com
 sstats.investors.com
 sstats.kroger.com
 sstats.meijer.com
@@ -27673,7 +27671,6 @@ t.auburntigers.com
 t.birchlane.com
 t.blablacar.com
 t.blog.livedoor.jp
-t.bucky.uwbadgers.com
 t.bukalapak.com
 t.channeladvisor.com
 t.dailymail.co.uk
@@ -27713,7 +27710,6 @@ t.soonersports.com
 t.sports.ru
 t.spot.im
 t.themarketer.com
-t.usctrojans.com
 t.vibe.co
 t.wayfair.ca
 t.wayfair.co.uk
@@ -28452,7 +28448,6 @@ tnhbasulnwrqt.online
 tniiydilgpdrf.site
 tnijhexxbrdag.online
 tnirtdbtlbawa.space
-tniujy.natura.com.br
 tnlmteguifelr.online
 tnlnblwozgdbi.site
 tnlszozefygrt.online
@@ -33785,6 +33780,7 @@ zubivu.com
 zubvdghmyhajk.website
 zubxulmxdrtxy.website
 zuchhsparxodc.site
+zuciwang.com
 zucks.net
 zudoswamvj.in
 zuekohojehjsx.space
