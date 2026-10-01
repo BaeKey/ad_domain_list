@@ -1428,6 +1428,7 @@ ads-sg.tiktok.com
 ads-shopping.shouqianba.com
 ads-static.conde.digital
 ads-tracking.collectiveaudience.co
+ads-tracking.com
 ads-twitter.com
 ads-video-al.xhscdn.com
 ads-yallo-production.imgix.net
@@ -3250,6 +3251,7 @@ axp.fox4kc.com
 axp.fox59.com
 axp.fox5sandiego.com
 axp.fox8.com
+axp.kark.com
 axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
@@ -3259,9 +3261,11 @@ axp.ktla.com
 axp.kxan.com
 axp.myfox8.com
 axp.nbc4i.com
+axp.news10.com
 axp.newsnationnow.com
 axp.thehill.com
 axp.wane.com
+axp.wate.com
 axp.wavy.com
 axp.wfla.com
 axp.wgntv.com
@@ -3271,6 +3275,8 @@ axp.wkbn.com
 axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
+axp.wreg.com
+axp.wric.com
 axp.wtnh.com
 axpedsqboflar.space
 axshhgmltiycy.site
@@ -5009,6 +5015,7 @@ caszcevcyt.in
 cataloguedelay.com
 catchbarracksclinic.com
 categorysoloist.com
+cathaytrash.com
 catiuribripent.com
 catsys.jp
 cattailpectinselected.com
@@ -6301,6 +6308,7 @@ craktraffic.com
 crampleadspace.com
 cranberryclearingexplode.com
 cranegarnishextinct.com
+cranialhubbed.com
 crankerbillety.shop
 crannyadministervolunteer.com
 craptroopstammer.com
@@ -6518,7 +6526,6 @@ ctgkrtjuarrzp.online
 ctgpterrasekv.space
 ctgxakoxvb.com
 ctheibgpttmxu.site
-ctlayn.talbots.com
 ctlsmzvtfq.com
 ctmofpzrkmjxt.site
 ctmpjhldreytz.space
@@ -7713,6 +7720,7 @@ data.inbank.it
 data.jerkmate.com
 data.latinamerica.coca-cola.com
 data.madridista-free.realmadrid.com
+data.mmail.northeast.aaa.com
 data.northeast.aaa.com
 data.nrk.no
 data.queryly.com
@@ -10306,6 +10314,7 @@ events.reddit.com
 events.redditmedia.com
 events.s4long.com
 events.santander.co.uk
+events.searchtap.net
 events.shoplift.ai
 events.splash-screen.net
 events.squarespace.com
@@ -10806,6 +10815,7 @@ fendersgaily.com
 fenixm.com
 fenoofaussut.net
 fenxi.com
+feqbqn.rent.com
 feqgpykeuppfi.space
 feqriiemuqxis.online
 feqwggxdibzmq.online
@@ -14459,7 +14469,6 @@ insideofnews.com
 insideoftech.com
 insidepsych.net
 insidethegames.live
-insight.business.hsbc.com
 insight.mintel.com
 insightadz.com
 insights.academy.com
@@ -20057,6 +20066,7 @@ ohxdkzbwzpvid.website
 ohyswagriuexx.space
 oi.429men.com
 oi.lesbianbliss.com
+oiat.dow.com
 oicfkmbppdusr.website
 oidgctozcfsrr.site
 oidzrvnbsbgmx.online
@@ -20342,6 +20352,7 @@ opensharecount.com
 openstat.net
 openswarthylie.com
 opentecs.com
+openwebmp.com
 openx.net
 openxcdn.net
 operaserver.com
@@ -23449,6 +23460,7 @@ realorganrobe.com
 realsrvcdn.com
 realtime-profiling.datarize.ai
 realtime.bbcl.cl
+realtimeanalytics.yext.com
 realtimely.io
 realtracker.com
 realvu.net
@@ -23596,6 +23608,7 @@ refusalcustody.com
 refusalspudvicinity.com
 refutationflowerbed.com
 refzcaenroiyh.space
+reg.techweb.com
 regardingfourteenth.com
 regardingsnappy.com
 regardlived.com
@@ -25780,6 +25793,7 @@ smetrics.aia.com
 smetrics.aida.de
 smetrics.airmiles.ca
 smetrics.alka.dk
+smetrics.allenedmonds.com
 smetrics.allianzlife.com
 smetrics.allstate.com
 smetrics.ambetterhealth.com
@@ -25956,6 +25970,7 @@ smetrics.healthnetcalifornia.com
 smetrics.healthpartners.com
 smetrics.heathrow.com
 smetrics.herbalife.com
+smetrics.heromotocorp.com
 smetrics.hollandamerica.com
 smetrics.hollisterco.com
 smetrics.hpe.com
@@ -25968,6 +25983,7 @@ smetrics.inova.org
 smetrics.insight.com
 smetrics.intact.ca
 smetrics.intervalworld.com
+smetrics.jackson.com
 smetrics.jared.com
 smetrics.jcb.co.jp
 smetrics.jcpenney.com
@@ -26068,6 +26084,7 @@ smetrics.politicopro.com
 smetrics.potterybarn.com
 smetrics.potterybarnkids.com
 smetrics.princess.com
+smetrics.provincial.com
 smetrics.proximus.be
 smetrics.pulte.com
 smetrics.purchasingpower.com
@@ -26129,7 +26146,6 @@ smetrics.sony.jp
 smetrics.sothebys.com
 smetrics.southwest.com
 smetrics.spdrs.com
-smetrics.srpnet.com
 smetrics.ssga.com
 smetrics.stanfordhealthcare.org
 smetrics.staples.com
@@ -26829,6 +26845,7 @@ sstats.americafirst.com
 sstats.coop.dk
 sstats.deloitte.com
 sstats.deluxe.com
+sstats.extendedstayhotels.com
 sstats.investors.com
 sstats.kroger.com
 sstats.meijer.com
@@ -27961,6 +27978,7 @@ technologies2radar.net
 technoshadows.com
 techpump.com
 teczoonbdxxug.site
+ted.dailymail.co.uk
 teddygroups.com
 tediousrelinquish.com
 tedioustooth.com
@@ -28709,7 +28727,6 @@ track.pricespider.com
 track.robee.tech
 track.searchiq.co
 track.sohu.com
-track.solventum.com
 track.tesiteca.it
 track.thebase.in
 track.totalav.com
@@ -30407,6 +30424,7 @@ vastlysharemillions.com
 vastroll.ru
 vastserved.com
 vathapvniskqb.website
+vaudona.com
 vaugroar.com
 vault-static.shop
 vault.gostatera.com
@@ -33780,7 +33798,6 @@ zubivu.com
 zubvdghmyhajk.website
 zubxulmxdrtxy.website
 zuchhsparxodc.site
-zuciwang.com
 zucks.net
 zudoswamvj.in
 zuekohojehjsx.space
