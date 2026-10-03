@@ -1552,7 +1552,6 @@ adsparc.net
 adspdbl.com
 adspector.io
 adspeed.com
-adspirit.de
 adspredictiv.com
 adspruce.com
 adspsp.com
@@ -3234,11 +3233,9 @@ axoxktmvnhtav.site
 axp.abc27.com
 axp.abc4.com
 axp.fox2now.com
-axp.fox4kc.com
 axp.fox59.com
 axp.fox5sandiego.com
 axp.fox8.com
-axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
 axp.koin.com
@@ -3247,7 +3244,6 @@ axp.ktla.com
 axp.kxan.com
 axp.myfox8.com
 axp.nbc4i.com
-axp.news10.com
 axp.newsnationnow.com
 axp.thehill.com
 axp.wane.com
@@ -3260,8 +3256,6 @@ axp.wkbn.com
 axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
-axp.wreg.com
-axp.wric.com
 axp.wtnh.com
 axpedsqboflar.space
 axshhgmltiycy.site
@@ -3400,7 +3394,6 @@ balsamicpixels.com
 balunkalends.com
 balvalur.com
 bambubajimper.shop
-bamstimet.shop
 ban.etherscan.com
 bananascasketuntrue.com
 bandborder.com
@@ -3432,7 +3425,6 @@ baofeng.m.cn.miaozhen.com
 baptizeillusion.com
 baqbargafwlvd.site
 baqczoryagbvi.online
-baqtxlxxvtnwx.online
 barbecueasleeprealistic.com
 barboscaught.com
 barboycreme.com
@@ -4501,7 +4493,6 @@ brygella.com
 brzbrjycauqcf.site
 brzhwnzizcllp.site
 brzjthsubtlwj.site
-brzvtueeyyqdo.space
 bs-adserver.b-cdn.net
 bs.nakanohito.jp
 bs.yandex.ru
@@ -4611,14 +4602,12 @@ bulbbait.com
 bulgingextraordinary.com
 bulgingreact.com
 buljlwaclnocq.site
-bulkingpiffero.shop
 bulky-battle.com
 bulldogcpi.com
 bulletinsituatedelectronics.com
 bulletytwi.com
 bullionyield.com
 bulochka.xyz
-bumfxnyfnepjh.online
 bumlam.com
 bumq.com
 bunchhigher.com
@@ -4707,7 +4696,6 @@ bwporpxafcyms.online
 bwqfyjaynjpad.site
 bwqpdvvcxuzwi.website
 bwrlnmpgstsel.website
-bwrpihqndmsio.site
 bwtubspjogxsz.space
 bwvffebbohhiv.site
 bwvgtmxrqmkwv.website
@@ -4953,7 +4941,6 @@ cargoattachment.com
 caribalpicea.com
 caricatureboretangle.com
 caringcast.com
-caringpast.com
 caririlawmen.com
 carivjjfpakgl.site
 carlinsresumes.com
@@ -6511,7 +6498,6 @@ ctgkrtjuarrzp.online
 ctgpterrasekv.space
 ctgxakoxvb.com
 ctheibgpttmxu.site
-ctlayn.talbots.com
 ctlsmzvtfq.com
 ctmofpzrkmjxt.site
 ctmpjhldreytz.space
@@ -7713,7 +7699,6 @@ data.queryly.com
 data.reactandshare.com
 data.replo.app
 data.segugio.it
-data.service.manulife.ca
 data.trx.costco.com
 data.vevor.com
 data1.virginmobile.ca
@@ -11335,6 +11320,7 @@ fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
 fpadserver.com
 fpapi.io
+fpc.acponline.org
 fpc.sage.com
 fpcbltqovzjwg.website
 fpcdn.io
@@ -17900,7 +17886,6 @@ metrics.beyondwords.io
 metrics.bizjournals.com
 metrics.blackbaud.com
 metrics.bodyandsoul.com.au
-metrics.breadfinancial.com
 metrics.brooksrunning.com
 metrics.caixabank.es
 metrics.calgary.ca
@@ -17920,7 +17905,6 @@ metrics.el-mundo.net
 metrics.elsevier.com
 metrics.find.gr
 metrics.fortinet.com
-metrics.foxsports.com.au
 metrics.freemake.com
 metrics.giftcards.com
 metrics.gs-chat.com
@@ -20179,7 +20163,6 @@ omniture-ssl.direct.asda.com
 omniture-ssl.kia.com
 omniture-ssl.walmart.ca
 omniture-ssl.walmart.com
-omniture.kennametal.com
 omoonsih.net
 omoshzdmoplzs.online
 omoxxgrsttwsz.online
@@ -25941,7 +25924,6 @@ smetrics.gmfinancial.com
 smetrics.goibibo.com
 smetrics.goindigo.in
 smetrics.grainger.com
-smetrics.grandandtoy.com
 smetrics.greatsouthernbank.com.au
 smetrics.greendot.com
 smetrics.groupama.fr
@@ -25999,7 +25981,6 @@ smetrics.lpl.com
 smetrics.lww.com
 smetrics.manheim.com
 smetrics.marcus.com
-smetrics.markandgraham.com
 smetrics.marketing.philips-hue.com
 smetrics.marksandspencer.com
 smetrics.marriott.com
@@ -26132,7 +26113,6 @@ smetrics.sothebys.com
 smetrics.southwest.com
 smetrics.spdrs.com
 smetrics.srpnet.com
-smetrics.ssfcu.org
 smetrics.ssga.com
 smetrics.stanfordhealthcare.org
 smetrics.staples.com
@@ -26160,7 +26140,6 @@ smetrics.telegraph.co.uk
 smetrics.tesco.com
 smetrics.tfl.gov.uk
 smetrics.theathletesfoot.com.au
-smetrics.thelawyer.com
 smetrics.thewhitecompany.com
 smetrics.thingspeak.com
 smetrics.three.co.uk
@@ -26833,7 +26812,6 @@ sstats.americafirst.com
 sstats.coop.dk
 sstats.deloitte.com
 sstats.deluxe.com
-sstats.extendedstayhotels.com
 sstats.investors.com
 sstats.kroger.com
 sstats.meijer.com
@@ -27590,6 +27568,7 @@ sxetpzonjqvzu.site
 sxgqqsngkzozy.website
 sxijascmyuisl.site
 sxjaywwshzjby.online
+sxjfhh.detroitnews.com
 sxjfhh.usatoday.com
 sxkumarbqmnuc.space
 sxlflt.com
@@ -27676,6 +27655,7 @@ t.auburntigers.com
 t.birchlane.com
 t.blablacar.com
 t.blog.livedoor.jp
+t.bucky.uwbadgers.com
 t.bukalapak.com
 t.channeladvisor.com
 t.dailymail.co.uk
@@ -28714,6 +28694,7 @@ track.pricespider.com
 track.robee.tech
 track.searchiq.co
 track.sohu.com
+track.solventum.com
 track.tesiteca.it
 track.thebase.in
 track.totalav.com
@@ -28826,7 +28807,6 @@ tracking.livingsocial.com
 tracking.markethero.io
 tracking.mathworks.com
 tracking.musixmatch.com
-tracking.myregus.com
 tracking.netsuite.com
 tracking.oe24.at
 tracking.offerista.com
