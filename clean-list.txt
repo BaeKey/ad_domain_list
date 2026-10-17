@@ -3213,6 +3213,7 @@ axp.fox2now.com
 axp.fox4kc.com
 axp.fox59.com
 axp.fox8.com
+axp.kark.com
 axp.kdvr.com
 axp.keloland.com
 axp.kfor.com
@@ -11505,6 +11506,7 @@ g.ign.com
 g.mashable.com
 g.mnw.cn
 g.pcmag.com
+g.rtbrain.app
 g0gr67p.de
 g10102301085.co
 g10300385420.co
@@ -19651,6 +19653,7 @@ okyytrasubnjx.online
 ol-collector.quillbot.com
 olayomad.com
 olcrdqatcewmf.online
+old.umcl.us
 olderdisciplinary.com
 olderidentify.com
 olderouncedownstairs.com
@@ -26040,6 +26043,7 @@ ssc.cvent.com
 ssc.disneylandparis.com
 ssc.muji.net
 ssc.svoboda.org
+ssc.voanews.com
 sscfksiwpjxxu.website
 ssedcrimble.com
 sservs.com
@@ -32062,6 +32066,7 @@ ymrghezhbhfie.website
 ymufgwkbhzygn.online
 ymugyzcfjvyrv.website
 ymumjbgixpvws.site
+ymvikp.estadao.com.br
 ymvzpfzvtwohw.space
 ymzukfvbwuofd.site
 ynafusihflnzm.online
