@@ -941,6 +941,7 @@ ad.about.co.kr
 ad.aceplanet.co.kr
 ad.animehub.ac
 ad.api.moji.com
+ad.bayescom.com
 ad.bitmedia.io
 ad.charltonmedia.com
 ad.cmvideo.cn
@@ -1852,6 +1853,7 @@ afm01.com
 afnnpycuwoh.in
 afoupxzschljl.site
 afp.ai
+afpmm.alicdn.com
 afr4g5.de
 afraid-resolution.com
 afraidlanguage.com
@@ -7513,6 +7515,7 @@ d9leupuz17y6i.cloudfront.net
 d9qjkk0othy76.cloudfront.net
 d9r4lqt28t1fm.cloudfront.net
 d9yk47of1efyy.cloudfront.net
+da.hunantv.com
 da26k71rxh0kb.cloudfront.net
 da327va27j0hh.cloudfront.net
 da4talg8ap14y.cloudfront.net
@@ -14964,6 +14967,7 @@ jmzoufvwxiswf.site
 jnarigjkijgoh.space
 jnhffeitzaycd.online
 jnjkkvkfwnlrd.site
+jnkqnf.cifraclub.com.br
 jnlevhmebqcxc.website
 jnljmuyjaiohr.online
 jnmqhpecyjrnf.online
@@ -17771,7 +17775,6 @@ mitvoppwqjiqo.space
 miui-fxcse.avlyun.com
 mivugyezcnuqs.website
 mixadvert.com
-mixer.cupid.ptqy.gitv.tv
 mixer.sina.cn
 mixeukcscwlcp.site
 mixi.media
@@ -25109,6 +25112,7 @@ smetrics.10daily.com.au
 smetrics.1800contacts.com
 smetrics.3cat.cat
 smetrics.3m.com
+smetrics.7eleven.com.au
 smetrics.aa.com
 smetrics.aaas.org
 smetrics.aaasouth.com
@@ -26905,6 +26909,7 @@ t.jobsyn.org
 t.jossandmain.com
 t.kck.st
 t.ltiquery.com
+t.mgoblue.com
 t.mmganalytics.com
 t.mydialoginsight.com
 t.nc0.co
@@ -26938,7 +26943,6 @@ t13.io
 t2.hulu.com
 t7cp4fldl.com
 t7z.cupid.iqiyi.com
-t7z.cupid.ptqy.gitv.tv
 t810.ctpost.com
 t85itha3nitde.com
 ta.trs.cn
