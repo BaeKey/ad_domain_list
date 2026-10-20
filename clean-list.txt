@@ -3233,6 +3233,7 @@ axp.wavy.com
 axp.wfla.com
 axp.wgntv.com
 axp.who13.com
+axp.wkbn.com
 axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
@@ -7813,7 +7814,6 @@ decencytopmost.com
 decent-negative.com
 deceptivegipsyburka.com
 decibelinsight.net
-decide.mixpanel.com
 decideddiarrhoeafrustration.com
 decidedlytackunwelcome.com
 decidedlytighten.com
@@ -8919,7 +8919,6 @@ dsswdz.com
 dssxfu.com
 dsszvq.com
 dstaca.com
-dstillery.com
 dstimaariracon.org
 dstinb.com
 dstjar.com
@@ -19664,7 +19663,6 @@ okyytrasubnjx.online
 ol-collector.quillbot.com
 olayomad.com
 olcrdqatcewmf.online
-old.umcl.us
 olderdisciplinary.com
 olderidentify.com
 olderouncedownstairs.com
@@ -24885,7 +24883,6 @@ sitemeter.com
 sitemonitor.cn.miaozhen.com
 siteperformancetest.net
 sitetag.us
-sitetracker.com
 sitewithg.com
 sitsneezerefreshing.com
 situateddivine.com
@@ -25178,6 +25175,7 @@ smetrics.bjs.com
 smetrics.bkstr.com
 smetrics.bmo.com
 smetrics.bncollege.com
+smetrics.bncvirtual.com
 smetrics.boostmobile.com
 smetrics.boston.com
 smetrics.bostonglobe.com
@@ -25236,6 +25234,7 @@ smetrics.dish.com
 smetrics.dominos.com
 smetrics.donaldson.com
 smetrics.drschollsshoes.com
+smetrics.ehealthinsurance.com
 smetrics.elal.com
 smetrics.element14.com
 smetrics.elpais.com
@@ -25268,6 +25267,7 @@ smetrics.ford.com
 smetrics.foxbusiness.com
 smetrics.foxnews.com
 smetrics.fpl.com
+smetrics.gaes.es
 smetrics.gcimetrics.com
 smetrics.gehealthcare.com
 smetrics.global.nba.com
@@ -25280,6 +25280,7 @@ smetrics.groupama.fr
 smetrics.grundfos.com
 smetrics.ha.com
 smetrics.harley-davidson.com
+smetrics.havenwellwithin.com
 smetrics.hbr.org
 smetrics.hbsp.harvard.edu
 smetrics.hdfcbank.com
@@ -25768,6 +25769,7 @@ soqwtxjtvglkz.website
 sorbetbungler.com
 sordidsicknessfaded.com
 sore-middle.com
+sore-war.com
 sorrowdefinedasterisk.com
 sorrowful-control.pro
 sortext.com
@@ -26070,6 +26072,7 @@ sskuwzv.com
 sskzlabs.com
 ssl-metrics.tim.it
 ssl-services.com
+ssl.o.additudemag.com
 ssl.o.medicinenet.com
 ssl.o.medscape.com
 ssl.o.vitals.com
