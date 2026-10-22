@@ -3229,7 +3229,9 @@ axp.kxan.com
 axp.myfox8.com
 axp.nbc4i.com
 axp.newsnationnow.com
+axp.pix11.com
 axp.thehill.com
+axp.wane.com
 axp.wavy.com
 axp.wfla.com
 axp.wgntv.com
@@ -5446,6 +5448,7 @@ clauzmknmsmfh.online
 clb.yahoo.co.jp
 clck.dzen.ru
 clck.yandex.com
+clcksrv.com
 clcktrax.com
 cldlr.com
 clean-1-clean.club
@@ -7622,6 +7625,7 @@ data.queryly.com
 data.reactandshare.com
 data.replo.app
 data.segugio.it
+data.service.manulife.ca
 data.vevor.com
 data1.virginmobile.ca
 data159.click
@@ -11319,6 +11323,7 @@ fsbbtdtxzswq.com
 fsbozl.dillards.com
 fsbyjvefmuibs.space
 fseoxnxjrtytt.site
+fservr.com
 fsfibjccvgkki.site
 fsknvrmtznthn.online
 fsmfceljvhwfg.space
@@ -16640,7 +16645,6 @@ log-upload-os.hoyolab.com
 log.aispeech.com
 log.aliyuncs.com
 log.arkansasonline.com
-log.avlyun.com
 log.bitauto.com
 log.byteoversea.com
 log.codemarketing.cloud
@@ -17564,6 +17568,7 @@ metrics.heraldsun.com.au
 metrics.imdb.com
 metrics.ing.es
 metrics.key.com
+metrics.kidspot.com.au
 metrics.kmsmep.com
 metrics.kone.cn
 metrics.labcorp.com
@@ -17583,6 +17588,7 @@ metrics.rapidedge.io
 metrics.rewe.de
 metrics.samsclub.com
 metrics.sgproof.com
+metrics.steelcase.com
 metrics.taste.com.au
 metrics.teamviewer.com
 metrics.ted.com
@@ -18714,6 +18720,7 @@ news-xrofobi.com
 news-xvuwabi.live
 news.jennydanny.com
 news.njbiz.com
+news.valawyersweekly.com
 newsassistance.com
 newsbotnet.com
 newscadence.com
@@ -23042,6 +23049,7 @@ refusalcustody.com
 refusalspudvicinity.com
 refutationflowerbed.com
 refzcaenroiyh.space
+reg.techweb.com
 regardingfourteenth.com
 regardlived.com
 regenergize.com
@@ -26050,6 +26058,7 @@ srvupads.com
 srxapahdausas.space
 srydpfeufugyr.website
 srzwbetxwdkpt.online
+ssa.eurosport.com
 ssa.eurosport.de
 ssa.eurosport.fr
 ssa.eurosport.it
@@ -28064,6 +28073,7 @@ tracking.wisepops.com
 tracking.wlscripts.net
 tracking2.channeladvisor.com
 tracking3.vnncdn.net
+trackingaa.hitachienergy.com
 trackingio.com
 trackingmembers.com
 trackingmms.accenture.com
