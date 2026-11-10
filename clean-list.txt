@@ -2223,6 +2223,7 @@ analytics-fe.digital-cloud-prem.medallia.com
 analytics-fe.digital-cloud-prem.medallia.eu
 analytics-fe.digital-cloud.medallia.ca
 analytics-fe.digital-cloud.medallia.com
+analytics-fe.digital-cloud.medallia.eu
 analytics-gw.games.wanmei.com
 analytics-ipv6.tiktokw.us
 analytics-secure.dollargeneral.com
@@ -2529,6 +2530,7 @@ apfqoakmqrpqv.site
 api-ad-data.kajicam.com
 api-ad.kajicam.com
 api-adservices.apple.com
+api-engage-us.sitecorecloud.io
 api-hotmart-tracking-manager.hotmart.com
 api-js.mixpanel.com
 api-metric.gosweb.gosuslugi.ru
@@ -4821,6 +4823,7 @@ cdn.hpplay.com.cn
 cdn.iads.unitychina.cn
 cdn.krxd.net
 cdn.ktbch.cloud
+cdn.ltba.io
 cdn.manga9.co
 cdn.mcnn.pl
 cdn.optmn.cloud
@@ -20676,6 +20679,7 @@ pszggsvbtzzaa.space
 pt.crossmediaservices.com
 pt.dwcdn.net
 pt.ispot.tv
+pt.wisernotify.com
 pta.wcm.pl
 ptadsrv.de
 ptapjmp.com
@@ -20898,6 +20902,7 @@ pvcnhlmuvgrcc.space
 pvcqfwptomufy.online
 pvdbkr.com
 pvdnugjwyrkad.website
+pvdpix.com
 pveldvvjrvgru.site
 pvgbwckgrfmic.site
 pvhlrsqduzzfv.website
@@ -22582,6 +22587,7 @@ rum.azioncdn.net
 rum.battle.net
 rum.condenastdigital.com
 rum.corewebvitals.io
+rum.haystack.es
 rum.hlx.page
 rum.optimizely.com
 rum.uptime.com
@@ -25823,6 +25829,7 @@ tagdeliver.com
 tagdelivery.com
 tagger.ope.scmp.com
 tagger.opecloud.com
+tagging.conde.digital
 tagging.shiftdigitalapps.io
 taggrs.io
 taghike.com
@@ -26655,7 +26662,6 @@ tr.thecontentserver.com
 tr.vitals.co
 tr6.snapchat.com
 tr9n6lto.xyz
-trac.i3.dmm.com
 tracdelight.com
 tracdelight.io
 trace-flow.ru
