@@ -557,6 +557,7 @@ a.cineflix.st
 a.crazyporn.xxx
 a.emea01.idio.episerver.net
 a.exoclick.com
+a.fox.com
 a.fucker.com
 a.getflowbox.com
 a.lifehacker.ru
@@ -846,6 +847,7 @@ acxcfztcvheoa.space
 acxiom-online.com
 acyxssqjdvfaj.space
 ad-adapex.io
+ad-apac.doubleclick.net
 ad-api.gl-inet.com
 ad-arrow.com
 ad-back.net
@@ -900,6 +902,7 @@ ad.hpplay.cn
 ad.intl.xiaomi.com
 ad.iot.360.cn
 ad.jia.360.cn
+ad.jiemian.com
 ad.kimcartoon.si
 ad.kissanime.com.ru
 ad.kisscartoon.nz
@@ -931,7 +934,6 @@ ad.xiaomi.com
 ad.ximalaya.com
 ad.xunkids.com
 ad.zijieapi.com
-ad01.tmgrup.com.tr
 ad1n.net
 ad2391c451.com
 ad2adnetwork.biz
@@ -1373,6 +1375,7 @@ ads.rubiconproject.com
 ads.rustore.ru
 ads.scored.co
 ads.service.kugou.com
+ads.sina.com
 ads.sohu.com
 ads.sportradar.com
 ads.talksport.com
@@ -2148,6 +2151,7 @@ amxrtb.com
 amzfepdudlyvb.site
 amznu.com
 amzystkjjhfdz.online
+an.avast.com
 an.facebook.com
 an.mail.ru
 an.yandex.ru
@@ -2181,6 +2185,7 @@ analytics-fe.digital-cloud.medallia.com
 analytics-fe.digital-cloud.medallia.eu
 analytics-gw.games.wanmei.com
 analytics-ipv6.tiktokw.us
+analytics-prod.pubgen.org
 analytics-secure.dollargeneral.com
 analytics-server.arras.cx
 analytics-sg.tiktok.com
@@ -2413,6 +2418,7 @@ anormal-tracker.de
 anothereldestprogeny.com
 anotoenprmmen.space
 anqbfvjhoatdf.site
+ans.avast.com
 ans.mlb.com
 ansuksar.com
 answysztidlal.website
@@ -2531,9 +2537,9 @@ apozemzebrule.com
 app-ads-services.com
 app-analytics-services-att.com
 app-analytics-services.com
+app-analytics.huami.com
 app-measurement.com
 app-momentum.com
-app.189tutors.com
 app.koah.ai
 app.optibase.io
 appanalysis.banggood.com
@@ -3051,6 +3057,7 @@ axp.wkrn.com
 axp.woodtv.com
 axp.wpri.com
 axp.wreg.com
+axp.wspa.com
 axp.wtnh.com
 axp.wwlp.com
 axshhgmltiycy.site
@@ -5321,6 +5328,7 @@ coffeefire.net
 coffinlapflight.com
 coggingbrocard.com
 cognatesyringe.com
+cognitivlabs.com
 cognizancesteepleelevate.com
 cogocast.net
 cogocs.com
@@ -9661,6 +9669,7 @@ expendmeg.com
 expendsskidi.com
 expendtaping.com
 experianmatch.info
+experience.asb.co.nz
 experience.contextly.com
 experiencedbat.com
 experimentscalp.com
@@ -10034,6 +10043,7 @@ fgxuxjsfbhhnd.space
 fgxxdehrmyrro.online
 fgyhvzvoxlyvs.space
 fgzczmbjzeqfi.space
+fh-dxy.com
 fh-wgt.com
 fhefrnwqsjozv.site
 fhgdtphvguxll.website
@@ -10435,6 +10445,7 @@ forworksyconus.com
 fotwupmfmlace.space
 fouettbrauna.com
 foundationhorny.com
+founderhaes.com
 foundinggulfsaturate.com
 fourier.alibaba.com
 fourlevelsgame.com
@@ -10897,6 +10908,7 @@ gastfulabeles.com
 gateway.foresee.com
 gatewayfailedbacks.com
 gatewaystoopdeplore.com
+gator.volces.com
 gatrgoqldtooe.site
 gaug.es
 gaugerightfully.com
@@ -11659,6 +11671,7 @@ guidecent.com
 guidelingerbeige.com
 guidonsfeeing.com
 guiltymince.com
+guiserdewax.com
 guitarinterim.com
 guitarpro.cc
 gukogwaqmfik.in
@@ -13386,7 +13399,6 @@ introsnullify.com
 intrudeimpolitetortoise.com
 intrustedzone.site
 intuitionlastly.com
-inuvo.com
 invadermonks.com
 investalepregnancy.com
 investigateisolateddepressed.com
@@ -16350,6 +16362,7 @@ metrics.blackbaud.com
 metrics.bodyandsoul.com.au
 metrics.brooksrunning.com
 metrics.caixabank.es
+metrics.calgary.ca
 metrics.chipotle.com
 metrics.couriermail.com.au
 metrics.crateandbarrel.com
@@ -16361,6 +16374,7 @@ metrics.duluthtrading.com
 metrics.ee.co.uk
 metrics.egencia.co.uk
 metrics.egencia.com
+metrics.egencia.de
 metrics.egencia.fr
 metrics.el-mundo.net
 metrics.elsevier.com
@@ -17639,6 +17653,7 @@ nllddbvlkwgbs.online
 nllvrimafveet.site
 nllzvzafpfodg.space
 nlmhhgvljqktf.website
+nlog.instajob.ai
 nlsgostuanbpy.website
 nlsmhyylwozop.site
 nlthaiu88.com
@@ -20366,6 +20381,7 @@ ptfoqdcfenssu.website
 ptgstdsqmiphh.online
 pthkhcicpqspq.space
 ptichoolsougn.net
+ptinusmufasal.com
 ptlnonnvinedq.site
 ptlwm.com
 ptlxskwprwfri.space
@@ -21327,7 +21343,6 @@ rdtrck2.com
 rdwfbrzboplva.website
 re-ads.com
 re.taobao.com
-reach-id.orbit.tm-awx.com
 reachmax.cn
 reachmode.com
 react-admin-telemetry.marmelab.com
@@ -21427,6 +21442,7 @@ recoupsamakebe.com
 recoverbrawlverbal.com
 recoverlizziegainful.com
 recovernotionvideo.com
+recrampwiped.com
 recreateoption.com
 recreationducked.com
 recreativ.ru
@@ -22991,6 +23007,7 @@ sfwupoxzuurva.space
 sfxsxbwmloubq.site
 sfyxdeilpnpij.online
 sfzeqzazjmowe.space
+sg-fp.apitd.net
 sgali-mcs.byteoversea.com
 sgben.com
 sgbrftxioksgf.online
@@ -23483,6 +23500,7 @@ smetrics.allstate.com
 smetrics.ambetterhealth.com
 smetrics.americastire.com
 smetrics.ancestry.com
+smetrics.angara.com
 smetrics.angi.com
 smetrics.anntaylor.com
 smetrics.antena3.com
@@ -23584,7 +23602,6 @@ smetrics.dish.com
 smetrics.dominos.com
 smetrics.donaldson.com
 smetrics.drschollsshoes.com
-smetrics.edc.ca
 smetrics.ehealthinsurance.com
 smetrics.elal.com
 smetrics.element14.com
@@ -24395,7 +24412,6 @@ ssl.o.additudemag.com
 ssl.o.medicinenet.com
 ssl.o.medscape.com
 ssl.o.vitals.com
-sslstats.canadapost-postescanada.ca
 sslstats.canadapost.ca
 ssmemwsactbto.space
 ssmtfxdslsvzz.space
@@ -25332,6 +25348,7 @@ target-us.samsung.com
 target.my.com
 target.nejm.org
 target.pandasecurity.com
+target.qvc.de
 target.smi2.net
 targeta41.net
 targetads.io
@@ -25630,7 +25647,6 @@ thickmaggot.com
 thickteaching.com
 thieflamppost.com
 thimblestrangearchitect.com
-thind-gke-euw.prd.data.corp.unity3d.com
 thingsmadenavy.com
 thingyarmrebuff.com
 thinkitten.com
@@ -26599,6 +26615,7 @@ tudjlgftmgqqj.site
 tuesdayhappen.com
 tueyyhkbpwggv.space
 tufaaijqffzug.site
+tuffoonaskant.com
 tuffoonincaged.com
 tufpdudrafwdh.site
 tufpzushurk.in
@@ -29161,7 +29178,7 @@ wwtfmeonvlazu.online
 www-107.aig.com
 www-google-analytics.l.google.com
 www-path.com
-www.trackingio.com
+www2.smartadserver.com
 www4.smartadserver.com
 www6.smartadserver.com
 wwwadcntr.com
@@ -30214,8 +30231,6 @@ yzyjcjmsylgbv.site
 yzzksnfxepiiy.site
 z11.cnzz.com
 z12.cnzz.com
-z13.cnzz.com
-z2.cnzz.com
 z3.cnzz.com
 z492.ctinsider.com
 z5g022gc.xyz
