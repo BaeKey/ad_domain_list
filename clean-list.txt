@@ -7268,7 +7268,6 @@ dc-storm.com
 dc-tag.jp
 dc.banggood.com
 dc.letv.com
-dc.madridistas.com
 dc.realmadrid.com
 dc649f3e46.com
 dc8na2hxrj29i.cloudfront.net
@@ -13399,6 +13398,7 @@ introsnullify.com
 intrudeimpolitetortoise.com
 intrustedzone.site
 intuitionlastly.com
+inuvo.com
 invadermonks.com
 investalepregnancy.com
 investigateisolateddepressed.com
@@ -18345,6 +18345,7 @@ oktranhfyfa.com
 okwiyihjxhvto.space
 okyytrasubnjx.online
 ol-collector.quillbot.com
+olacontent.schwab.com
 olayomad.com
 olcrdqatcewmf.online
 old.umcl.us
@@ -23480,7 +23481,6 @@ smetrics.7eleven.com.au
 smetrics.aa.com
 smetrics.aaas.org
 smetrics.aaasouth.com
-smetrics.aainsurance.co.nz
 smetrics.aarp.org
 smetrics.abanca.com
 smetrics.abbvie.com
@@ -23561,7 +23561,6 @@ smetrics.centene.com
 smetrics.centerpointenergy.com
 smetrics.centurylink.com
 smetrics.cfainstitute.org
-smetrics.christianscience.com
 smetrics.christies.com
 smetrics.chrysler.com
 smetrics.cigarsinternational.com
@@ -25114,8 +25113,6 @@ sxsftevgkwlam.site
 sxxiocnjyqhxe.website
 sxyrrjgrkwsvw.site
 sy.ameba.jp
-sy.amebame.com
-sy.ameblo.jp
 sy57d8wi.com
 sybilevolver.shop
 sybspipmmiozz.online
